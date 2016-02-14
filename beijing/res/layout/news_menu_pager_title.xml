@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/NewsMenupagerRelativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="210dp" >
+"
+
+    <com.example.custom.DisallowStopListenerLastViewpager
+        android:id="@+id/NewsMenupagerItemViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="210dp" >
+    </com.example.custom.DisallowStopListenerLastViewpager>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/NewsMenupagerCirclePageIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        app:fillColor="#f00"
+        app:pageColor="#d7d7d7"
+        app:radius="3dp" >
+    </com.viewpagerindicator.CirclePageIndicator>
+
+</RelativeLayout>

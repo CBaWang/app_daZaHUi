@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_tab_bg"/>
+    <RadioGroup 
+        android:id="@+id/tab_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton 
+            android:id="@+id/tab_button1"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/select_home"
+            android:gravity="center"
+            android:text="首页"/>
+        <RadioButton 
+            android:id="@+id/tab_button2"
+            style="@style/BottomTabStyle"
+            android:gravity="center"
+            android:drawableTop="@drawable/select_new"
+            android:text="新闻中心"/>
+        <RadioButton 
+            android:id="@+id/tab_button3"
+            style="@style/BottomTabStyle"
+            android:gravity="center"
+            android:drawableTop="@drawable/select_samrt"
+            android:text="智慧服务"/>
+        <RadioButton 
+            android:id="@+id/tab_button4"
+            style="@style/BottomTabStyle"
+            android:gravity="center"
+            android:drawableTop="@drawable/select_government"
+            android:text="政务"/>
+        <RadioButton 
+            android:id="@+id/tab_button5"
+            style="@style/BottomTabStyle"
+            android:gravity="center"
+            android:drawableTop="@drawable/select_set"
+            android:text="设置"/>
+    </RadioGroup>
+
+</RelativeLayout>
+<!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/beijing/res/layout/tab_fragment.xml -->

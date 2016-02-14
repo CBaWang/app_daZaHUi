@@ -1,0 +1,2 @@
+include ':XUtilslibrary', ':beijing', ':slidingMenuLibrary', ':ViewPagerIndicaotrLibrary', ':PullToRefreshListFragment', ':PullToRefreshViewPager'
+include ':PullToRefreshLibrary'

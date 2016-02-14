@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res/com.example.beijing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.custom.RoundProgressBar
+        android:id="@+id/smart_server_one"
+        android:layout_width="80dp"
+        android:layout_height="80dp" 
+        
+        
+        android_custom:roundColor="#d1d1d1"
+        android_custom:roundProgressColor="@android:color/black"
+        android_custom:textColor="#9A32CD"
+        android_custom:roundWidth="20dip"
+        android_custom:textSize="18sp"/>
+
+    <com.example.custom.RoundProgressBar
+        android:id="@+id/smart_server_two"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/smart_server_one" 
+        android_custom:style="FILL"
+        android_custom:roundWidth="30dip"
+        android_custom:roundProgressColor="#C2C2C2"/>
+
+    <com.example.custom.RoundProgressBar
+        android:id="@+id/smart_server_three"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/smart_server_two" 
+        
+        android_custom:roundColor="#C6E2FF"
+        android_custom:roundWidth="40dip"
+        android_custom:roundProgressColor="#CD3333"
+       />
+    <Button 
+        android:id="@+id/smart_server_button"
+        android:layout_width="90dp" 
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="start"
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"/>
+
+</RelativeLayout>

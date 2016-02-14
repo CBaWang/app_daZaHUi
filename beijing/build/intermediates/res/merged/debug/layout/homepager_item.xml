@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.beijing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+    
+    <com.example.custom.CustomVolumControlBar 
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="20dp"
+        custom:bg="@drawable/customize"
+        custom:circleWidth="12dp"
+        custom:dotCount="20"
+        custom:firstColor="#000000"
+        custom:secondColor="#FF4500"
+        custom:splitSize="25"/>
+    
+     <com.example.custom.CustomVolumControlBar 
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="right"
+        custom:bg="@drawable/icon"
+        custom:circleWidth="10dp"
+        custom:dotCount="10"
+        custom:firstColor="#00ff00"
+        custom:secondColor="#ff0000"
+        custom:splitSize="15"/>
+     
+     
+      <com.example.custom.CustomVolumControlBar 
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        custom:bg="@drawable/icon_qq_small"
+        custom:circleWidth="10dp"
+        custom:dotCount="8"
+        custom:firstColor="#ADC6e5"
+        custom:secondColor="#0362DB"
+        custom:splitSize="25"/>
+    
+
+</LinearLayout>
+<!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/beijing/res/layout/homepager_item.xml -->

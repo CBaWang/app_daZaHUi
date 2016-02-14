@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <com.example.custom.NoScrollViewPager
+        android:id="@+id/content_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="67dp">
+    </com.example.custom.NoScrollViewPager>
+
+    <LinearLayout
+        android:id="@+id/tab_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" 
+        >
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/beijing/res/layout/content_activity.xml -->
