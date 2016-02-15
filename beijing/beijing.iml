@@ -77,9 +77,9 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="gson-2.3.1-sources" level="project" />
     <orderEntry type="library" exported="" name="gson-2.3.1" level="project" />
     <orderEntry type="library" exported="" name="android-support-v4" level="project" />
+    <orderEntry type="library" exported="" name="volley" level="project" />
     <orderEntry type="module" module-name="slidingMenuLibrary" exported="" />
     <orderEntry type="module" module-name="PullToRefreshViewPager" exported="" />
     <orderEntry type="module" module-name="PullToRefreshLibrary" exported="" />

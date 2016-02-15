@@ -19,8 +19,12 @@ public class TabFragment extends Fragment {
 
 	private NoScrollViewPager Mpager;
 
+	public TabFragment() {
+
+	}
+
 	public TabFragment(NoScrollViewPager pager) {
-		// TODO Auto-generated constructor stub
+
 		this.Mpager = pager;
 	}
 

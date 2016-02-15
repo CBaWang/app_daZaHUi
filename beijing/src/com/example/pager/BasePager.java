@@ -7,6 +7,7 @@ import android.view.View.OnClickListener;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -22,6 +23,8 @@ public class BasePager {
 	public FrameLayout Frame;
 	public ImageView image;
 	public ImageButton imagebutton;
+
+	public ProgressBar bar;
 
 	public RelativeLayout relative;
 
@@ -39,6 +42,7 @@ public class BasePager {
 		image = (ImageView) mView.findViewById(R.id.pager_image);
 		imagebutton = (ImageButton) mView.findViewById(R.id.BasePagerImageButton);
 		relative  = (RelativeLayout) mView.findViewById(R.id.BasePagerRelativelayout);
+		bar = (ProgressBar) mView.findViewById(R.id.basepager_progressBar);
 
 
 	}

@@ -184,7 +184,7 @@ public class NewsMenupagerItem extends BaseMenuDetailPager {
 			@Override
 			public void onFailure(HttpException error, String msg) {
 				// TODO Auto-generated method stub
-				Toast.makeText(Mactivity, msg, 1).show();
+				Toast.makeText(Mactivity, msg, Toast.LENGTH_SHORT).show();
 				error.printStackTrace();
 
 			}
