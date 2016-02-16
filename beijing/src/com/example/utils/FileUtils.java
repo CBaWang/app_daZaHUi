@@ -1,8 +1,6 @@
 package com.example.utils;
 
 
-import android.app.Activity;
-import android.content.SharedPreferences;
 import android.os.Environment;
 
 import java.io.BufferedReader;
@@ -16,18 +14,11 @@ import java.io.InputStreamReader;
 
 public class FileUtils {
 
-//    private boolean isFirst;//用来判断是否是第一次把缓存保存到本地
-
-    private SharedPreferences share;
     private File dir;//文件的总路径
-    private String sdDir;//sd卡根目录
+    private final static String sdDir = Environment.
+            getExternalStorageDirectory().getAbsolutePath() + File.separator + "biejing";
+    ;//sd卡根目录
 
-    public FileUtils() {
-        share = MyContext.getContext().getSharedPreferences("Data", Activity.MODE_PRIVATE);
-
-//        isFirst = share.getBoolean("isFirst", true);
-
-    }
 
     public void SaveDataLocal(String Json, String FileName) { //将数据保存到本地
         CreateTheFile(FileName);//创建文件夹
@@ -56,7 +47,7 @@ public class FileUtils {
     private void CreateTheFile(String FileName) {//创建文件夹
         boolean sdExist = Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED);
         if (sdExist) {
-            sdDir = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "biejing";
+//            sdDir = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "biejing";
             File file = new File(sdDir);
             if (!file.exists()) {       //创建目录
                 file.mkdirs();
@@ -96,5 +87,24 @@ public class FileUtils {
 
 
         return null;
-    }
+    }//end
+
+    public static boolean deleteAllFiles() {  //删除app文件夹里的文件
+        File dirFile = new File(sdDir);
+        if (dirFile.isDirectory()) {
+            File[] files = dirFile.listFiles();
+            for (int i = 0; i < files.length; i++) {
+                files[i].delete();
+
+            }
+        }
+
+        if (dirFile.isFile()) {
+            return false;
+        }
+
+        return true;
+    }//end
+
+
 }
