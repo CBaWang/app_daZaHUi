@@ -10,6 +10,7 @@ import com.example.beijing.R;
 import com.example.utils.AllUrls;
 import com.example.utils.BitmapHelper;
 import com.example.utils.DataFormatUtils;
+import com.example.utils.FileUtils;
 import com.example.utils.MyContext;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
 import com.lidroid.xutils.BitmapUtils;
@@ -24,6 +25,10 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -47,6 +52,8 @@ public class HomePager extends BasePager {
 
     private BitmapUtils bitmapUtils;
 
+    private FileUtils fileUtils;
+
     Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -61,6 +68,7 @@ public class HomePager extends BasePager {
         super.initView();
         list = new ArrayList<bookList>();
         bitmapUtils = BitmapHelper.getInstance();
+        fileUtils = new FileUtils();
         inflater = LayoutInflater.from(mactivity);
         View view = View.inflate(mactivity, R.layout.homepager_item, null);
         RefreahlistView = (PullToRefreshListView) view.findViewById(R.id.homePullListView);
@@ -88,11 +96,15 @@ public class HomePager extends BasePager {
 
             @Override
             public void onResponse(String s) {
+                fileUtils.SaveDataLocal(s,"BookList");
+                parseJson(s);//解析Json数据
 
             }
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError volleyError) {
+
+
 
             }
         }) {
@@ -103,6 +115,30 @@ public class HomePager extends BasePager {
         };
 
         MyContext.mQueue.add(request);
+
+    }
+
+    private void parseJson(String jsonData) {  //解析Json数据
+        try {
+            JSONObject object = new JSONObject(jsonData);
+            JSONObject body = object.getJSONObject("showapi_res_body");
+            JSONArray array = body.getJSONArray("bookList");
+            for(int i=0;i<array.length();i++){
+                JSONObject item = array.getJSONObject(i);
+                String author = item.getString("author");
+                String from = item.getString("from");
+                int id = item.getInt("id");
+                String img = item.getString("img");
+                String name = item.getString( "name");
+                String summary = item.getString("summary");
+                bookList book = new bookList(author,from,id,img,name,summary);
+                list.add(book);
+                handler.sendEmptyMessage(0);
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
 
     }
 
