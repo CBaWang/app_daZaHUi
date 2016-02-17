@@ -5,5 +5,5 @@ package com.example.utils;
  */
 public class AllUrls {
 
-    public final static String bookListsUrl ="http://route.showapi.com/92-94";//我的图书列表
+    public final static String bookListsUrl ="http://route.showapi.com/92-92";//我的图书列表
 }

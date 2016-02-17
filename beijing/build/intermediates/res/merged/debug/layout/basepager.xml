@@ -42,6 +42,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" 
         >
+
+        <ProgressBar
+            android:id="@+id/basepager_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/mProgress_circle"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:interpolator="@android:anim/linear_interpolator"
+
+            />
     </FrameLayout>
 
 </LinearLayout><!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/beijing/res/layout/basepager.xml -->

@@ -31,7 +31,7 @@ public class FileUtils {
         BufferedWriter buffer;
 
         try {
-            write = new FileWriter(dir, false);
+            write = new FileWriter(dir, true);
             buffer = new BufferedWriter(write);
             buffer.write(Json);
             buffer.newLine();
@@ -67,12 +67,14 @@ public class FileUtils {
 
     public String getLocalData(String FileName) {  //获取本地数据
         String readDir = sdDir + File.separator + FileName + ".json";
+        File cacheFile = new File(readDir);
+
         FileInputStream reader;
         BufferedReader buffer;
         String string;
         StringBuilder builder = new StringBuilder();
         try {
-            reader = new FileInputStream(readDir);
+            reader = new FileInputStream(cacheFile);
             buffer = new BufferedReader(new InputStreamReader(reader));//拿到了本地数据
             while ((string = buffer.readLine()) != null) {
                 builder.append(string);

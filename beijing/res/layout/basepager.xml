@@ -50,6 +50,8 @@
             style="@style/mProgress_circle"
             android:layout_gravity="center"
             android:visibility="visible"
+            android:interpolator="@android:anim/linear_interpolator"
+
             />
     </FrameLayout>
 

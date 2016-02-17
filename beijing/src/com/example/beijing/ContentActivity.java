@@ -27,6 +27,7 @@ import com.example.pager.NewsPager;
 import com.example.pager.OfficerPager;
 import com.example.pager.SetPager;
 import com.example.pager.SmartPager;
+import com.example.utils.FileUtils;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
 
@@ -54,6 +55,14 @@ public class ContentActivity extends SlidingFragmentActivity {
         initViewPager();
         initFragmnet();
 
+    }
+
+
+    @Override
+    protected void onDestroy() {
+
+        super.onDestroy();
+        FileUtils.deleteAllFiles();
     }
 
     private void initViewPager() {

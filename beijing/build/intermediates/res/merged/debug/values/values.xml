@@ -141,4 +141,14 @@
          <item name="android:textColor">#000000</item>
         <item name="android:maxLines">1</item>
     </style>
+    <!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/beijing/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="mProgress_circle">
+        <item name="android:indeterminateDrawable">@drawable/progressbar_circle_1</item>
+        <item name="android:minWidth">75dp</item>
+        <item name="android:minHeight">75dp</item>
+        <item name="android:maxWidth">90dp</item>
+        <item name="android:maxHeight">90dp</item>
+        <item name="android:indeterminateDuration">500</item>
+    </style>
 </resources>
