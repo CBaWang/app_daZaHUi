@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -41,12 +43,15 @@ public class ContentActivity extends SlidingFragmentActivity {
 
     private List<BasePager> list;
 
+    private SharedPreferences sharedPreferences;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.content_activity);
+        sharedPreferences = getSharedPreferences("switchlist", Context.MODE_PRIVATE);
         setBehindContentView(R.layout.left_menu);
         SlidingMenu slidingmenu = getSlidingMenu();
         slidingmenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
@@ -57,17 +62,17 @@ public class ContentActivity extends SlidingFragmentActivity {
 
     }
 
-
     @Override
     protected void onDestroy() {
-
         super.onDestroy();
-        FileUtils.deleteAllFiles();
+//        FileUtils.ResetAllFiles();
+        sharedPreferences.edit().putBoolean("HomePagerSwitch", true).commit();
     }
 
     private void initViewPager() {
         // TODO Auto-generated method stub
         pager = (NoScrollViewPager) findViewById(R.id.content_viewpager);
+//        pager.setOffscreenPageLimit(5);
         list = new ArrayList<BasePager>();
         list.add(new HomePager(this));
         list.add(new NewsPager(this));
@@ -76,7 +81,8 @@ public class ContentActivity extends SlidingFragmentActivity {
         list.add(new SetPager(this));
         pager.setAdapter(new MyPagerAdapter());
 
-        list.get(1).initData();// 设置默认的ViewPager 显示页面
+
+        list.get(0).initData();// 设置默认的ViewPager 显示页面
 
         pager.setOnPageChangeListener(new OnPageChangeListener() {
 

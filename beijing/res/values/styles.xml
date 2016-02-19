@@ -26,4 +26,11 @@
         <item name="android:maxHeight">90dp</item>
         <item name="android:indeterminateDuration">500</item>
     </style>
+
+    <style name="MyRatingbarStyle"  parent="android:Widget.Holo.RatingBar.Indicator" >
+        <item name="android:progressDrawable">@drawable/five_star</item>
+        <item name="android:minHeight">14dp</item>
+        <item name="android:maxHeight">14dp</item>
+
+    </style>
     </resources>

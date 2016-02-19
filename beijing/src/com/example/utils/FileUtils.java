@@ -31,7 +31,7 @@ public class FileUtils {
         BufferedWriter buffer;
 
         try {
-            write = new FileWriter(dir, true);
+            write = new FileWriter(dir,false);
             buffer = new BufferedWriter(write);
             buffer.write(Json);
             buffer.newLine();
@@ -91,12 +91,22 @@ public class FileUtils {
         return null;
     }//end
 
-    public static boolean deleteAllFiles() {  //删除app文件夹里的文件
+    public static boolean ResetAllFiles() {  //删除app文件夹里的文件
         File dirFile = new File(sdDir);
         if (dirFile.isDirectory()) {
             File[] files = dirFile.listFiles();
             for (int i = 0; i < files.length; i++) {
-                files[i].delete();
+                try {
+                    FileWriter wirteCache = new FileWriter(files[i],false);
+                    BufferedWriter bufferWrite = new BufferedWriter(wirteCache);
+                    bufferWrite.write("");//重置我的缓存数据
+                    bufferWrite.newLine();
+                    bufferWrite.flush();
+                    bufferWrite.close();
+                    wirteCache.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
 
             }
         }

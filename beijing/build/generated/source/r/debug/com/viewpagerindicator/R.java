@@ -84,14 +84,14 @@ public final class R {
 		public static final int default_title_indicator_top_padding = 0x7f08000c;
 	}
 	public static final class drawable {
-		public static final int news_tab_item_bg_select = 0x7f02002d;
-		public static final int vpi__tab_indicator = 0x7f020043;
-		public static final int vpi__tab_selected_focused_holo = 0x7f020044;
-		public static final int vpi__tab_selected_holo = 0x7f020045;
-		public static final int vpi__tab_selected_pressed_holo = 0x7f020046;
-		public static final int vpi__tab_unselected_focused_holo = 0x7f020047;
-		public static final int vpi__tab_unselected_holo = 0x7f020048;
-		public static final int vpi__tab_unselected_pressed_holo = 0x7f020049;
+		public static final int news_tab_item_bg_select = 0x7f02002f;
+		public static final int vpi__tab_indicator = 0x7f020045;
+		public static final int vpi__tab_selected_focused_holo = 0x7f020046;
+		public static final int vpi__tab_selected_holo = 0x7f020047;
+		public static final int vpi__tab_selected_pressed_holo = 0x7f020048;
+		public static final int vpi__tab_unselected_focused_holo = 0x7f020049;
+		public static final int vpi__tab_unselected_holo = 0x7f02004a;
+		public static final int vpi__tab_unselected_pressed_holo = 0x7f02004b;
 	}
 	public static final class id {
 		public static final int bottom = 0x7f090017;
@@ -108,11 +108,11 @@ public final class R {
 		public static final int default_underline_indicator_fade_length = 0x7f0a0004;
 	}
 	public static final class style {
-		public static final int TextAppearance_TabPageIndicator = 0x7f0b0002;
-		public static final int Theme_PageIndicatorDefaults = 0x7f0b0003;
-		public static final int Widget = 0x7f0b0004;
-		public static final int Widget_IconPageIndicator = 0x7f0b0005;
-		public static final int Widget_TabPageIndicator = 0x7f0b0006;
+		public static final int TextAppearance_TabPageIndicator = 0x7f0b0003;
+		public static final int Theme_PageIndicatorDefaults = 0x7f0b0004;
+		public static final int Widget = 0x7f0b0005;
+		public static final int Widget_IconPageIndicator = 0x7f0b0006;
+		public static final int Widget_TabPageIndicator = 0x7f0b0007;
 	}
 	public static final class styleable {
 		public static final int[] CirclePageIndicator = { 0x010100c4, 0x010100d4, 0x7f010000, 0x7f010002, 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008 };

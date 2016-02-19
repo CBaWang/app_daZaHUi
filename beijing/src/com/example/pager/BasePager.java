@@ -45,6 +45,7 @@ public class BasePager {
 		bar = (ProgressBar) mView.findViewById(R.id.basepager_progressBar);
 
 
+
 	}
 
 	public void initData() {

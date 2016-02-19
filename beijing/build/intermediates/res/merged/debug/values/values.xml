@@ -77,7 +77,7 @@
     <integer name="default_underline_indicator_fade_length">400</integer>
     <!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/beijing/res/values/strings.xml -->
     <eat-comment/>
-    <string name="app_name">智慧北京</string>
+    <string name="app_name">App大杂烩</string>
     <string name="hello_world">Hello world!</string>
     <string name="not_updated_yet">暂未更新过</string>
     <string name="pull_to_refresh">下拉可以刷新</string>
@@ -113,6 +113,12 @@
            <item name="android:textColor">@drawable/select_text</item>
            <item name="android:layout_weight">1</item>
        </style>
+    <style name="MyRatingbarStyle" parent="android:Widget.Holo.RatingBar.Indicator">
+        <item name="android:progressDrawable">@drawable/five_star</item>
+        <item name="android:minHeight">14dp</item>
+        <item name="android:maxHeight">14dp</item>
+
+    </style>
     <!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/beijing/build/intermediates/exploded-aar/Application2/ViewPagerIndicaotrLibrary/unspecified/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.TabPageIndicator" parent="Widget">

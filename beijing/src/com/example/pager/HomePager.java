@@ -18,8 +18,11 @@ import com.handmark.pulltorefresh.library.PullToRefreshListView;
 import com.lidroid.xutils.BitmapUtils;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Handler;
 import android.os.Message;
+import android.os.SystemClock;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -57,57 +60,31 @@ public class HomePager extends BasePager {
 
     private BitmapUtils bitmapUtils;
 
+    private MyBaseAdapter adapter;
+
     private int numPage = 1;
 
     private FileUtils fileUtils;
+
+    private SharedPreferences sharedPreferences;
 
     Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
-            setThePullReFreshListView();//设置reFreshListView
-
+            switch (msg.what) {
+                case 0:
+                    RefreahlistView.setAdapter(adapter);
+                    break;
+                case 1:
+                    adapter.notifyDataSetChanged();
+                    RefreahlistView.onRefreshComplete();
+                    break;
+            }
         }
 
-        private void setThePullReFreshListView() {//设置reFreshListView
-            final MyBaseAdapter adapter = new MyBaseAdapter();
-            RefreahlistView.setAdapter(adapter);
-            RefreahlistView.setMode(PullToRefreshBase.Mode.BOTH);
-
-            ILoadingLayout startLabels = RefreahlistView.
-                    getLoadingLayoutProxy(true, false);
-            startLabels.setPullLabel("下拉刷新...");// 刚下拉时，显示的提示
-            startLabels.setRefreshingLabel("正在载入...");// 刷新时
-            startLabels.setReleaseLabel("放开刷新...");// 下来达到一定距离时，显示的提示
-
-            ILoadingLayout endLabels = RefreahlistView.getLoadingLayoutProxy(
-                    false, true);
-            endLabels.setPullLabel("上拉刷新...");// 刚下拉时，显示的提示
-            endLabels.setRefreshingLabel("正在载入...");// 刷新时
-            endLabels.setReleaseLabel("放开刷新...");// 下来达到一定距离时，显示的提示
-
-
-            RefreahlistView.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener2<ListView>() {
-                @Override
-                public void onPullDownToRefresh(PullToRefreshBase<ListView> refreshView) {
-                    map.put("page", String.valueOf(++numPage));
-                    connectNetWork();
-                    RefreahlistView.onRefreshComplete();
-                    adapter.notifyDataSetChanged();
-                }
-
-                @Override
-                public void onPullUpToRefresh(PullToRefreshBase<ListView> refreshView) {
-                    map.put("page", String.valueOf(++numPage));
-                    connectNetWork();
-                    RefreahlistView.onRefreshComplete();
-                    adapter.notifyDataSetChanged();
-                }
-            });
-
-
-        }//end
     }; //end
+
 
 
     @Override
@@ -117,35 +94,79 @@ public class HomePager extends BasePager {
         list = new ArrayList<bookList>();
         bitmapUtils = BitmapHelper.getInstance();
         fileUtils = new FileUtils();
+        adapter = new MyBaseAdapter();
         inflater = LayoutInflater.from(mactivity);
+        sharedPreferences = mactivity.getSharedPreferences("switchlist", Context.MODE_PRIVATE);
         View view = View.inflate(mactivity, R.layout.homepager_item, null);
         RefreahlistView = (PullToRefreshListView) view.findViewById(R.id.homePullListView);
         Frame.addView(view);
+
     }
 
     @Override
     public void initData() {
         // TODO Auto-generated method stub
         super.initData();
-        Text.setText("智慧北京");
+        Text.setText("App大杂烩");
+        boolean HomePagerSwitch =  sharedPreferences.getBoolean("HomePagerSwitch", true);
         image.setVisibility(View.GONE);
         setSlidingMenuEnable(false);
 
+        setThePullReFreshListView();//设置我的下拉刷新控件
         initMap();//初始化我的post参数
-        initFace();//初始化我的界面
-    }
-
-    private void initFace() {
-       String JsonData =  fileUtils.getLocalData( "BookList");
-        if(TextUtils.isEmpty(JsonData)) {
-            connectNetWork();//联网拿数据
-        }else{
-            parseJson(JsonData);
+        if(HomePagerSwitch) {
+            initFace();//初始化我的界面
+            sharedPreferences.edit().putBoolean("HomePagerSwitch",false).commit();
         }
     }
 
-    private void connectNetWork() {
 
+    private void setThePullReFreshListView() {//设置reFreshListView
+
+
+        RefreahlistView.setMode(PullToRefreshBase.Mode.BOTH);
+        ILoadingLayout startLabels = RefreahlistView.
+                getLoadingLayoutProxy(true, false);
+        startLabels.setPullLabel("下拉刷新...");// 刚下拉时，显示的提示
+        startLabels.setRefreshingLabel("正在载入...");// 刷新时
+        startLabels.setReleaseLabel("放开刷新...");// 下来达到一定距离时，显示的提示
+
+        ILoadingLayout endLabels = RefreahlistView.getLoadingLayoutProxy(
+                false, true);
+        endLabels.setPullLabel("上拉刷新...");// 刚下拉时，显示的提示
+        endLabels.setRefreshingLabel("正在载入...");// 刷新时
+        endLabels.setReleaseLabel("放开刷新...");// 下来达到一定距离时，显示的提示
+
+
+        RefreahlistView.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener2<ListView>() {
+            @Override
+            public void onPullDownToRefresh(PullToRefreshBase<ListView> refreshView) {
+                map.put("page", String.valueOf(++numPage));
+                connectNetWork(1);
+
+            }
+
+            @Override
+            public void onPullUpToRefresh(PullToRefreshBase<ListView> refreshView) {
+                map.put("page", String.valueOf(++numPage));
+                connectNetWork(1);
+
+            }
+        });
+
+
+    }//end
+
+
+    private void initFace() {
+        String JsonData = fileUtils.getLocalData("BookList");
+        if (!TextUtils.isEmpty(JsonData)) {
+            parseJson(JsonData, 0);
+        }
+        connectNetWork(0);//联网拿数据
+    }
+
+    private void connectNetWork(final int what) {
 
         StringRequest request = new StringRequest(Request.Method.POST, AllUrls.bookListsUrl, new Response.Listener<String>() {
 
@@ -153,15 +174,16 @@ public class HomePager extends BasePager {
             @Override
             public void onResponse(String s) {
 
+
                 fileUtils.SaveDataLocal(s, "BookList");
-                parseJson(s);//解析Json数据
+                parseJson(s, what);//解析Json数据
 
             }
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError volleyError) {
 
-
+                SystemClock.sleep(1500);
                 bar.setVisibility(ProgressBar.GONE);
 
             }
@@ -176,7 +198,8 @@ public class HomePager extends BasePager {
 
     }
 
-    private void parseJson(String jsonData) {  //解析Json数据
+
+    private void parseJson(String jsonData, int what) {  //解析Json数据
         try {
             bar.setVisibility(ProgressBar.GONE);
             JSONObject object = new JSONObject(jsonData);
@@ -192,7 +215,8 @@ public class HomePager extends BasePager {
                 String summary = item.getString("summary");
                 bookList book = new bookList(author, from, id, img, name, summary);
                 list.add(book);
-                handler.sendEmptyMessage(0);
+                handler.sendEmptyMessage(what);
+
             }
         } catch (JSONException e) {
             e.printStackTrace();
@@ -245,7 +269,7 @@ public class HomePager extends BasePager {
                 holder.mobile = (TextView) convertView.findViewById(R.id.read_item_mobile);
                 holder.summary = (TextView) convertView.findViewById(R.id.read_item_summary);
                 holder.title = (TextView) convertView.findViewById(R.id.read_item_titile);
-                holder.RatingBar = (RatingBar) convertView.findViewById(R.id.read_item_ratingBar);
+//                holder.RatingBar = (RatingBar) convertView.findViewById(R.id.read_item_ratingBar);
                 holder.price1 = (TextView) convertView.findViewById(R.id.read_item_price1);
                 holder.price2 = (TextView) convertView.findViewById(R.id.read_item_price2);
 
@@ -254,18 +278,18 @@ public class HomePager extends BasePager {
             } else {
                 holder = (ViewHolder) convertView.getTag();
             }
-            holder.author.setText(list.get(position).getAuthor());
+            holder.author.setText("作者 ："+list.get(position).getAuthor());
             holder.mobile.setText("手机专享");
             holder.price2.setText("¥100");
             holder.price1.setText("¥58");
-            holder.from.setText(list.get(position).getFrom());
+            holder.from.setText("出版社 ："+list.get(position).getFrom()+"出版");
             holder.discuss.setText("1970条评论");
             holder.title.setText(list.get(position).getName());
             holder.summary.setText(list.get(position).getSummary());
             bitmapUtils.display(holder.image, list.get(position).getImg());
             holder.Indicator.setText(String.valueOf(position + 1));
-            holder.RatingBar.setMax(5);
-            holder.RatingBar.setNumStars(5);
+//            holder.RatingBar.setMax(5);
+//            holder.RatingBar.setNumStars(5);
 
 
             return convertView;
@@ -292,7 +316,7 @@ public class HomePager extends BasePager {
 
         ImageView image;
 
-        RatingBar RatingBar;
+//        RatingBar RatingBar;
 
         TextView summary;
 

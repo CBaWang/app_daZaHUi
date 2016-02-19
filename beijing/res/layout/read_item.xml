@@ -19,12 +19,13 @@
                 android:id="@+id/read_item_image"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:padding="20dp" />
+                android:padding="20dp"
+                android:scaleType="centerCrop" />
 
             <TextView
                 android:id="@+id/read_item_indicator"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
                 android:background="#f00"
                 android:gravity="center"
                 android:text="1"
@@ -43,6 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:singleLine="true"
                 android:textColor="#000" />
 
             <TextView
@@ -50,56 +52,91 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:textColor="#ecebeb" />
+                android:textColor="#b6b1b1" />
 
             <TextView
                 android:id="@+id/read_item_publish"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:textColor="#ecebeb" />
+                android:textColor="#b6b1b1" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:orientation="horizontal">
-                <RatingBar
-                    android:id="@+id/read_item_ratingBar"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:numStars="5"
-                    android:stepSize="5"/>
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/five_star" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/five_star" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/five_star" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/five_star" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/five_star" />
+
                 <TextView
                     android:id="@+id/read_item_discuss"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="1970评论"
+                    android:textSize="12sp" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal">
+
                 <TextView
                     android:id="@+id/read_item_price1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:textColor="#f00"/>
+                    android:gravity="center"
+                    android:textColor="#f00" />
+
                 <TextView
                     android:id="@+id/read_item_price2"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
-                    android:textColor="#dad2d2"/>
+                    android:gravity="center"
+                    android:textColor="#dad2d2" />
+
                 <TextView
                     android:id="@+id/read_item_mobile"
-                    android:layout_width="0dp"
+                    android:layout_width="30dp"
                     android:layout_height="match_parent"
                     android:layout_weight="3"
-                    />
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/my_oval"/>
             </LinearLayout>
 
 
@@ -113,6 +150,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:textColor="#948e8e"
         android:textSize="14sp" />
 
 </LinearLayout>
