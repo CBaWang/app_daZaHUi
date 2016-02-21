@@ -13,7 +13,7 @@ public class OfficerPager extends BasePager {
 	public void initData() {
 		// TODO Auto-generated method stub
 		super.initData();
-		Text.setText("政务");
+		Text.setText("App大杂烩");
 		setSlidingMenuEnable(true);
 	}
 

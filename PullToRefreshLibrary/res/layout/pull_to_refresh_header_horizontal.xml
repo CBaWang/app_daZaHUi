@@ -24,6 +24,8 @@
             android:layout_gravity="center"
             android:indeterminate="true"
             android:visibility="gone" />
+
+        <!-- style="?android:attr/progressBarStyleSmall"-->
     </FrameLayout>
 
 </merge>

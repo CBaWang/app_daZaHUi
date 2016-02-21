@@ -15,12 +15,13 @@
             android:layout_height="match_parent"
             android:layout_weight="1">
 
-            <ImageView
+            <com.example.custom.TouchImageView
                 android:id="@+id/read_item_image"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:padding="20dp"
-                android:scaleType="centerCrop" />
+                android:scaleType="fitXY"
+                 />
 
             <TextView
                 android:id="@+id/read_item_indicator"
@@ -132,10 +133,12 @@
                     android:layout_height="match_parent"
                     android:layout_weight="3"
                     android:gravity="center"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
                     android:layout_marginRight="15dp"
                     android:layout_marginLeft="10dp"
+                    android:text="手机专享"
+                    android:textSize="11sp"
                     android:background="@drawable/my_oval"/>
             </LinearLayout>
 

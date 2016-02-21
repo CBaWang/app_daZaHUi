@@ -17,4 +17,12 @@
     <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
     <string name="pull_to_refresh_refreshing_label">Loading…</string>
     <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <style name="mProgress_circle">
+        <item name="android:indeterminateDrawable">@drawable/progressbar_mum_1</item>
+        <item name="android:minWidth">55dp</item>
+        <item name="android:minHeight">55dp</item>
+        <item name="android:maxWidth">70dp</item>
+        <item name="android:maxHeight">70dp</item>
+        <item name="android:indeterminateDuration">500</item>
+    </style>
 </resources>

@@ -47,6 +47,8 @@ public final class R {
 		public static final int indicator_arrow = 0x7f020026;
 		public static final int indicator_bg_bottom = 0x7f020027;
 		public static final int indicator_bg_top = 0x7f020028;
+		public static final int juhua = 0x7f020029;
+		public static final int progressbar_mum_1 = 0x7f020035;
 	}
 	public static final class id {
 		public static final int both = 0x7f090005;
@@ -79,6 +81,9 @@ public final class R {
 		public static final int pull_to_refresh_pull_label = 0x7f050000;
 		public static final int pull_to_refresh_refreshing_label = 0x7f050001;
 		public static final int pull_to_refresh_release_label = 0x7f050002;
+	}
+	public static final class style {
+		public static final int mProgress_circle = 0x7f0b0008;
 	}
 	public static final class styleable {
 		public static final int[] PullToRefresh = { 0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018, 0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e, 0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022, 0x7f010023 };

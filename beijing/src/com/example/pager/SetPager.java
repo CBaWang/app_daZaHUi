@@ -15,7 +15,7 @@ public class SetPager extends BasePager {
 		// TODO Auto-generated method stub
 		super.initData();
 
-		Text.setText("设置");
+		Text.setText("App大杂烩");
 		image.setVisibility(View.GONE);
 		setSlidingMenuEnable(false);
 	}

@@ -25,7 +25,7 @@ public class SmartPager extends BasePager {
 	public void initData() {
 
 		super.initData();
-		Text.setText("智慧服务");
+		Text.setText("App大杂烩");
 		setSlidingMenuEnable(true);
 		view = View.inflate(mactivity, R.layout.smart_server, null);
 

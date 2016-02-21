@@ -18,7 +18,7 @@ public class NewsPager extends BasePager {
 	public void initData() {
 		// TODO Auto-generated method stub
 		super.initData();
-		Text.setText("新闻中心");
+		Text.setText("App大杂烩");
 		setSlidingMenuEnable(true);
 
 	}

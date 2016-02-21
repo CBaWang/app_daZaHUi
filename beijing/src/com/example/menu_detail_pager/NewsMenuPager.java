@@ -26,8 +26,7 @@ public class NewsMenuPager extends BaseMenuDetailPager {
 
 	private BasePager basepager;
 
-	private final static String[] TITLE = {"第一页","第二页","第三页","第四页","第五页","第六页","第七页"
-			,"第八页"};//这是我准备的8个页面名字
+	private final static String[] TITLE = {"实事","民生","热点","社会"};//这是我准备的4个页面名字
 
 	public NewsMenuPager(Activity activity, BasePager basepager) {
 		super(activity);
@@ -54,7 +53,7 @@ public class NewsMenuPager extends BaseMenuDetailPager {
 
 		initLsitData();
 
-		viewpager.setOffscreenPageLimit(2);
+//		viewpager.setOffscreenPageLimit(2);
 		viewpager.setAdapter(new MyPagerAdapter());
 		indicator.setViewPager(viewpager);
 
@@ -65,7 +64,7 @@ public class NewsMenuPager extends BaseMenuDetailPager {
 	private void initLsitData() {
 		// TODO Auto-generated method stub
 		list = new ArrayList<NewsMenupagerItem>();
-		for (int i = 0; i < 8; i++) {
+		for (int i = 0; i < 4; i++) {
 			list.add(new NewsMenupagerItem(Mactivity));
 		}
 

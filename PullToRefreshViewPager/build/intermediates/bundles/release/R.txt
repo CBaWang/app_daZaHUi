@@ -31,6 +31,8 @@ int drawable default_ptr_rotate 0x7f020001
 int drawable indicator_arrow 0x7f020002
 int drawable indicator_bg_bottom 0x7f020003
 int drawable indicator_bg_top 0x7f020004
+int drawable juhua 0x7f020005
+int drawable progressbar_mum_1 0x7f020006
 int id both 0x7f070004
 int id disabled 0x7f070005
 int id fl_inner 0x7f07000d
@@ -58,6 +60,7 @@ int string pull_to_refresh_from_bottom_release_label 0x7f050005
 int string pull_to_refresh_pull_label 0x7f050000
 int string pull_to_refresh_refreshing_label 0x7f050001
 int string pull_to_refresh_release_label 0x7f050002
+int style mProgress_circle 0x7f080000
 int[] styleable PullToRefresh { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012 }
 int styleable PullToRefresh_ptrAdapterViewBackground 16
 int styleable PullToRefresh_ptrAnimationStyle 12

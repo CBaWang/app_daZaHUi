@@ -7,6 +7,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.example.bean.bookList;
 import com.example.beijing.R;
+import com.example.custom.TouchImageView;
 import com.example.utils.AllUrls;
 import com.example.utils.BitmapHelper;
 import com.example.utils.DataFormatUtils;
@@ -24,15 +25,19 @@ import android.os.Handler;
 import android.os.Message;
 import android.os.SystemClock;
 import android.text.TextUtils;
+import android.view.GestureDetector;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.RatingBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -48,6 +53,8 @@ public class HomePager extends BasePager {
     private PullToRefreshListView RefreahlistView;
 
     private LayoutInflater inflater;
+
+    private ViewHolder holder;
 
     public HomePager(Activity activity) {
         super(activity);
@@ -110,6 +117,7 @@ public class HomePager extends BasePager {
         Text.setText("App大杂烩");
         boolean HomePagerSwitch =  sharedPreferences.getBoolean("HomePagerSwitch", true);
         image.setVisibility(View.GONE);
+//        bar.setVisibility(ProgressBar.VISIBLE);
         setSlidingMenuEnable(false);
 
         setThePullReFreshListView();//设置我的下拉刷新控件
@@ -136,6 +144,29 @@ public class HomePager extends BasePager {
         endLabels.setPullLabel("上拉刷新...");// 刚下拉时，显示的提示
         endLabels.setRefreshingLabel("正在载入...");// 刷新时
         endLabels.setReleaseLabel("放开刷新...");// 下来达到一定距离时，显示的提示
+
+        RefreahlistView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                holder.image.setOnDoubleTapListener(new GestureDetector.OnDoubleTapListener() { //我的双击放大图片的监听事件
+                    @Override
+                    public boolean onSingleTapConfirmed(MotionEvent e) {
+                        return true;
+                    }
+
+                    @Override
+                    public boolean onDoubleTap(MotionEvent e) {
+                        return true;
+                    }
+
+                    @Override
+                    public boolean onDoubleTapEvent(MotionEvent e) {
+                        return false;
+                    }
+                });//end
+            }
+        });
 
 
         RefreahlistView.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener2<ListView>() {
@@ -174,6 +205,9 @@ public class HomePager extends BasePager {
             @Override
             public void onResponse(String s) {
 
+                if(what==1){
+                    SystemClock.sleep(1000);
+                }
 
                 fileUtils.SaveDataLocal(s, "BookList");
                 parseJson(s, what);//解析Json数据
@@ -185,6 +219,9 @@ public class HomePager extends BasePager {
 
                 SystemClock.sleep(1500);
                 bar.setVisibility(ProgressBar.GONE);
+                Toast.makeText(mactivity,"请检查网络",Toast.LENGTH_SHORT).show();
+
+                RefreahlistView.onRefreshComplete();
 
             }
         }) {
@@ -201,7 +238,9 @@ public class HomePager extends BasePager {
 
     private void parseJson(String jsonData, int what) {  //解析Json数据
         try {
+
             bar.setVisibility(ProgressBar.GONE);
+
             JSONObject object = new JSONObject(jsonData);
             JSONObject body = object.getJSONObject("showapi_res_body");
             JSONArray array = body.getJSONArray("bookList");
@@ -239,7 +278,7 @@ public class HomePager extends BasePager {
 
     private class MyBaseAdapter extends BaseAdapter {
 
-        private ViewHolder holder;
+
 
         @Override
         public int getCount() {
@@ -264,7 +303,7 @@ public class HomePager extends BasePager {
                 holder.author = (TextView) convertView.findViewById(R.id.read_item_author);
                 holder.discuss = (TextView) convertView.findViewById(R.id.read_item_discuss);
                 holder.from = (TextView) convertView.findViewById(R.id.read_item_publish);
-                holder.image = (ImageView) convertView.findViewById(R.id.read_item_image);
+                holder.image = (TouchImageView) convertView.findViewById(R.id.read_item_image);
                 holder.Indicator = (TextView) convertView.findViewById(R.id.read_item_indicator);
                 holder.mobile = (TextView) convertView.findViewById(R.id.read_item_mobile);
                 holder.summary = (TextView) convertView.findViewById(R.id.read_item_summary);
@@ -314,7 +353,7 @@ public class HomePager extends BasePager {
 
         TextView mobile;
 
-        ImageView image;
+        TouchImageView image;
 
 //        RatingBar RatingBar;
 
