@@ -138,12 +138,15 @@ public class HomePager extends BasePager {
         startLabels.setPullLabel("下拉刷新...");// 刚下拉时，显示的提示
         startLabels.setRefreshingLabel("正在载入...");// 刷新时
         startLabels.setReleaseLabel("放开刷新...");// 下来达到一定距离时，显示的提示
+        startLabels.setLoadingDrawable(mactivity.getResources().getDrawable(R.drawable.juhua));
 
         ILoadingLayout endLabels = RefreahlistView.getLoadingLayoutProxy(
                 false, true);
         endLabels.setPullLabel("上拉刷新...");// 刚下拉时，显示的提示
         endLabels.setRefreshingLabel("正在载入...");// 刷新时
         endLabels.setReleaseLabel("放开刷新...");// 下来达到一定距离时，显示的提示
+        endLabels.setLoadingDrawable(mactivity.getResources().getDrawable(R.drawable.juhua));
+
 
         RefreahlistView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

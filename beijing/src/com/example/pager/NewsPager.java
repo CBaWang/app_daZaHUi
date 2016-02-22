@@ -7,7 +7,6 @@ import android.widget.ImageButton;
 
 public class NewsPager extends BasePager {
 
-	public static ImageButton imagebutton; //定义一个静态的ImageButton
 
 	public NewsPager(Activity activity) {
 		super(activity);

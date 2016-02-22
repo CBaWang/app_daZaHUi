@@ -31,6 +31,7 @@ import android.widget.Toast;
 import com.example.bean.Contentlist;
 import com.example.bean.JsonBean;
 import com.example.bean.Showapi_res_body;
+import com.example.beijing.ContentActivity;
 import com.example.beijing.R;
 import com.example.beijing.WebActivity;
 import com.example.custom.DisallowStopListenerLastViewpager;
@@ -78,9 +79,11 @@ public class NewsMenupagerItem extends BaseMenuDetailPager {
 
     private Handler handler;
 
+    private ContentActivity activity;
+
     public NewsMenupagerItem(Activity activity) {
         super(activity);
-        // TODO Auto-generated constructor stub
+      this.activity = (ContentActivity) activity;
     }
 
     @Override
@@ -135,6 +138,7 @@ public class NewsMenupagerItem extends BaseMenuDetailPager {
         ill.setRefreshingLabel("我在加载数据啦");
         ill.setReleaseLabel("我松开就刷新啦");
 
+//        ill.setLoadingDrawable(activity.getResources().getDrawable(R.drawable.juhua));
 
         listview = refreshlistview.getRefreshableView();
         listview.addHeaderView(viewTitle);

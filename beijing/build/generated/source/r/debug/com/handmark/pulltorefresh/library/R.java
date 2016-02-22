@@ -42,13 +42,13 @@ public final class R {
 		public static final int indicator_right_padding = 0x7f080011;
 	}
 	public static final class drawable {
-		public static final int default_ptr_flip = 0x7f02000e;
-		public static final int default_ptr_rotate = 0x7f02000f;
-		public static final int indicator_arrow = 0x7f020026;
-		public static final int indicator_bg_bottom = 0x7f020027;
-		public static final int indicator_bg_top = 0x7f020028;
-		public static final int juhua = 0x7f020029;
-		public static final int progressbar_mum_1 = 0x7f020035;
+		public static final int default_ptr_flip = 0x7f020013;
+		public static final int default_ptr_rotate = 0x7f020014;
+		public static final int indicator_arrow = 0x7f020033;
+		public static final int indicator_bg_bottom = 0x7f020034;
+		public static final int indicator_bg_top = 0x7f020035;
+		public static final int juhua = 0x7f020036;
+		public static final int progressbar_mum_1 = 0x7f020049;
 	}
 	public static final class id {
 		public static final int both = 0x7f090005;
@@ -70,8 +70,8 @@ public final class R {
 		public static final int webview = 0x7f090004;
 	}
 	public static final class layout {
-		public static final int pull_to_refresh_header_horizontal = 0x7f030013;
-		public static final int pull_to_refresh_header_vertical = 0x7f030014;
+		public static final int pull_to_refresh_header_horizontal = 0x7f030016;
+		public static final int pull_to_refresh_header_vertical = 0x7f030017;
 	}
 	public static final class string {
 		public static final int pull_to_refresh_from_bottom_pull_label = 0x7f050003;
