@@ -86,6 +86,7 @@
     <orderEntry type="library" exported="" name="gson-2.3.1" level="project" />
     <orderEntry type="library" exported="" name="android-support-v4" level="project" />
     <orderEntry type="library" exported="" name="volley" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-23.1.1" level="project" />
     <orderEntry type="module" module-name="slidingMenuLibrary" exported="" />
     <orderEntry type="module" module-name="PullToRefreshViewPager" exported="" />
     <orderEntry type="module" module-name="PullToRefreshLibrary" exported="" />

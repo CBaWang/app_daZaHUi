@@ -83,14 +83,18 @@ public class ContentActivity extends SlidingFragmentActivity {
 
 
         list.get(0).initData();// 设置默认的ViewPager 显示页面
-
+        list.get(2).initData();
 
         pager.setOnPageChangeListener(new OnPageChangeListener() {
 
             @Override
             public void onPageSelected(int arg0) {
                 // TODO Auto-generated method stub
-                list.get(arg0).initData(); // 初始化BasePager的View和切换View
+                if(arg0==2){
+
+                }else {
+                    list.get(arg0).initData(); // 初始化BasePager的View和切换View
+                }
             }
 
             @Override

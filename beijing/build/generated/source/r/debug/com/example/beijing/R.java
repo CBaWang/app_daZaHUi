@@ -24,7 +24,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behindOffset=0x7f01002f;
+        public static final int behindOffset=0x7f010033;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -32,7 +32,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behindScrollScale=0x7f010031;
+        public static final int behindScrollScale=0x7f010035;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -42,11 +42,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int behindWidth=0x7f010030;
+        public static final int behindWidth=0x7f010034;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int bg=0x7f01000e;
+        public static final int bg=0x7f010012;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -64,7 +64,24 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int circleWidth=0x7f01000b;
+        public static final int circleWidth=0x7f01000f;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int civ_border_color=0x7f010005;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int civ_border_overlay=0x7f010006;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -74,7 +91,26 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int clipPadding=0x7f01003a;
+        public static final int civ_border_width=0x7f010004;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int civ_fill_color=0x7f010007;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int clipPadding=0x7f01003e;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -82,7 +118,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int dotCount=0x7f01000c;
+        public static final int dotCount=0x7f010010;
         /** <p>Must be a floating point value, such as "<code>1.2</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -90,7 +126,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int fadeDegree=0x7f010037;
+        public static final int fadeDegree=0x7f01003b;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -98,7 +134,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int fadeDelay=0x7f010046;
+        public static final int fadeDelay=0x7f01004a;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -106,7 +142,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int fadeEnabled=0x7f010036;
+        public static final int fadeEnabled=0x7f01003a;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -114,7 +150,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int fadeLength=0x7f010047;
+        public static final int fadeLength=0x7f01004b;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -122,7 +158,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int fades=0x7f010045;
+        public static final int fades=0x7f010049;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -131,7 +167,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int fillColor=0x7f010004;
+        public static final int fillColor=0x7f010008;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -140,7 +176,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int firstColor=0x7f010009;
+        public static final int firstColor=0x7f01000d;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -149,7 +185,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int footerColor=0x7f01003b;
+        public static final int footerColor=0x7f01003f;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -159,7 +195,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int footerIndicatorHeight=0x7f01003e;
+        public static final int footerIndicatorHeight=0x7f010042;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -171,7 +207,7 @@ containing a value of this type.
 <tr><td><code>underline</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int footerIndicatorStyle=0x7f01003d;
+        public static final int footerIndicatorStyle=0x7f010041;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -181,7 +217,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int footerIndicatorUnderlinePadding=0x7f01003f;
+        public static final int footerIndicatorUnderlinePadding=0x7f010043;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -191,7 +227,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int footerLineHeight=0x7f01003c;
+        public static final int footerLineHeight=0x7f010040;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -201,7 +237,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int footerPadding=0x7f010040;
+        public static final int footerPadding=0x7f010044;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -211,7 +247,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int gapWidth=0x7f010010;
+        public static final int gapWidth=0x7f010014;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -222,7 +258,7 @@ containing a value of this type.
 <tr><td><code>top</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int linePosition=0x7f010041;
+        public static final int linePosition=0x7f010045;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -232,7 +268,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int lineWidth=0x7f01000f;
+        public static final int lineWidth=0x7f010013;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -240,7 +276,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int max=0x7f010029;
+        public static final int max=0x7f01002d;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -251,7 +287,7 @@ containing a value of this type.
 <tr><td><code>right</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int mode=0x7f01002c;
+        public static final int mode=0x7f010030;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -260,13 +296,13 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int pageColor=0x7f010005;
+        public static final int pageColor=0x7f010009;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int ptrAdapterViewBackground=0x7f010021;
+        public static final int ptrAdapterViewBackground=0x7f010025;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -277,54 +313,54 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>flip</code></td><td>0x1</td><td></td></tr>
 </table>
          */
-        public static final int ptrAnimationStyle=0x7f01001d;
+        public static final int ptrAnimationStyle=0x7f010021;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptrDrawable=0x7f010017;
+        public static final int ptrDrawable=0x7f01001b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptrDrawableBottom=0x7f010023;
+        public static final int ptrDrawableBottom=0x7f010027;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptrDrawableEnd=0x7f010019;
+        public static final int ptrDrawableEnd=0x7f01001d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptrDrawableStart=0x7f010018;
+        public static final int ptrDrawableStart=0x7f01001c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptrDrawableTop=0x7f010022;
+        public static final int ptrDrawableTop=0x7f010026;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int ptrHeaderBackground=0x7f010012;
+        public static final int ptrHeaderBackground=0x7f010016;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int ptrHeaderSubTextColor=0x7f010014;
+        public static final int ptrHeaderSubTextColor=0x7f010018;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptrHeaderTextAppearance=0x7f01001b;
+        public static final int ptrHeaderTextAppearance=0x7f01001f;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int ptrHeaderTextColor=0x7f010013;
+        public static final int ptrHeaderTextColor=0x7f010017;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int ptrListViewExtrasEnabled=0x7f01001f;
+        public static final int ptrListViewExtrasEnabled=0x7f010023;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -340,37 +376,37 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 <tr><td><code>pullUpFromBottom</code></td><td>0x2</td><td></td></tr>
 </table>
          */
-        public static final int ptrMode=0x7f010015;
+        public static final int ptrMode=0x7f010019;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int ptrOverScroll=0x7f01001a;
+        public static final int ptrOverScroll=0x7f01001e;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
-        public static final int ptrRefreshableViewBackground=0x7f010011;
+        public static final int ptrRefreshableViewBackground=0x7f010015;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int ptrRotateDrawableWhilePulling=0x7f010020;
+        public static final int ptrRotateDrawableWhilePulling=0x7f010024;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int ptrScrollingWhileRefreshingEnabled=0x7f01001e;
+        public static final int ptrScrollingWhileRefreshingEnabled=0x7f010022;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
          */
-        public static final int ptrShowIndicator=0x7f010016;
+        public static final int ptrShowIndicator=0x7f01001a;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int ptrSubHeaderTextAppearance=0x7f01001c;
+        public static final int ptrSubHeaderTextAppearance=0x7f010020;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -380,7 +416,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int radius=0x7f010006;
+        public static final int radius=0x7f01000a;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -389,7 +425,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int roundColor=0x7f010024;
+        public static final int roundColor=0x7f010028;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -398,7 +434,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int roundProgressColor=0x7f010025;
+        public static final int roundProgressColor=0x7f010029;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -408,7 +444,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int roundWidth=0x7f010026;
+        public static final int roundWidth=0x7f01002a;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -417,7 +453,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int secondColor=0x7f01000a;
+        public static final int secondColor=0x7f01000e;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -425,7 +461,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int selectedBold=0x7f010042;
+        public static final int selectedBold=0x7f010046;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -438,7 +474,7 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int selectorDrawable=0x7f010039;
+        public static final int selectorDrawable=0x7f01003d;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -446,11 +482,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int selectorEnabled=0x7f010038;
+        public static final int selectorEnabled=0x7f01003c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int shadowDrawable=0x7f010034;
+        public static final int shadowDrawable=0x7f010038;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -460,7 +496,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int shadowWidth=0x7f010035;
+        public static final int shadowWidth=0x7f010039;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -468,7 +504,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int snap=0x7f010007;
+        public static final int snap=0x7f01000b;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -476,7 +512,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int splitSize=0x7f01000d;
+        public static final int splitSize=0x7f010011;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -485,7 +521,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int strokeColor=0x7f010008;
+        public static final int strokeColor=0x7f01000c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -506,7 +542,7 @@ containing a value of this type.
 <tr><td><code>FILL</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int style=0x7f01002b;
+        public static final int style=0x7f01002f;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -515,7 +551,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int textColor=0x7f010027;
+        public static final int textColor=0x7f01002b;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -523,7 +559,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int textIsDisplayable=0x7f01002a;
+        public static final int textIsDisplayable=0x7f01002e;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -533,7 +569,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int textSize=0x7f010028;
+        public static final int textSize=0x7f01002c;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -543,7 +579,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int titlePadding=0x7f010043;
+        public static final int titlePadding=0x7f010047;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -553,7 +589,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int topPadding=0x7f010044;
+        public static final int topPadding=0x7f010048;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -565,7 +601,7 @@ containing a value of this type.
 <tr><td><code>none</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int touchModeAbove=0x7f010032;
+        public static final int touchModeAbove=0x7f010036;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -577,7 +613,7 @@ containing a value of this type.
 <tr><td><code>none</code></td><td>2</td><td></td></tr>
 </table>
          */
-        public static final int touchModeBehind=0x7f010033;
+        public static final int touchModeBehind=0x7f010037;
         /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
 <p>This may also be a reference to a resource (in the form
@@ -590,194 +626,2219 @@ containing a value of this type.
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int viewAbove=0x7f01002d;
+        public static final int viewAbove=0x7f010031;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int viewBehind=0x7f01002e;
+        public static final int viewBehind=0x7f010032;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int vpiCirclePageIndicatorStyle=0x7f010048;
+        public static final int vpiCirclePageIndicatorStyle=0x7f01004c;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int vpiIconPageIndicatorStyle=0x7f010049;
+        public static final int vpiIconPageIndicatorStyle=0x7f01004d;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int vpiLinePageIndicatorStyle=0x7f01004a;
+        public static final int vpiLinePageIndicatorStyle=0x7f01004e;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int vpiTabPageIndicatorStyle=0x7f01004c;
+        public static final int vpiTabPageIndicatorStyle=0x7f010050;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int vpiTitlePageIndicatorStyle=0x7f01004b;
+        public static final int vpiTitlePageIndicatorStyle=0x7f01004f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int vpiUnderlinePageIndicatorStyle=0x7f01004d;
+        public static final int vpiUnderlinePageIndicatorStyle=0x7f010051;
     }
     public static final class bool {
-        public static final int default_circle_indicator_centered=0x7f060000;
-        public static final int default_circle_indicator_snap=0x7f060001;
-        public static final int default_line_indicator_centered=0x7f060002;
-        public static final int default_title_indicator_selected_bold=0x7f060003;
-        public static final int default_underline_indicator_fades=0x7f060004;
+        public static final int default_circle_indicator_centered=0x7f070000;
+        public static final int default_circle_indicator_snap=0x7f070001;
+        public static final int default_line_indicator_centered=0x7f070002;
+        public static final int default_title_indicator_selected_bold=0x7f070003;
+        public static final int default_underline_indicator_fades=0x7f070004;
     }
     public static final class color {
-        public static final int default_circle_indicator_fill_color=0x7f070000;
-        public static final int default_circle_indicator_page_color=0x7f070001;
-        public static final int default_circle_indicator_stroke_color=0x7f070002;
-        public static final int default_line_indicator_selected_color=0x7f070003;
-        public static final int default_line_indicator_unselected_color=0x7f070004;
-        public static final int default_title_indicator_footer_color=0x7f070005;
-        public static final int default_title_indicator_selected_color=0x7f070006;
-        public static final int default_title_indicator_text_color=0x7f070007;
-        public static final int default_underline_indicator_selected_color=0x7f070008;
-        public static final int vpi__background_holo_dark=0x7f070009;
-        public static final int vpi__background_holo_light=0x7f07000a;
-        public static final int vpi__bright_foreground_disabled_holo_dark=0x7f07000b;
-        public static final int vpi__bright_foreground_disabled_holo_light=0x7f07000c;
-        public static final int vpi__bright_foreground_holo_dark=0x7f07000d;
-        public static final int vpi__bright_foreground_holo_light=0x7f07000e;
-        public static final int vpi__bright_foreground_inverse_holo_dark=0x7f07000f;
-        public static final int vpi__bright_foreground_inverse_holo_light=0x7f070010;
-        public static final int vpi__dark_theme=0x7f070011;
-        public static final int vpi__light_theme=0x7f070012;
+        public static final int default_circle_indicator_fill_color=0x7f080000;
+        public static final int default_circle_indicator_page_color=0x7f080001;
+        public static final int default_circle_indicator_stroke_color=0x7f080002;
+        public static final int default_line_indicator_selected_color=0x7f080003;
+        public static final int default_line_indicator_unselected_color=0x7f080004;
+        public static final int default_title_indicator_footer_color=0x7f080005;
+        public static final int default_title_indicator_selected_color=0x7f080006;
+        public static final int default_title_indicator_text_color=0x7f080007;
+        public static final int default_underline_indicator_selected_color=0x7f080008;
+        public static final int vpi__background_holo_dark=0x7f080009;
+        public static final int vpi__background_holo_light=0x7f08000a;
+        public static final int vpi__bright_foreground_disabled_holo_dark=0x7f08000b;
+        public static final int vpi__bright_foreground_disabled_holo_light=0x7f08000c;
+        public static final int vpi__bright_foreground_holo_dark=0x7f08000d;
+        public static final int vpi__bright_foreground_holo_light=0x7f08000e;
+        public static final int vpi__bright_foreground_inverse_holo_dark=0x7f08000f;
+        public static final int vpi__bright_foreground_inverse_holo_light=0x7f080010;
+        public static final int vpi__dark_theme=0x7f080011;
+        public static final int vpi__light_theme=0x7f080012;
     }
     public static final class dimen {
-        public static final int default_circle_indicator_radius=0x7f080000;
-        public static final int default_circle_indicator_stroke_width=0x7f080001;
-        public static final int default_line_indicator_gap_width=0x7f080002;
-        public static final int default_line_indicator_line_width=0x7f080003;
-        public static final int default_line_indicator_stroke_width=0x7f080004;
-        public static final int default_title_indicator_clip_padding=0x7f080005;
-        public static final int default_title_indicator_footer_indicator_height=0x7f080006;
-        public static final int default_title_indicator_footer_indicator_underline_padding=0x7f080007;
-        public static final int default_title_indicator_footer_line_height=0x7f080008;
-        public static final int default_title_indicator_footer_padding=0x7f080009;
-        public static final int default_title_indicator_text_size=0x7f08000a;
-        public static final int default_title_indicator_title_padding=0x7f08000b;
-        public static final int default_title_indicator_top_padding=0x7f08000c;
-        public static final int header_footer_left_right_padding=0x7f08000d;
-        public static final int header_footer_top_bottom_padding=0x7f08000e;
-        public static final int indicator_corner_radius=0x7f08000f;
-        public static final int indicator_internal_padding=0x7f080010;
-        public static final int indicator_right_padding=0x7f080011;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
+        public static final int default_circle_indicator_radius=0x7f0507d2;
+        public static final int default_circle_indicator_stroke_width=0x7f0507d3;
+        public static final int default_line_indicator_gap_width=0x7f0507d4;
+        public static final int default_line_indicator_line_width=0x7f0507d5;
+        public static final int default_line_indicator_stroke_width=0x7f0507d6;
+        public static final int default_title_indicator_clip_padding=0x7f0507d7;
+        public static final int default_title_indicator_footer_indicator_height=0x7f0507d8;
+        public static final int default_title_indicator_footer_indicator_underline_padding=0x7f0507d9;
+        public static final int default_title_indicator_footer_line_height=0x7f0507da;
+        public static final int default_title_indicator_footer_padding=0x7f0507db;
+        public static final int default_title_indicator_text_size=0x7f0507dc;
+        public static final int default_title_indicator_title_padding=0x7f0507dd;
+        public static final int default_title_indicator_top_padding=0x7f0507de;
+        public static final int header_footer_left_right_padding=0x7f0507df;
+        public static final int header_footer_top_bottom_padding=0x7f0507e0;
+        public static final int indicator_corner_radius=0x7f0507e1;
+        public static final int indicator_internal_padding=0x7f0507e2;
+        public static final int indicator_right_padding=0x7f0507e3;
+        public static final int x1=0x7f050002;
+        public static final int x10=0x7f050003;
+        public static final int x100=0x7f050004;
+        public static final int x101=0x7f050005;
+        public static final int x102=0x7f050006;
+        public static final int x103=0x7f050007;
+        public static final int x104=0x7f050008;
+        public static final int x105=0x7f050009;
+        public static final int x106=0x7f05000a;
+        public static final int x107=0x7f05000b;
+        public static final int x108=0x7f05000c;
+        public static final int x109=0x7f05000d;
+        public static final int x11=0x7f05000e;
+        public static final int x110=0x7f05000f;
+        public static final int x111=0x7f050010;
+        public static final int x112=0x7f050011;
+        public static final int x113=0x7f050012;
+        public static final int x114=0x7f050013;
+        public static final int x115=0x7f050014;
+        public static final int x116=0x7f050015;
+        public static final int x117=0x7f050016;
+        public static final int x118=0x7f050017;
+        public static final int x119=0x7f050018;
+        public static final int x12=0x7f050019;
+        public static final int x120=0x7f05001a;
+        public static final int x121=0x7f05001b;
+        public static final int x122=0x7f05001c;
+        public static final int x123=0x7f05001d;
+        public static final int x124=0x7f05001e;
+        public static final int x125=0x7f05001f;
+        public static final int x126=0x7f050020;
+        public static final int x127=0x7f050021;
+        public static final int x128=0x7f050022;
+        public static final int x129=0x7f050023;
+        public static final int x13=0x7f050024;
+        public static final int x130=0x7f050025;
+        public static final int x131=0x7f050026;
+        public static final int x132=0x7f050027;
+        public static final int x133=0x7f050028;
+        public static final int x134=0x7f050029;
+        public static final int x135=0x7f05002a;
+        public static final int x136=0x7f05002b;
+        public static final int x137=0x7f05002c;
+        public static final int x138=0x7f05002d;
+        public static final int x139=0x7f05002e;
+        public static final int x14=0x7f05002f;
+        public static final int x140=0x7f050030;
+        public static final int x141=0x7f050031;
+        public static final int x142=0x7f050032;
+        public static final int x143=0x7f050033;
+        public static final int x144=0x7f050034;
+        public static final int x145=0x7f050035;
+        public static final int x146=0x7f050036;
+        public static final int x147=0x7f050037;
+        public static final int x148=0x7f050038;
+        public static final int x149=0x7f050039;
+        public static final int x15=0x7f05003a;
+        public static final int x150=0x7f05003b;
+        public static final int x151=0x7f05003c;
+        public static final int x152=0x7f05003d;
+        public static final int x153=0x7f05003e;
+        public static final int x154=0x7f05003f;
+        public static final int x155=0x7f050040;
+        public static final int x156=0x7f050041;
+        public static final int x157=0x7f050042;
+        public static final int x158=0x7f050043;
+        public static final int x159=0x7f050044;
+        public static final int x16=0x7f050045;
+        public static final int x160=0x7f050046;
+        public static final int x161=0x7f050047;
+        public static final int x162=0x7f050048;
+        public static final int x163=0x7f050049;
+        public static final int x164=0x7f05004a;
+        public static final int x165=0x7f05004b;
+        public static final int x166=0x7f05004c;
+        public static final int x167=0x7f05004d;
+        public static final int x168=0x7f05004e;
+        public static final int x169=0x7f05004f;
+        public static final int x17=0x7f050050;
+        public static final int x170=0x7f050051;
+        public static final int x171=0x7f050052;
+        public static final int x172=0x7f050053;
+        public static final int x173=0x7f050054;
+        public static final int x174=0x7f050055;
+        public static final int x175=0x7f050056;
+        public static final int x176=0x7f050057;
+        public static final int x177=0x7f050058;
+        public static final int x178=0x7f050059;
+        public static final int x179=0x7f05005a;
+        public static final int x18=0x7f05005b;
+        public static final int x180=0x7f05005c;
+        public static final int x181=0x7f05005d;
+        public static final int x182=0x7f05005e;
+        public static final int x183=0x7f05005f;
+        public static final int x184=0x7f050060;
+        public static final int x185=0x7f050061;
+        public static final int x186=0x7f050062;
+        public static final int x187=0x7f050063;
+        public static final int x188=0x7f050064;
+        public static final int x189=0x7f050065;
+        public static final int x19=0x7f050066;
+        public static final int x190=0x7f050067;
+        public static final int x191=0x7f050068;
+        public static final int x192=0x7f050069;
+        public static final int x193=0x7f05006a;
+        public static final int x194=0x7f05006b;
+        public static final int x195=0x7f05006c;
+        public static final int x196=0x7f05006d;
+        public static final int x197=0x7f05006e;
+        public static final int x198=0x7f05006f;
+        public static final int x199=0x7f050070;
+        public static final int x2=0x7f050071;
+        public static final int x20=0x7f050072;
+        public static final int x200=0x7f050073;
+        public static final int x201=0x7f050074;
+        public static final int x202=0x7f050075;
+        public static final int x203=0x7f050076;
+        public static final int x204=0x7f050077;
+        public static final int x205=0x7f050078;
+        public static final int x206=0x7f050079;
+        public static final int x207=0x7f05007a;
+        public static final int x208=0x7f05007b;
+        public static final int x209=0x7f05007c;
+        public static final int x21=0x7f05007d;
+        public static final int x210=0x7f05007e;
+        public static final int x211=0x7f05007f;
+        public static final int x212=0x7f050080;
+        public static final int x213=0x7f050081;
+        public static final int x214=0x7f050082;
+        public static final int x215=0x7f050083;
+        public static final int x216=0x7f050084;
+        public static final int x217=0x7f050085;
+        public static final int x218=0x7f050086;
+        public static final int x219=0x7f050087;
+        public static final int x22=0x7f050088;
+        public static final int x220=0x7f050089;
+        public static final int x221=0x7f05008a;
+        public static final int x222=0x7f05008b;
+        public static final int x223=0x7f05008c;
+        public static final int x224=0x7f05008d;
+        public static final int x225=0x7f05008e;
+        public static final int x226=0x7f05008f;
+        public static final int x227=0x7f050090;
+        public static final int x228=0x7f050091;
+        public static final int x229=0x7f050092;
+        public static final int x23=0x7f050093;
+        public static final int x230=0x7f050094;
+        public static final int x231=0x7f050095;
+        public static final int x232=0x7f050096;
+        public static final int x233=0x7f050097;
+        public static final int x234=0x7f050098;
+        public static final int x235=0x7f050099;
+        public static final int x236=0x7f05009a;
+        public static final int x237=0x7f05009b;
+        public static final int x238=0x7f05009c;
+        public static final int x239=0x7f05009d;
+        public static final int x24=0x7f05009e;
+        public static final int x240=0x7f05009f;
+        public static final int x241=0x7f0500a0;
+        public static final int x242=0x7f0500a1;
+        public static final int x243=0x7f0500a2;
+        public static final int x244=0x7f0500a3;
+        public static final int x245=0x7f0500a4;
+        public static final int x246=0x7f0500a5;
+        public static final int x247=0x7f0500a6;
+        public static final int x248=0x7f0500a7;
+        public static final int x249=0x7f0500a8;
+        public static final int x25=0x7f0500a9;
+        public static final int x250=0x7f0500aa;
+        public static final int x251=0x7f0500ab;
+        public static final int x252=0x7f0500ac;
+        public static final int x253=0x7f0500ad;
+        public static final int x254=0x7f0500ae;
+        public static final int x255=0x7f0500af;
+        public static final int x256=0x7f0500b0;
+        public static final int x257=0x7f0500b1;
+        public static final int x258=0x7f0500b2;
+        public static final int x259=0x7f0500b3;
+        public static final int x26=0x7f0500b4;
+        public static final int x260=0x7f0500b5;
+        public static final int x261=0x7f0500b6;
+        public static final int x262=0x7f0500b7;
+        public static final int x263=0x7f0500b8;
+        public static final int x264=0x7f0500b9;
+        public static final int x265=0x7f0500ba;
+        public static final int x266=0x7f0500bb;
+        public static final int x267=0x7f0500bc;
+        public static final int x268=0x7f0500bd;
+        public static final int x269=0x7f0500be;
+        public static final int x27=0x7f0500bf;
+        public static final int x270=0x7f0500c0;
+        public static final int x271=0x7f0500c1;
+        public static final int x272=0x7f0500c2;
+        public static final int x273=0x7f0500c3;
+        public static final int x274=0x7f0500c4;
+        public static final int x275=0x7f0500c5;
+        public static final int x276=0x7f0500c6;
+        public static final int x277=0x7f0500c7;
+        public static final int x278=0x7f0500c8;
+        public static final int x279=0x7f0500c9;
+        public static final int x28=0x7f0500ca;
+        public static final int x280=0x7f0500cb;
+        public static final int x281=0x7f0500cc;
+        public static final int x282=0x7f0500cd;
+        public static final int x283=0x7f0500ce;
+        public static final int x284=0x7f0500cf;
+        public static final int x285=0x7f0500d0;
+        public static final int x286=0x7f0500d1;
+        public static final int x287=0x7f0500d2;
+        public static final int x288=0x7f0500d3;
+        public static final int x289=0x7f0500d4;
+        public static final int x29=0x7f0500d5;
+        public static final int x290=0x7f0500d6;
+        public static final int x291=0x7f0500d7;
+        public static final int x292=0x7f0500d8;
+        public static final int x293=0x7f0500d9;
+        public static final int x294=0x7f0500da;
+        public static final int x295=0x7f0500db;
+        public static final int x296=0x7f0500dc;
+        public static final int x297=0x7f0500dd;
+        public static final int x298=0x7f0500de;
+        public static final int x299=0x7f0500df;
+        public static final int x3=0x7f0500e0;
+        public static final int x30=0x7f0500e1;
+        public static final int x300=0x7f0500e2;
+        public static final int x301=0x7f0500e3;
+        public static final int x302=0x7f0500e4;
+        public static final int x303=0x7f0500e5;
+        public static final int x304=0x7f0500e6;
+        public static final int x305=0x7f0500e7;
+        public static final int x306=0x7f0500e8;
+        public static final int x307=0x7f0500e9;
+        public static final int x308=0x7f0500ea;
+        public static final int x309=0x7f0500eb;
+        public static final int x31=0x7f0500ec;
+        public static final int x310=0x7f0500ed;
+        public static final int x311=0x7f0500ee;
+        public static final int x312=0x7f0500ef;
+        public static final int x313=0x7f0500f0;
+        public static final int x314=0x7f0500f1;
+        public static final int x315=0x7f0500f2;
+        public static final int x316=0x7f0500f3;
+        public static final int x317=0x7f0500f4;
+        public static final int x318=0x7f0500f5;
+        public static final int x319=0x7f0500f6;
+        public static final int x32=0x7f0500f7;
+        public static final int x320=0x7f0500f8;
+        public static final int x321=0x7f0500f9;
+        public static final int x322=0x7f0500fa;
+        public static final int x323=0x7f0500fb;
+        public static final int x324=0x7f0500fc;
+        public static final int x325=0x7f0500fd;
+        public static final int x326=0x7f0500fe;
+        public static final int x327=0x7f0500ff;
+        public static final int x328=0x7f050100;
+        public static final int x329=0x7f050101;
+        public static final int x33=0x7f050102;
+        public static final int x330=0x7f050103;
+        public static final int x331=0x7f050104;
+        public static final int x332=0x7f050105;
+        public static final int x333=0x7f050106;
+        public static final int x334=0x7f050107;
+        public static final int x335=0x7f050108;
+        public static final int x336=0x7f050109;
+        public static final int x337=0x7f05010a;
+        public static final int x338=0x7f05010b;
+        public static final int x339=0x7f05010c;
+        public static final int x34=0x7f05010d;
+        public static final int x340=0x7f05010e;
+        public static final int x341=0x7f05010f;
+        public static final int x342=0x7f050110;
+        public static final int x343=0x7f050111;
+        public static final int x344=0x7f050112;
+        public static final int x345=0x7f050113;
+        public static final int x346=0x7f050114;
+        public static final int x347=0x7f050115;
+        public static final int x348=0x7f050116;
+        public static final int x349=0x7f050117;
+        public static final int x35=0x7f050118;
+        public static final int x350=0x7f050119;
+        public static final int x351=0x7f05011a;
+        public static final int x352=0x7f05011b;
+        public static final int x353=0x7f05011c;
+        public static final int x354=0x7f05011d;
+        public static final int x355=0x7f05011e;
+        public static final int x356=0x7f05011f;
+        public static final int x357=0x7f050120;
+        public static final int x358=0x7f050121;
+        public static final int x359=0x7f050122;
+        public static final int x36=0x7f050123;
+        public static final int x360=0x7f050124;
+        public static final int x361=0x7f050125;
+        public static final int x362=0x7f050126;
+        public static final int x363=0x7f050127;
+        public static final int x364=0x7f050128;
+        public static final int x365=0x7f050129;
+        public static final int x366=0x7f05012a;
+        public static final int x367=0x7f05012b;
+        public static final int x368=0x7f05012c;
+        public static final int x369=0x7f05012d;
+        public static final int x37=0x7f05012e;
+        public static final int x370=0x7f05012f;
+        public static final int x371=0x7f050130;
+        public static final int x372=0x7f050131;
+        public static final int x373=0x7f050132;
+        public static final int x374=0x7f050133;
+        public static final int x375=0x7f050134;
+        public static final int x376=0x7f050135;
+        public static final int x377=0x7f050136;
+        public static final int x378=0x7f050137;
+        public static final int x379=0x7f050138;
+        public static final int x38=0x7f050139;
+        public static final int x380=0x7f05013a;
+        public static final int x381=0x7f05013b;
+        public static final int x382=0x7f05013c;
+        public static final int x383=0x7f05013d;
+        public static final int x384=0x7f05013e;
+        public static final int x385=0x7f05013f;
+        public static final int x386=0x7f050140;
+        public static final int x387=0x7f050141;
+        public static final int x388=0x7f050142;
+        public static final int x389=0x7f050143;
+        public static final int x39=0x7f050144;
+        public static final int x390=0x7f050145;
+        public static final int x391=0x7f050146;
+        public static final int x392=0x7f050147;
+        public static final int x393=0x7f050148;
+        public static final int x394=0x7f050149;
+        public static final int x395=0x7f05014a;
+        public static final int x396=0x7f05014b;
+        public static final int x397=0x7f05014c;
+        public static final int x398=0x7f05014d;
+        public static final int x399=0x7f05014e;
+        public static final int x4=0x7f05014f;
+        public static final int x40=0x7f050150;
+        public static final int x400=0x7f050151;
+        public static final int x401=0x7f050152;
+        public static final int x402=0x7f050153;
+        public static final int x403=0x7f050154;
+        public static final int x404=0x7f050155;
+        public static final int x405=0x7f050156;
+        public static final int x406=0x7f050157;
+        public static final int x407=0x7f050158;
+        public static final int x408=0x7f050159;
+        public static final int x409=0x7f05015a;
+        public static final int x41=0x7f05015b;
+        public static final int x410=0x7f05015c;
+        public static final int x411=0x7f05015d;
+        public static final int x412=0x7f05015e;
+        public static final int x413=0x7f05015f;
+        public static final int x414=0x7f050160;
+        public static final int x415=0x7f050161;
+        public static final int x416=0x7f050162;
+        public static final int x417=0x7f050163;
+        public static final int x418=0x7f050164;
+        public static final int x419=0x7f050165;
+        public static final int x42=0x7f050166;
+        public static final int x420=0x7f050167;
+        public static final int x421=0x7f050168;
+        public static final int x422=0x7f050169;
+        public static final int x423=0x7f05016a;
+        public static final int x424=0x7f05016b;
+        public static final int x425=0x7f05016c;
+        public static final int x426=0x7f05016d;
+        public static final int x427=0x7f05016e;
+        public static final int x428=0x7f05016f;
+        public static final int x429=0x7f050170;
+        public static final int x43=0x7f050171;
+        public static final int x430=0x7f050172;
+        public static final int x431=0x7f050173;
+        public static final int x432=0x7f050174;
+        public static final int x433=0x7f050175;
+        public static final int x434=0x7f050176;
+        public static final int x435=0x7f050177;
+        public static final int x436=0x7f050178;
+        public static final int x437=0x7f050179;
+        public static final int x438=0x7f05017a;
+        public static final int x439=0x7f05017b;
+        public static final int x44=0x7f05017c;
+        public static final int x440=0x7f05017d;
+        public static final int x441=0x7f05017e;
+        public static final int x442=0x7f05017f;
+        public static final int x443=0x7f050180;
+        public static final int x444=0x7f050181;
+        public static final int x445=0x7f050182;
+        public static final int x446=0x7f050183;
+        public static final int x447=0x7f050184;
+        public static final int x448=0x7f050185;
+        public static final int x449=0x7f050186;
+        public static final int x45=0x7f050187;
+        public static final int x450=0x7f050188;
+        public static final int x451=0x7f050189;
+        public static final int x452=0x7f05018a;
+        public static final int x453=0x7f05018b;
+        public static final int x454=0x7f05018c;
+        public static final int x455=0x7f05018d;
+        public static final int x456=0x7f05018e;
+        public static final int x457=0x7f05018f;
+        public static final int x458=0x7f050190;
+        public static final int x459=0x7f050191;
+        public static final int x46=0x7f050192;
+        public static final int x460=0x7f050193;
+        public static final int x461=0x7f050194;
+        public static final int x462=0x7f050195;
+        public static final int x463=0x7f050196;
+        public static final int x464=0x7f050197;
+        public static final int x465=0x7f050198;
+        public static final int x466=0x7f050199;
+        public static final int x467=0x7f05019a;
+        public static final int x468=0x7f05019b;
+        public static final int x469=0x7f05019c;
+        public static final int x47=0x7f05019d;
+        public static final int x470=0x7f05019e;
+        public static final int x471=0x7f05019f;
+        public static final int x472=0x7f0501a0;
+        public static final int x473=0x7f0501a1;
+        public static final int x474=0x7f0501a2;
+        public static final int x475=0x7f0501a3;
+        public static final int x476=0x7f0501a4;
+        public static final int x477=0x7f0501a5;
+        public static final int x478=0x7f0501a6;
+        public static final int x479=0x7f0501a7;
+        public static final int x48=0x7f0501a8;
+        public static final int x480=0x7f0501a9;
+        public static final int x481=0x7f0501aa;
+        public static final int x482=0x7f0501ab;
+        public static final int x483=0x7f0501ac;
+        public static final int x484=0x7f0501ad;
+        public static final int x485=0x7f0501ae;
+        public static final int x486=0x7f0501af;
+        public static final int x487=0x7f0501b0;
+        public static final int x488=0x7f0501b1;
+        public static final int x489=0x7f0501b2;
+        public static final int x49=0x7f0501b3;
+        public static final int x490=0x7f0501b4;
+        public static final int x491=0x7f0501b5;
+        public static final int x492=0x7f0501b6;
+        public static final int x493=0x7f0501b7;
+        public static final int x494=0x7f0501b8;
+        public static final int x495=0x7f0501b9;
+        public static final int x496=0x7f0501ba;
+        public static final int x497=0x7f0501bb;
+        public static final int x498=0x7f0501bc;
+        public static final int x499=0x7f0501bd;
+        public static final int x5=0x7f0501be;
+        public static final int x50=0x7f0501bf;
+        public static final int x500=0x7f0501c0;
+        public static final int x501=0x7f0501c1;
+        public static final int x502=0x7f0501c2;
+        public static final int x503=0x7f0501c3;
+        public static final int x504=0x7f0501c4;
+        public static final int x505=0x7f0501c5;
+        public static final int x506=0x7f0501c6;
+        public static final int x507=0x7f0501c7;
+        public static final int x508=0x7f0501c8;
+        public static final int x509=0x7f0501c9;
+        public static final int x51=0x7f0501ca;
+        public static final int x510=0x7f0501cb;
+        public static final int x511=0x7f0501cc;
+        public static final int x512=0x7f0501cd;
+        public static final int x513=0x7f0501ce;
+        public static final int x514=0x7f0501cf;
+        public static final int x515=0x7f0501d0;
+        public static final int x516=0x7f0501d1;
+        public static final int x517=0x7f0501d2;
+        public static final int x518=0x7f0501d3;
+        public static final int x519=0x7f0501d4;
+        public static final int x52=0x7f0501d5;
+        public static final int x520=0x7f0501d6;
+        public static final int x521=0x7f0501d7;
+        public static final int x522=0x7f0501d8;
+        public static final int x523=0x7f0501d9;
+        public static final int x524=0x7f0501da;
+        public static final int x525=0x7f0501db;
+        public static final int x526=0x7f0501dc;
+        public static final int x527=0x7f0501dd;
+        public static final int x528=0x7f0501de;
+        public static final int x529=0x7f0501df;
+        public static final int x53=0x7f0501e0;
+        public static final int x530=0x7f0501e1;
+        public static final int x531=0x7f0501e2;
+        public static final int x532=0x7f0501e3;
+        public static final int x533=0x7f0501e4;
+        public static final int x534=0x7f0501e5;
+        public static final int x535=0x7f0501e6;
+        public static final int x536=0x7f0501e7;
+        public static final int x537=0x7f0501e8;
+        public static final int x538=0x7f0501e9;
+        public static final int x539=0x7f0501ea;
+        public static final int x54=0x7f0501eb;
+        public static final int x540=0x7f0501ec;
+        public static final int x541=0x7f0501ed;
+        public static final int x542=0x7f0501ee;
+        public static final int x543=0x7f0501ef;
+        public static final int x544=0x7f0501f0;
+        public static final int x545=0x7f0501f1;
+        public static final int x546=0x7f0501f2;
+        public static final int x547=0x7f0501f3;
+        public static final int x548=0x7f0501f4;
+        public static final int x549=0x7f0501f5;
+        public static final int x55=0x7f0501f6;
+        public static final int x550=0x7f0501f7;
+        public static final int x551=0x7f0501f8;
+        public static final int x552=0x7f0501f9;
+        public static final int x553=0x7f0501fa;
+        public static final int x554=0x7f0501fb;
+        public static final int x555=0x7f0501fc;
+        public static final int x556=0x7f0501fd;
+        public static final int x557=0x7f0501fe;
+        public static final int x558=0x7f0501ff;
+        public static final int x559=0x7f050200;
+        public static final int x56=0x7f050201;
+        public static final int x560=0x7f050202;
+        public static final int x561=0x7f050203;
+        public static final int x562=0x7f050204;
+        public static final int x563=0x7f050205;
+        public static final int x564=0x7f050206;
+        public static final int x565=0x7f050207;
+        public static final int x566=0x7f050208;
+        public static final int x567=0x7f050209;
+        public static final int x568=0x7f05020a;
+        public static final int x569=0x7f05020b;
+        public static final int x57=0x7f05020c;
+        public static final int x570=0x7f05020d;
+        public static final int x571=0x7f05020e;
+        public static final int x572=0x7f05020f;
+        public static final int x573=0x7f050210;
+        public static final int x574=0x7f050211;
+        public static final int x575=0x7f050212;
+        public static final int x576=0x7f050213;
+        public static final int x577=0x7f050214;
+        public static final int x578=0x7f050215;
+        public static final int x579=0x7f050216;
+        public static final int x58=0x7f050217;
+        public static final int x580=0x7f050218;
+        public static final int x581=0x7f050219;
+        public static final int x582=0x7f05021a;
+        public static final int x583=0x7f05021b;
+        public static final int x584=0x7f05021c;
+        public static final int x585=0x7f05021d;
+        public static final int x586=0x7f05021e;
+        public static final int x587=0x7f05021f;
+        public static final int x588=0x7f050220;
+        public static final int x589=0x7f050221;
+        public static final int x59=0x7f050222;
+        public static final int x590=0x7f050223;
+        public static final int x591=0x7f050224;
+        public static final int x592=0x7f050225;
+        public static final int x593=0x7f050226;
+        public static final int x594=0x7f050227;
+        public static final int x595=0x7f050228;
+        public static final int x596=0x7f050229;
+        public static final int x597=0x7f05022a;
+        public static final int x598=0x7f05022b;
+        public static final int x599=0x7f05022c;
+        public static final int x6=0x7f05022d;
+        public static final int x60=0x7f05022e;
+        public static final int x600=0x7f05022f;
+        public static final int x601=0x7f050230;
+        public static final int x602=0x7f050231;
+        public static final int x603=0x7f050232;
+        public static final int x604=0x7f050233;
+        public static final int x605=0x7f050234;
+        public static final int x606=0x7f050235;
+        public static final int x607=0x7f050236;
+        public static final int x608=0x7f050237;
+        public static final int x609=0x7f050238;
+        public static final int x61=0x7f050239;
+        public static final int x610=0x7f05023a;
+        public static final int x611=0x7f05023b;
+        public static final int x612=0x7f05023c;
+        public static final int x613=0x7f05023d;
+        public static final int x614=0x7f05023e;
+        public static final int x615=0x7f05023f;
+        public static final int x616=0x7f050240;
+        public static final int x617=0x7f050241;
+        public static final int x618=0x7f050242;
+        public static final int x619=0x7f050243;
+        public static final int x62=0x7f050244;
+        public static final int x620=0x7f050245;
+        public static final int x621=0x7f050246;
+        public static final int x622=0x7f050247;
+        public static final int x623=0x7f050248;
+        public static final int x624=0x7f050249;
+        public static final int x625=0x7f05024a;
+        public static final int x626=0x7f05024b;
+        public static final int x627=0x7f05024c;
+        public static final int x628=0x7f05024d;
+        public static final int x629=0x7f05024e;
+        public static final int x63=0x7f05024f;
+        public static final int x630=0x7f050250;
+        public static final int x631=0x7f050251;
+        public static final int x632=0x7f050252;
+        public static final int x633=0x7f050253;
+        public static final int x634=0x7f050254;
+        public static final int x635=0x7f050255;
+        public static final int x636=0x7f050256;
+        public static final int x637=0x7f050257;
+        public static final int x638=0x7f050258;
+        public static final int x639=0x7f050259;
+        public static final int x64=0x7f05025a;
+        public static final int x640=0x7f05025b;
+        public static final int x641=0x7f05025c;
+        public static final int x642=0x7f05025d;
+        public static final int x643=0x7f05025e;
+        public static final int x644=0x7f05025f;
+        public static final int x645=0x7f050260;
+        public static final int x646=0x7f050261;
+        public static final int x647=0x7f050262;
+        public static final int x648=0x7f050263;
+        public static final int x649=0x7f050264;
+        public static final int x65=0x7f050265;
+        public static final int x650=0x7f050266;
+        public static final int x651=0x7f050267;
+        public static final int x652=0x7f050268;
+        public static final int x653=0x7f050269;
+        public static final int x654=0x7f05026a;
+        public static final int x655=0x7f05026b;
+        public static final int x656=0x7f05026c;
+        public static final int x657=0x7f05026d;
+        public static final int x658=0x7f05026e;
+        public static final int x659=0x7f05026f;
+        public static final int x66=0x7f050270;
+        public static final int x660=0x7f050271;
+        public static final int x661=0x7f050272;
+        public static final int x662=0x7f050273;
+        public static final int x663=0x7f050274;
+        public static final int x664=0x7f050275;
+        public static final int x665=0x7f050276;
+        public static final int x666=0x7f050277;
+        public static final int x667=0x7f050278;
+        public static final int x668=0x7f050279;
+        public static final int x669=0x7f05027a;
+        public static final int x67=0x7f05027b;
+        public static final int x670=0x7f05027c;
+        public static final int x671=0x7f05027d;
+        public static final int x672=0x7f05027e;
+        public static final int x673=0x7f05027f;
+        public static final int x674=0x7f050280;
+        public static final int x675=0x7f050281;
+        public static final int x676=0x7f050282;
+        public static final int x677=0x7f050283;
+        public static final int x678=0x7f050284;
+        public static final int x679=0x7f050285;
+        public static final int x68=0x7f050286;
+        public static final int x680=0x7f050287;
+        public static final int x681=0x7f050288;
+        public static final int x682=0x7f050289;
+        public static final int x683=0x7f05028a;
+        public static final int x684=0x7f05028b;
+        public static final int x685=0x7f05028c;
+        public static final int x686=0x7f05028d;
+        public static final int x687=0x7f05028e;
+        public static final int x688=0x7f05028f;
+        public static final int x689=0x7f050290;
+        public static final int x69=0x7f050291;
+        public static final int x690=0x7f050292;
+        public static final int x691=0x7f050293;
+        public static final int x692=0x7f050294;
+        public static final int x693=0x7f050295;
+        public static final int x694=0x7f050296;
+        public static final int x695=0x7f050297;
+        public static final int x696=0x7f050298;
+        public static final int x697=0x7f050299;
+        public static final int x698=0x7f05029a;
+        public static final int x699=0x7f05029b;
+        public static final int x7=0x7f05029c;
+        public static final int x70=0x7f05029d;
+        public static final int x700=0x7f05029e;
+        public static final int x701=0x7f05029f;
+        public static final int x702=0x7f0502a0;
+        public static final int x703=0x7f0502a1;
+        public static final int x704=0x7f0502a2;
+        public static final int x705=0x7f0502a3;
+        public static final int x706=0x7f0502a4;
+        public static final int x707=0x7f0502a5;
+        public static final int x708=0x7f0502a6;
+        public static final int x709=0x7f0502a7;
+        public static final int x71=0x7f0502a8;
+        public static final int x710=0x7f0502a9;
+        public static final int x711=0x7f0502aa;
+        public static final int x712=0x7f0502ab;
+        public static final int x713=0x7f0502ac;
+        public static final int x714=0x7f0502ad;
+        public static final int x715=0x7f0502ae;
+        public static final int x716=0x7f0502af;
+        public static final int x717=0x7f0502b0;
+        public static final int x718=0x7f0502b1;
+        public static final int x719=0x7f0502b2;
+        public static final int x72=0x7f0502b3;
+        public static final int x720=0x7f0502b4;
+        public static final int x73=0x7f0502b5;
+        public static final int x74=0x7f0502b6;
+        public static final int x75=0x7f0502b7;
+        public static final int x76=0x7f0502b8;
+        public static final int x77=0x7f0502b9;
+        public static final int x78=0x7f0502ba;
+        public static final int x79=0x7f0502bb;
+        public static final int x8=0x7f0502bc;
+        public static final int x80=0x7f0502bd;
+        public static final int x81=0x7f0502be;
+        public static final int x82=0x7f0502bf;
+        public static final int x83=0x7f0502c0;
+        public static final int x84=0x7f0502c1;
+        public static final int x85=0x7f0502c2;
+        public static final int x86=0x7f0502c3;
+        public static final int x87=0x7f0502c4;
+        public static final int x88=0x7f0502c5;
+        public static final int x89=0x7f0502c6;
+        public static final int x9=0x7f0502c7;
+        public static final int x90=0x7f0502c8;
+        public static final int x91=0x7f0502c9;
+        public static final int x92=0x7f0502ca;
+        public static final int x93=0x7f0502cb;
+        public static final int x94=0x7f0502cc;
+        public static final int x95=0x7f0502cd;
+        public static final int x96=0x7f0502ce;
+        public static final int x97=0x7f0502cf;
+        public static final int x98=0x7f0502d0;
+        public static final int x99=0x7f0502d1;
+        public static final int y1=0x7f0502d2;
+        public static final int y10=0x7f0502d3;
+        public static final int y100=0x7f0502d4;
+        public static final int y1000=0x7f0502d5;
+        public static final int y1001=0x7f0502d6;
+        public static final int y1002=0x7f0502d7;
+        public static final int y1003=0x7f0502d8;
+        public static final int y1004=0x7f0502d9;
+        public static final int y1005=0x7f0502da;
+        public static final int y1006=0x7f0502db;
+        public static final int y1007=0x7f0502dc;
+        public static final int y1008=0x7f0502dd;
+        public static final int y1009=0x7f0502de;
+        public static final int y101=0x7f0502df;
+        public static final int y1010=0x7f0502e0;
+        public static final int y1011=0x7f0502e1;
+        public static final int y1012=0x7f0502e2;
+        public static final int y1013=0x7f0502e3;
+        public static final int y1014=0x7f0502e4;
+        public static final int y1015=0x7f0502e5;
+        public static final int y1016=0x7f0502e6;
+        public static final int y1017=0x7f0502e7;
+        public static final int y1018=0x7f0502e8;
+        public static final int y1019=0x7f0502e9;
+        public static final int y102=0x7f0502ea;
+        public static final int y1020=0x7f0502eb;
+        public static final int y1021=0x7f0502ec;
+        public static final int y1022=0x7f0502ed;
+        public static final int y1023=0x7f0502ee;
+        public static final int y1024=0x7f0502ef;
+        public static final int y1025=0x7f0502f0;
+        public static final int y1026=0x7f0502f1;
+        public static final int y1027=0x7f0502f2;
+        public static final int y1028=0x7f0502f3;
+        public static final int y1029=0x7f0502f4;
+        public static final int y103=0x7f0502f5;
+        public static final int y1030=0x7f0502f6;
+        public static final int y1031=0x7f0502f7;
+        public static final int y1032=0x7f0502f8;
+        public static final int y1033=0x7f0502f9;
+        public static final int y1034=0x7f0502fa;
+        public static final int y1035=0x7f0502fb;
+        public static final int y1036=0x7f0502fc;
+        public static final int y1037=0x7f0502fd;
+        public static final int y1038=0x7f0502fe;
+        public static final int y1039=0x7f0502ff;
+        public static final int y104=0x7f050300;
+        public static final int y1040=0x7f050301;
+        public static final int y1041=0x7f050302;
+        public static final int y1042=0x7f050303;
+        public static final int y1043=0x7f050304;
+        public static final int y1044=0x7f050305;
+        public static final int y1045=0x7f050306;
+        public static final int y1046=0x7f050307;
+        public static final int y1047=0x7f050308;
+        public static final int y1048=0x7f050309;
+        public static final int y1049=0x7f05030a;
+        public static final int y105=0x7f05030b;
+        public static final int y1050=0x7f05030c;
+        public static final int y1051=0x7f05030d;
+        public static final int y1052=0x7f05030e;
+        public static final int y1053=0x7f05030f;
+        public static final int y1054=0x7f050310;
+        public static final int y1055=0x7f050311;
+        public static final int y1056=0x7f050312;
+        public static final int y1057=0x7f050313;
+        public static final int y1058=0x7f050314;
+        public static final int y1059=0x7f050315;
+        public static final int y106=0x7f050316;
+        public static final int y1060=0x7f050317;
+        public static final int y1061=0x7f050318;
+        public static final int y1062=0x7f050319;
+        public static final int y1063=0x7f05031a;
+        public static final int y1064=0x7f05031b;
+        public static final int y1065=0x7f05031c;
+        public static final int y1066=0x7f05031d;
+        public static final int y1067=0x7f05031e;
+        public static final int y1068=0x7f05031f;
+        public static final int y1069=0x7f050320;
+        public static final int y107=0x7f050321;
+        public static final int y1070=0x7f050322;
+        public static final int y1071=0x7f050323;
+        public static final int y1072=0x7f050324;
+        public static final int y1073=0x7f050325;
+        public static final int y1074=0x7f050326;
+        public static final int y1075=0x7f050327;
+        public static final int y1076=0x7f050328;
+        public static final int y1077=0x7f050329;
+        public static final int y1078=0x7f05032a;
+        public static final int y1079=0x7f05032b;
+        public static final int y108=0x7f05032c;
+        public static final int y1080=0x7f05032d;
+        public static final int y1081=0x7f05032e;
+        public static final int y1082=0x7f05032f;
+        public static final int y1083=0x7f050330;
+        public static final int y1084=0x7f050331;
+        public static final int y1085=0x7f050332;
+        public static final int y1086=0x7f050333;
+        public static final int y1087=0x7f050334;
+        public static final int y1088=0x7f050335;
+        public static final int y1089=0x7f050336;
+        public static final int y109=0x7f050337;
+        public static final int y1090=0x7f050338;
+        public static final int y1091=0x7f050339;
+        public static final int y1092=0x7f05033a;
+        public static final int y1093=0x7f05033b;
+        public static final int y1094=0x7f05033c;
+        public static final int y1095=0x7f05033d;
+        public static final int y1096=0x7f05033e;
+        public static final int y1097=0x7f05033f;
+        public static final int y1098=0x7f050340;
+        public static final int y1099=0x7f050341;
+        public static final int y11=0x7f050342;
+        public static final int y110=0x7f050343;
+        public static final int y1100=0x7f050344;
+        public static final int y1101=0x7f050345;
+        public static final int y1102=0x7f050346;
+        public static final int y1103=0x7f050347;
+        public static final int y1104=0x7f050348;
+        public static final int y1105=0x7f050349;
+        public static final int y1106=0x7f05034a;
+        public static final int y1107=0x7f05034b;
+        public static final int y1108=0x7f05034c;
+        public static final int y1109=0x7f05034d;
+        public static final int y111=0x7f05034e;
+        public static final int y1110=0x7f05034f;
+        public static final int y1111=0x7f050350;
+        public static final int y1112=0x7f050351;
+        public static final int y1113=0x7f050352;
+        public static final int y1114=0x7f050353;
+        public static final int y1115=0x7f050354;
+        public static final int y1116=0x7f050355;
+        public static final int y1117=0x7f050356;
+        public static final int y1118=0x7f050357;
+        public static final int y1119=0x7f050358;
+        public static final int y112=0x7f050359;
+        public static final int y1120=0x7f05035a;
+        public static final int y1121=0x7f05035b;
+        public static final int y1122=0x7f05035c;
+        public static final int y1123=0x7f05035d;
+        public static final int y1124=0x7f05035e;
+        public static final int y1125=0x7f05035f;
+        public static final int y1126=0x7f050360;
+        public static final int y1127=0x7f050361;
+        public static final int y1128=0x7f050362;
+        public static final int y1129=0x7f050363;
+        public static final int y113=0x7f050364;
+        public static final int y1130=0x7f050365;
+        public static final int y1131=0x7f050366;
+        public static final int y1132=0x7f050367;
+        public static final int y1133=0x7f050368;
+        public static final int y1134=0x7f050369;
+        public static final int y1135=0x7f05036a;
+        public static final int y1136=0x7f05036b;
+        public static final int y1137=0x7f05036c;
+        public static final int y1138=0x7f05036d;
+        public static final int y1139=0x7f05036e;
+        public static final int y114=0x7f05036f;
+        public static final int y1140=0x7f050370;
+        public static final int y1141=0x7f050371;
+        public static final int y1142=0x7f050372;
+        public static final int y1143=0x7f050373;
+        public static final int y1144=0x7f050374;
+        public static final int y1145=0x7f050375;
+        public static final int y1146=0x7f050376;
+        public static final int y1147=0x7f050377;
+        public static final int y1148=0x7f050378;
+        public static final int y1149=0x7f050379;
+        public static final int y115=0x7f05037a;
+        public static final int y1150=0x7f05037b;
+        public static final int y1151=0x7f05037c;
+        public static final int y1152=0x7f05037d;
+        public static final int y1153=0x7f05037e;
+        public static final int y1154=0x7f05037f;
+        public static final int y1155=0x7f050380;
+        public static final int y1156=0x7f050381;
+        public static final int y1157=0x7f050382;
+        public static final int y1158=0x7f050383;
+        public static final int y1159=0x7f050384;
+        public static final int y116=0x7f050385;
+        public static final int y1160=0x7f050386;
+        public static final int y1161=0x7f050387;
+        public static final int y1162=0x7f050388;
+        public static final int y1163=0x7f050389;
+        public static final int y1164=0x7f05038a;
+        public static final int y1165=0x7f05038b;
+        public static final int y1166=0x7f05038c;
+        public static final int y1167=0x7f05038d;
+        public static final int y1168=0x7f05038e;
+        public static final int y1169=0x7f05038f;
+        public static final int y117=0x7f050390;
+        public static final int y1170=0x7f050391;
+        public static final int y1171=0x7f050392;
+        public static final int y1172=0x7f050393;
+        public static final int y1173=0x7f050394;
+        public static final int y1174=0x7f050395;
+        public static final int y1175=0x7f050396;
+        public static final int y1176=0x7f050397;
+        public static final int y1177=0x7f050398;
+        public static final int y1178=0x7f050399;
+        public static final int y1179=0x7f05039a;
+        public static final int y118=0x7f05039b;
+        public static final int y1180=0x7f05039c;
+        public static final int y1181=0x7f05039d;
+        public static final int y1182=0x7f05039e;
+        public static final int y1183=0x7f05039f;
+        public static final int y1184=0x7f0503a0;
+        public static final int y1185=0x7f0503a1;
+        public static final int y1186=0x7f0503a2;
+        public static final int y1187=0x7f0503a3;
+        public static final int y1188=0x7f0503a4;
+        public static final int y1189=0x7f0503a5;
+        public static final int y119=0x7f0503a6;
+        public static final int y1190=0x7f0503a7;
+        public static final int y1191=0x7f0503a8;
+        public static final int y1192=0x7f0503a9;
+        public static final int y1193=0x7f0503aa;
+        public static final int y1194=0x7f0503ab;
+        public static final int y1195=0x7f0503ac;
+        public static final int y1196=0x7f0503ad;
+        public static final int y1197=0x7f0503ae;
+        public static final int y1198=0x7f0503af;
+        public static final int y1199=0x7f0503b0;
+        public static final int y12=0x7f0503b1;
+        public static final int y120=0x7f0503b2;
+        public static final int y1200=0x7f0503b3;
+        public static final int y1201=0x7f0503b4;
+        public static final int y1202=0x7f0503b5;
+        public static final int y1203=0x7f0503b6;
+        public static final int y1204=0x7f0503b7;
+        public static final int y1205=0x7f0503b8;
+        public static final int y1206=0x7f0503b9;
+        public static final int y1207=0x7f0503ba;
+        public static final int y1208=0x7f0503bb;
+        public static final int y1209=0x7f0503bc;
+        public static final int y121=0x7f0503bd;
+        public static final int y1210=0x7f0503be;
+        public static final int y1211=0x7f0503bf;
+        public static final int y1212=0x7f0503c0;
+        public static final int y1213=0x7f0503c1;
+        public static final int y1214=0x7f0503c2;
+        public static final int y1215=0x7f0503c3;
+        public static final int y1216=0x7f0503c4;
+        public static final int y1217=0x7f0503c5;
+        public static final int y1218=0x7f0503c6;
+        public static final int y1219=0x7f0503c7;
+        public static final int y122=0x7f0503c8;
+        public static final int y1220=0x7f0503c9;
+        public static final int y1221=0x7f0503ca;
+        public static final int y1222=0x7f0503cb;
+        public static final int y1223=0x7f0503cc;
+        public static final int y1224=0x7f0503cd;
+        public static final int y1225=0x7f0503ce;
+        public static final int y1226=0x7f0503cf;
+        public static final int y1227=0x7f0503d0;
+        public static final int y1228=0x7f0503d1;
+        public static final int y1229=0x7f0503d2;
+        public static final int y123=0x7f0503d3;
+        public static final int y1230=0x7f0503d4;
+        public static final int y1231=0x7f0503d5;
+        public static final int y1232=0x7f0503d6;
+        public static final int y1233=0x7f0503d7;
+        public static final int y1234=0x7f0503d8;
+        public static final int y1235=0x7f0503d9;
+        public static final int y1236=0x7f0503da;
+        public static final int y1237=0x7f0503db;
+        public static final int y1238=0x7f0503dc;
+        public static final int y1239=0x7f0503dd;
+        public static final int y124=0x7f0503de;
+        public static final int y1240=0x7f0503df;
+        public static final int y1241=0x7f0503e0;
+        public static final int y1242=0x7f0503e1;
+        public static final int y1243=0x7f0503e2;
+        public static final int y1244=0x7f0503e3;
+        public static final int y1245=0x7f0503e4;
+        public static final int y1246=0x7f0503e5;
+        public static final int y1247=0x7f0503e6;
+        public static final int y1248=0x7f0503e7;
+        public static final int y1249=0x7f0503e8;
+        public static final int y125=0x7f0503e9;
+        public static final int y1250=0x7f0503ea;
+        public static final int y1251=0x7f0503eb;
+        public static final int y1252=0x7f0503ec;
+        public static final int y1253=0x7f0503ed;
+        public static final int y1254=0x7f0503ee;
+        public static final int y1255=0x7f0503ef;
+        public static final int y1256=0x7f0503f0;
+        public static final int y1257=0x7f0503f1;
+        public static final int y1258=0x7f0503f2;
+        public static final int y1259=0x7f0503f3;
+        public static final int y126=0x7f0503f4;
+        public static final int y1260=0x7f0503f5;
+        public static final int y1261=0x7f0503f6;
+        public static final int y1262=0x7f0503f7;
+        public static final int y1263=0x7f0503f8;
+        public static final int y1264=0x7f0503f9;
+        public static final int y1265=0x7f0503fa;
+        public static final int y1266=0x7f0503fb;
+        public static final int y1267=0x7f0503fc;
+        public static final int y1268=0x7f0503fd;
+        public static final int y1269=0x7f0503fe;
+        public static final int y127=0x7f0503ff;
+        public static final int y1270=0x7f050400;
+        public static final int y1271=0x7f050401;
+        public static final int y1272=0x7f050402;
+        public static final int y1273=0x7f050403;
+        public static final int y1274=0x7f050404;
+        public static final int y1275=0x7f050405;
+        public static final int y1276=0x7f050406;
+        public static final int y1277=0x7f050407;
+        public static final int y1278=0x7f050408;
+        public static final int y1279=0x7f050409;
+        public static final int y128=0x7f05040a;
+        public static final int y1280=0x7f05040b;
+        public static final int y129=0x7f05040c;
+        public static final int y13=0x7f05040d;
+        public static final int y130=0x7f05040e;
+        public static final int y131=0x7f05040f;
+        public static final int y132=0x7f050410;
+        public static final int y133=0x7f050411;
+        public static final int y134=0x7f050412;
+        public static final int y135=0x7f050413;
+        public static final int y136=0x7f050414;
+        public static final int y137=0x7f050415;
+        public static final int y138=0x7f050416;
+        public static final int y139=0x7f050417;
+        public static final int y14=0x7f050418;
+        public static final int y140=0x7f050419;
+        public static final int y141=0x7f05041a;
+        public static final int y142=0x7f05041b;
+        public static final int y143=0x7f05041c;
+        public static final int y144=0x7f05041d;
+        public static final int y145=0x7f05041e;
+        public static final int y146=0x7f05041f;
+        public static final int y147=0x7f050420;
+        public static final int y148=0x7f050421;
+        public static final int y149=0x7f050422;
+        public static final int y15=0x7f050423;
+        public static final int y150=0x7f050424;
+        public static final int y151=0x7f050425;
+        public static final int y152=0x7f050426;
+        public static final int y153=0x7f050427;
+        public static final int y154=0x7f050428;
+        public static final int y155=0x7f050429;
+        public static final int y156=0x7f05042a;
+        public static final int y157=0x7f05042b;
+        public static final int y158=0x7f05042c;
+        public static final int y159=0x7f05042d;
+        public static final int y16=0x7f05042e;
+        public static final int y160=0x7f05042f;
+        public static final int y161=0x7f050430;
+        public static final int y162=0x7f050431;
+        public static final int y163=0x7f050432;
+        public static final int y164=0x7f050433;
+        public static final int y165=0x7f050434;
+        public static final int y166=0x7f050435;
+        public static final int y167=0x7f050436;
+        public static final int y168=0x7f050437;
+        public static final int y169=0x7f050438;
+        public static final int y17=0x7f050439;
+        public static final int y170=0x7f05043a;
+        public static final int y171=0x7f05043b;
+        public static final int y172=0x7f05043c;
+        public static final int y173=0x7f05043d;
+        public static final int y174=0x7f05043e;
+        public static final int y175=0x7f05043f;
+        public static final int y176=0x7f050440;
+        public static final int y177=0x7f050441;
+        public static final int y178=0x7f050442;
+        public static final int y179=0x7f050443;
+        public static final int y18=0x7f050444;
+        public static final int y180=0x7f050445;
+        public static final int y181=0x7f050446;
+        public static final int y182=0x7f050447;
+        public static final int y183=0x7f050448;
+        public static final int y184=0x7f050449;
+        public static final int y185=0x7f05044a;
+        public static final int y186=0x7f05044b;
+        public static final int y187=0x7f05044c;
+        public static final int y188=0x7f05044d;
+        public static final int y189=0x7f05044e;
+        public static final int y19=0x7f05044f;
+        public static final int y190=0x7f050450;
+        public static final int y191=0x7f050451;
+        public static final int y192=0x7f050452;
+        public static final int y193=0x7f050453;
+        public static final int y194=0x7f050454;
+        public static final int y195=0x7f050455;
+        public static final int y196=0x7f050456;
+        public static final int y197=0x7f050457;
+        public static final int y198=0x7f050458;
+        public static final int y199=0x7f050459;
+        public static final int y2=0x7f05045a;
+        public static final int y20=0x7f05045b;
+        public static final int y200=0x7f05045c;
+        public static final int y201=0x7f05045d;
+        public static final int y202=0x7f05045e;
+        public static final int y203=0x7f05045f;
+        public static final int y204=0x7f050460;
+        public static final int y205=0x7f050461;
+        public static final int y206=0x7f050462;
+        public static final int y207=0x7f050463;
+        public static final int y208=0x7f050464;
+        public static final int y209=0x7f050465;
+        public static final int y21=0x7f050466;
+        public static final int y210=0x7f050467;
+        public static final int y211=0x7f050468;
+        public static final int y212=0x7f050469;
+        public static final int y213=0x7f05046a;
+        public static final int y214=0x7f05046b;
+        public static final int y215=0x7f05046c;
+        public static final int y216=0x7f05046d;
+        public static final int y217=0x7f05046e;
+        public static final int y218=0x7f05046f;
+        public static final int y219=0x7f050470;
+        public static final int y22=0x7f050471;
+        public static final int y220=0x7f050472;
+        public static final int y221=0x7f050473;
+        public static final int y222=0x7f050474;
+        public static final int y223=0x7f050475;
+        public static final int y224=0x7f050476;
+        public static final int y225=0x7f050477;
+        public static final int y226=0x7f050478;
+        public static final int y227=0x7f050479;
+        public static final int y228=0x7f05047a;
+        public static final int y229=0x7f05047b;
+        public static final int y23=0x7f05047c;
+        public static final int y230=0x7f05047d;
+        public static final int y231=0x7f05047e;
+        public static final int y232=0x7f05047f;
+        public static final int y233=0x7f050480;
+        public static final int y234=0x7f050481;
+        public static final int y235=0x7f050482;
+        public static final int y236=0x7f050483;
+        public static final int y237=0x7f050484;
+        public static final int y238=0x7f050485;
+        public static final int y239=0x7f050486;
+        public static final int y24=0x7f050487;
+        public static final int y240=0x7f050488;
+        public static final int y241=0x7f050489;
+        public static final int y242=0x7f05048a;
+        public static final int y243=0x7f05048b;
+        public static final int y244=0x7f05048c;
+        public static final int y245=0x7f05048d;
+        public static final int y246=0x7f05048e;
+        public static final int y247=0x7f05048f;
+        public static final int y248=0x7f050490;
+        public static final int y249=0x7f050491;
+        public static final int y25=0x7f050492;
+        public static final int y250=0x7f050493;
+        public static final int y251=0x7f050494;
+        public static final int y252=0x7f050495;
+        public static final int y253=0x7f050496;
+        public static final int y254=0x7f050497;
+        public static final int y255=0x7f050498;
+        public static final int y256=0x7f050499;
+        public static final int y257=0x7f05049a;
+        public static final int y258=0x7f05049b;
+        public static final int y259=0x7f05049c;
+        public static final int y26=0x7f05049d;
+        public static final int y260=0x7f05049e;
+        public static final int y261=0x7f05049f;
+        public static final int y262=0x7f0504a0;
+        public static final int y263=0x7f0504a1;
+        public static final int y264=0x7f0504a2;
+        public static final int y265=0x7f0504a3;
+        public static final int y266=0x7f0504a4;
+        public static final int y267=0x7f0504a5;
+        public static final int y268=0x7f0504a6;
+        public static final int y269=0x7f0504a7;
+        public static final int y27=0x7f0504a8;
+        public static final int y270=0x7f0504a9;
+        public static final int y271=0x7f0504aa;
+        public static final int y272=0x7f0504ab;
+        public static final int y273=0x7f0504ac;
+        public static final int y274=0x7f0504ad;
+        public static final int y275=0x7f0504ae;
+        public static final int y276=0x7f0504af;
+        public static final int y277=0x7f0504b0;
+        public static final int y278=0x7f0504b1;
+        public static final int y279=0x7f0504b2;
+        public static final int y28=0x7f0504b3;
+        public static final int y280=0x7f0504b4;
+        public static final int y281=0x7f0504b5;
+        public static final int y282=0x7f0504b6;
+        public static final int y283=0x7f0504b7;
+        public static final int y284=0x7f0504b8;
+        public static final int y285=0x7f0504b9;
+        public static final int y286=0x7f0504ba;
+        public static final int y287=0x7f0504bb;
+        public static final int y288=0x7f0504bc;
+        public static final int y289=0x7f0504bd;
+        public static final int y29=0x7f0504be;
+        public static final int y290=0x7f0504bf;
+        public static final int y291=0x7f0504c0;
+        public static final int y292=0x7f0504c1;
+        public static final int y293=0x7f0504c2;
+        public static final int y294=0x7f0504c3;
+        public static final int y295=0x7f0504c4;
+        public static final int y296=0x7f0504c5;
+        public static final int y297=0x7f0504c6;
+        public static final int y298=0x7f0504c7;
+        public static final int y299=0x7f0504c8;
+        public static final int y3=0x7f0504c9;
+        public static final int y30=0x7f0504ca;
+        public static final int y300=0x7f0504cb;
+        public static final int y301=0x7f0504cc;
+        public static final int y302=0x7f0504cd;
+        public static final int y303=0x7f0504ce;
+        public static final int y304=0x7f0504cf;
+        public static final int y305=0x7f0504d0;
+        public static final int y306=0x7f0504d1;
+        public static final int y307=0x7f0504d2;
+        public static final int y308=0x7f0504d3;
+        public static final int y309=0x7f0504d4;
+        public static final int y31=0x7f0504d5;
+        public static final int y310=0x7f0504d6;
+        public static final int y311=0x7f0504d7;
+        public static final int y312=0x7f0504d8;
+        public static final int y313=0x7f0504d9;
+        public static final int y314=0x7f0504da;
+        public static final int y315=0x7f0504db;
+        public static final int y316=0x7f0504dc;
+        public static final int y317=0x7f0504dd;
+        public static final int y318=0x7f0504de;
+        public static final int y319=0x7f0504df;
+        public static final int y32=0x7f0504e0;
+        public static final int y320=0x7f0504e1;
+        public static final int y321=0x7f0504e2;
+        public static final int y322=0x7f0504e3;
+        public static final int y323=0x7f0504e4;
+        public static final int y324=0x7f0504e5;
+        public static final int y325=0x7f0504e6;
+        public static final int y326=0x7f0504e7;
+        public static final int y327=0x7f0504e8;
+        public static final int y328=0x7f0504e9;
+        public static final int y329=0x7f0504ea;
+        public static final int y33=0x7f0504eb;
+        public static final int y330=0x7f0504ec;
+        public static final int y331=0x7f0504ed;
+        public static final int y332=0x7f0504ee;
+        public static final int y333=0x7f0504ef;
+        public static final int y334=0x7f0504f0;
+        public static final int y335=0x7f0504f1;
+        public static final int y336=0x7f0504f2;
+        public static final int y337=0x7f0504f3;
+        public static final int y338=0x7f0504f4;
+        public static final int y339=0x7f0504f5;
+        public static final int y34=0x7f0504f6;
+        public static final int y340=0x7f0504f7;
+        public static final int y341=0x7f0504f8;
+        public static final int y342=0x7f0504f9;
+        public static final int y343=0x7f0504fa;
+        public static final int y344=0x7f0504fb;
+        public static final int y345=0x7f0504fc;
+        public static final int y346=0x7f0504fd;
+        public static final int y347=0x7f0504fe;
+        public static final int y348=0x7f0504ff;
+        public static final int y349=0x7f050500;
+        public static final int y35=0x7f050501;
+        public static final int y350=0x7f050502;
+        public static final int y351=0x7f050503;
+        public static final int y352=0x7f050504;
+        public static final int y353=0x7f050505;
+        public static final int y354=0x7f050506;
+        public static final int y355=0x7f050507;
+        public static final int y356=0x7f050508;
+        public static final int y357=0x7f050509;
+        public static final int y358=0x7f05050a;
+        public static final int y359=0x7f05050b;
+        public static final int y36=0x7f05050c;
+        public static final int y360=0x7f05050d;
+        public static final int y361=0x7f05050e;
+        public static final int y362=0x7f05050f;
+        public static final int y363=0x7f050510;
+        public static final int y364=0x7f050511;
+        public static final int y365=0x7f050512;
+        public static final int y366=0x7f050513;
+        public static final int y367=0x7f050514;
+        public static final int y368=0x7f050515;
+        public static final int y369=0x7f050516;
+        public static final int y37=0x7f050517;
+        public static final int y370=0x7f050518;
+        public static final int y371=0x7f050519;
+        public static final int y372=0x7f05051a;
+        public static final int y373=0x7f05051b;
+        public static final int y374=0x7f05051c;
+        public static final int y375=0x7f05051d;
+        public static final int y376=0x7f05051e;
+        public static final int y377=0x7f05051f;
+        public static final int y378=0x7f050520;
+        public static final int y379=0x7f050521;
+        public static final int y38=0x7f050522;
+        public static final int y380=0x7f050523;
+        public static final int y381=0x7f050524;
+        public static final int y382=0x7f050525;
+        public static final int y383=0x7f050526;
+        public static final int y384=0x7f050527;
+        public static final int y385=0x7f050528;
+        public static final int y386=0x7f050529;
+        public static final int y387=0x7f05052a;
+        public static final int y388=0x7f05052b;
+        public static final int y389=0x7f05052c;
+        public static final int y39=0x7f05052d;
+        public static final int y390=0x7f05052e;
+        public static final int y391=0x7f05052f;
+        public static final int y392=0x7f050530;
+        public static final int y393=0x7f050531;
+        public static final int y394=0x7f050532;
+        public static final int y395=0x7f050533;
+        public static final int y396=0x7f050534;
+        public static final int y397=0x7f050535;
+        public static final int y398=0x7f050536;
+        public static final int y399=0x7f050537;
+        public static final int y4=0x7f050538;
+        public static final int y40=0x7f050539;
+        public static final int y400=0x7f05053a;
+        public static final int y401=0x7f05053b;
+        public static final int y402=0x7f05053c;
+        public static final int y403=0x7f05053d;
+        public static final int y404=0x7f05053e;
+        public static final int y405=0x7f05053f;
+        public static final int y406=0x7f050540;
+        public static final int y407=0x7f050541;
+        public static final int y408=0x7f050542;
+        public static final int y409=0x7f050543;
+        public static final int y41=0x7f050544;
+        public static final int y410=0x7f050545;
+        public static final int y411=0x7f050546;
+        public static final int y412=0x7f050547;
+        public static final int y413=0x7f050548;
+        public static final int y414=0x7f050549;
+        public static final int y415=0x7f05054a;
+        public static final int y416=0x7f05054b;
+        public static final int y417=0x7f05054c;
+        public static final int y418=0x7f05054d;
+        public static final int y419=0x7f05054e;
+        public static final int y42=0x7f05054f;
+        public static final int y420=0x7f050550;
+        public static final int y421=0x7f050551;
+        public static final int y422=0x7f050552;
+        public static final int y423=0x7f050553;
+        public static final int y424=0x7f050554;
+        public static final int y425=0x7f050555;
+        public static final int y426=0x7f050556;
+        public static final int y427=0x7f050557;
+        public static final int y428=0x7f050558;
+        public static final int y429=0x7f050559;
+        public static final int y43=0x7f05055a;
+        public static final int y430=0x7f05055b;
+        public static final int y431=0x7f05055c;
+        public static final int y432=0x7f05055d;
+        public static final int y433=0x7f05055e;
+        public static final int y434=0x7f05055f;
+        public static final int y435=0x7f050560;
+        public static final int y436=0x7f050561;
+        public static final int y437=0x7f050562;
+        public static final int y438=0x7f050563;
+        public static final int y439=0x7f050564;
+        public static final int y44=0x7f050565;
+        public static final int y440=0x7f050566;
+        public static final int y441=0x7f050567;
+        public static final int y442=0x7f050568;
+        public static final int y443=0x7f050569;
+        public static final int y444=0x7f05056a;
+        public static final int y445=0x7f05056b;
+        public static final int y446=0x7f05056c;
+        public static final int y447=0x7f05056d;
+        public static final int y448=0x7f05056e;
+        public static final int y449=0x7f05056f;
+        public static final int y45=0x7f050570;
+        public static final int y450=0x7f050571;
+        public static final int y451=0x7f050572;
+        public static final int y452=0x7f050573;
+        public static final int y453=0x7f050574;
+        public static final int y454=0x7f050575;
+        public static final int y455=0x7f050576;
+        public static final int y456=0x7f050577;
+        public static final int y457=0x7f050578;
+        public static final int y458=0x7f050579;
+        public static final int y459=0x7f05057a;
+        public static final int y46=0x7f05057b;
+        public static final int y460=0x7f05057c;
+        public static final int y461=0x7f05057d;
+        public static final int y462=0x7f05057e;
+        public static final int y463=0x7f05057f;
+        public static final int y464=0x7f050580;
+        public static final int y465=0x7f050581;
+        public static final int y466=0x7f050582;
+        public static final int y467=0x7f050583;
+        public static final int y468=0x7f050584;
+        public static final int y469=0x7f050585;
+        public static final int y47=0x7f050586;
+        public static final int y470=0x7f050587;
+        public static final int y471=0x7f050588;
+        public static final int y472=0x7f050589;
+        public static final int y473=0x7f05058a;
+        public static final int y474=0x7f05058b;
+        public static final int y475=0x7f05058c;
+        public static final int y476=0x7f05058d;
+        public static final int y477=0x7f05058e;
+        public static final int y478=0x7f05058f;
+        public static final int y479=0x7f050590;
+        public static final int y48=0x7f050591;
+        public static final int y480=0x7f050592;
+        public static final int y481=0x7f050593;
+        public static final int y482=0x7f050594;
+        public static final int y483=0x7f050595;
+        public static final int y484=0x7f050596;
+        public static final int y485=0x7f050597;
+        public static final int y486=0x7f050598;
+        public static final int y487=0x7f050599;
+        public static final int y488=0x7f05059a;
+        public static final int y489=0x7f05059b;
+        public static final int y49=0x7f05059c;
+        public static final int y490=0x7f05059d;
+        public static final int y491=0x7f05059e;
+        public static final int y492=0x7f05059f;
+        public static final int y493=0x7f0505a0;
+        public static final int y494=0x7f0505a1;
+        public static final int y495=0x7f0505a2;
+        public static final int y496=0x7f0505a3;
+        public static final int y497=0x7f0505a4;
+        public static final int y498=0x7f0505a5;
+        public static final int y499=0x7f0505a6;
+        public static final int y5=0x7f0505a7;
+        public static final int y50=0x7f0505a8;
+        public static final int y500=0x7f0505a9;
+        public static final int y501=0x7f0505aa;
+        public static final int y502=0x7f0505ab;
+        public static final int y503=0x7f0505ac;
+        public static final int y504=0x7f0505ad;
+        public static final int y505=0x7f0505ae;
+        public static final int y506=0x7f0505af;
+        public static final int y507=0x7f0505b0;
+        public static final int y508=0x7f0505b1;
+        public static final int y509=0x7f0505b2;
+        public static final int y51=0x7f0505b3;
+        public static final int y510=0x7f0505b4;
+        public static final int y511=0x7f0505b5;
+        public static final int y512=0x7f0505b6;
+        public static final int y513=0x7f0505b7;
+        public static final int y514=0x7f0505b8;
+        public static final int y515=0x7f0505b9;
+        public static final int y516=0x7f0505ba;
+        public static final int y517=0x7f0505bb;
+        public static final int y518=0x7f0505bc;
+        public static final int y519=0x7f0505bd;
+        public static final int y52=0x7f0505be;
+        public static final int y520=0x7f0505bf;
+        public static final int y521=0x7f0505c0;
+        public static final int y522=0x7f0505c1;
+        public static final int y523=0x7f0505c2;
+        public static final int y524=0x7f0505c3;
+        public static final int y525=0x7f0505c4;
+        public static final int y526=0x7f0505c5;
+        public static final int y527=0x7f0505c6;
+        public static final int y528=0x7f0505c7;
+        public static final int y529=0x7f0505c8;
+        public static final int y53=0x7f0505c9;
+        public static final int y530=0x7f0505ca;
+        public static final int y531=0x7f0505cb;
+        public static final int y532=0x7f0505cc;
+        public static final int y533=0x7f0505cd;
+        public static final int y534=0x7f0505ce;
+        public static final int y535=0x7f0505cf;
+        public static final int y536=0x7f0505d0;
+        public static final int y537=0x7f0505d1;
+        public static final int y538=0x7f0505d2;
+        public static final int y539=0x7f0505d3;
+        public static final int y54=0x7f0505d4;
+        public static final int y540=0x7f0505d5;
+        public static final int y541=0x7f0505d6;
+        public static final int y542=0x7f0505d7;
+        public static final int y543=0x7f0505d8;
+        public static final int y544=0x7f0505d9;
+        public static final int y545=0x7f0505da;
+        public static final int y546=0x7f0505db;
+        public static final int y547=0x7f0505dc;
+        public static final int y548=0x7f0505dd;
+        public static final int y549=0x7f0505de;
+        public static final int y55=0x7f0505df;
+        public static final int y550=0x7f0505e0;
+        public static final int y551=0x7f0505e1;
+        public static final int y552=0x7f0505e2;
+        public static final int y553=0x7f0505e3;
+        public static final int y554=0x7f0505e4;
+        public static final int y555=0x7f0505e5;
+        public static final int y556=0x7f0505e6;
+        public static final int y557=0x7f0505e7;
+        public static final int y558=0x7f0505e8;
+        public static final int y559=0x7f0505e9;
+        public static final int y56=0x7f0505ea;
+        public static final int y560=0x7f0505eb;
+        public static final int y561=0x7f0505ec;
+        public static final int y562=0x7f0505ed;
+        public static final int y563=0x7f0505ee;
+        public static final int y564=0x7f0505ef;
+        public static final int y565=0x7f0505f0;
+        public static final int y566=0x7f0505f1;
+        public static final int y567=0x7f0505f2;
+        public static final int y568=0x7f0505f3;
+        public static final int y569=0x7f0505f4;
+        public static final int y57=0x7f0505f5;
+        public static final int y570=0x7f0505f6;
+        public static final int y571=0x7f0505f7;
+        public static final int y572=0x7f0505f8;
+        public static final int y573=0x7f0505f9;
+        public static final int y574=0x7f0505fa;
+        public static final int y575=0x7f0505fb;
+        public static final int y576=0x7f0505fc;
+        public static final int y577=0x7f0505fd;
+        public static final int y578=0x7f0505fe;
+        public static final int y579=0x7f0505ff;
+        public static final int y58=0x7f050600;
+        public static final int y580=0x7f050601;
+        public static final int y581=0x7f050602;
+        public static final int y582=0x7f050603;
+        public static final int y583=0x7f050604;
+        public static final int y584=0x7f050605;
+        public static final int y585=0x7f050606;
+        public static final int y586=0x7f050607;
+        public static final int y587=0x7f050608;
+        public static final int y588=0x7f050609;
+        public static final int y589=0x7f05060a;
+        public static final int y59=0x7f05060b;
+        public static final int y590=0x7f05060c;
+        public static final int y591=0x7f05060d;
+        public static final int y592=0x7f05060e;
+        public static final int y593=0x7f05060f;
+        public static final int y594=0x7f050610;
+        public static final int y595=0x7f050611;
+        public static final int y596=0x7f050612;
+        public static final int y597=0x7f050613;
+        public static final int y598=0x7f050614;
+        public static final int y599=0x7f050615;
+        public static final int y6=0x7f050616;
+        public static final int y60=0x7f050617;
+        public static final int y600=0x7f050618;
+        public static final int y601=0x7f050619;
+        public static final int y602=0x7f05061a;
+        public static final int y603=0x7f05061b;
+        public static final int y604=0x7f05061c;
+        public static final int y605=0x7f05061d;
+        public static final int y606=0x7f05061e;
+        public static final int y607=0x7f05061f;
+        public static final int y608=0x7f050620;
+        public static final int y609=0x7f050621;
+        public static final int y61=0x7f050622;
+        public static final int y610=0x7f050623;
+        public static final int y611=0x7f050624;
+        public static final int y612=0x7f050625;
+        public static final int y613=0x7f050626;
+        public static final int y614=0x7f050627;
+        public static final int y615=0x7f050628;
+        public static final int y616=0x7f050629;
+        public static final int y617=0x7f05062a;
+        public static final int y618=0x7f05062b;
+        public static final int y619=0x7f05062c;
+        public static final int y62=0x7f05062d;
+        public static final int y620=0x7f05062e;
+        public static final int y621=0x7f05062f;
+        public static final int y622=0x7f050630;
+        public static final int y623=0x7f050631;
+        public static final int y624=0x7f050632;
+        public static final int y625=0x7f050633;
+        public static final int y626=0x7f050634;
+        public static final int y627=0x7f050635;
+        public static final int y628=0x7f050636;
+        public static final int y629=0x7f050637;
+        public static final int y63=0x7f050638;
+        public static final int y630=0x7f050639;
+        public static final int y631=0x7f05063a;
+        public static final int y632=0x7f05063b;
+        public static final int y633=0x7f05063c;
+        public static final int y634=0x7f05063d;
+        public static final int y635=0x7f05063e;
+        public static final int y636=0x7f05063f;
+        public static final int y637=0x7f050640;
+        public static final int y638=0x7f050641;
+        public static final int y639=0x7f050642;
+        public static final int y64=0x7f050643;
+        public static final int y640=0x7f050644;
+        public static final int y641=0x7f050645;
+        public static final int y642=0x7f050646;
+        public static final int y643=0x7f050647;
+        public static final int y644=0x7f050648;
+        public static final int y645=0x7f050649;
+        public static final int y646=0x7f05064a;
+        public static final int y647=0x7f05064b;
+        public static final int y648=0x7f05064c;
+        public static final int y649=0x7f05064d;
+        public static final int y65=0x7f05064e;
+        public static final int y650=0x7f05064f;
+        public static final int y651=0x7f050650;
+        public static final int y652=0x7f050651;
+        public static final int y653=0x7f050652;
+        public static final int y654=0x7f050653;
+        public static final int y655=0x7f050654;
+        public static final int y656=0x7f050655;
+        public static final int y657=0x7f050656;
+        public static final int y658=0x7f050657;
+        public static final int y659=0x7f050658;
+        public static final int y66=0x7f050659;
+        public static final int y660=0x7f05065a;
+        public static final int y661=0x7f05065b;
+        public static final int y662=0x7f05065c;
+        public static final int y663=0x7f05065d;
+        public static final int y664=0x7f05065e;
+        public static final int y665=0x7f05065f;
+        public static final int y666=0x7f050660;
+        public static final int y667=0x7f050661;
+        public static final int y668=0x7f050662;
+        public static final int y669=0x7f050663;
+        public static final int y67=0x7f050664;
+        public static final int y670=0x7f050665;
+        public static final int y671=0x7f050666;
+        public static final int y672=0x7f050667;
+        public static final int y673=0x7f050668;
+        public static final int y674=0x7f050669;
+        public static final int y675=0x7f05066a;
+        public static final int y676=0x7f05066b;
+        public static final int y677=0x7f05066c;
+        public static final int y678=0x7f05066d;
+        public static final int y679=0x7f05066e;
+        public static final int y68=0x7f05066f;
+        public static final int y680=0x7f050670;
+        public static final int y681=0x7f050671;
+        public static final int y682=0x7f050672;
+        public static final int y683=0x7f050673;
+        public static final int y684=0x7f050674;
+        public static final int y685=0x7f050675;
+        public static final int y686=0x7f050676;
+        public static final int y687=0x7f050677;
+        public static final int y688=0x7f050678;
+        public static final int y689=0x7f050679;
+        public static final int y69=0x7f05067a;
+        public static final int y690=0x7f05067b;
+        public static final int y691=0x7f05067c;
+        public static final int y692=0x7f05067d;
+        public static final int y693=0x7f05067e;
+        public static final int y694=0x7f05067f;
+        public static final int y695=0x7f050680;
+        public static final int y696=0x7f050681;
+        public static final int y697=0x7f050682;
+        public static final int y698=0x7f050683;
+        public static final int y699=0x7f050684;
+        public static final int y7=0x7f050685;
+        public static final int y70=0x7f050686;
+        public static final int y700=0x7f050687;
+        public static final int y701=0x7f050688;
+        public static final int y702=0x7f050689;
+        public static final int y703=0x7f05068a;
+        public static final int y704=0x7f05068b;
+        public static final int y705=0x7f05068c;
+        public static final int y706=0x7f05068d;
+        public static final int y707=0x7f05068e;
+        public static final int y708=0x7f05068f;
+        public static final int y709=0x7f050690;
+        public static final int y71=0x7f050691;
+        public static final int y710=0x7f050692;
+        public static final int y711=0x7f050693;
+        public static final int y712=0x7f050694;
+        public static final int y713=0x7f050695;
+        public static final int y714=0x7f050696;
+        public static final int y715=0x7f050697;
+        public static final int y716=0x7f050698;
+        public static final int y717=0x7f050699;
+        public static final int y718=0x7f05069a;
+        public static final int y719=0x7f05069b;
+        public static final int y72=0x7f05069c;
+        public static final int y720=0x7f05069d;
+        public static final int y721=0x7f05069e;
+        public static final int y722=0x7f05069f;
+        public static final int y723=0x7f0506a0;
+        public static final int y724=0x7f0506a1;
+        public static final int y725=0x7f0506a2;
+        public static final int y726=0x7f0506a3;
+        public static final int y727=0x7f0506a4;
+        public static final int y728=0x7f0506a5;
+        public static final int y729=0x7f0506a6;
+        public static final int y73=0x7f0506a7;
+        public static final int y730=0x7f0506a8;
+        public static final int y731=0x7f0506a9;
+        public static final int y732=0x7f0506aa;
+        public static final int y733=0x7f0506ab;
+        public static final int y734=0x7f0506ac;
+        public static final int y735=0x7f0506ad;
+        public static final int y736=0x7f0506ae;
+        public static final int y737=0x7f0506af;
+        public static final int y738=0x7f0506b0;
+        public static final int y739=0x7f0506b1;
+        public static final int y74=0x7f0506b2;
+        public static final int y740=0x7f0506b3;
+        public static final int y741=0x7f0506b4;
+        public static final int y742=0x7f0506b5;
+        public static final int y743=0x7f0506b6;
+        public static final int y744=0x7f0506b7;
+        public static final int y745=0x7f0506b8;
+        public static final int y746=0x7f0506b9;
+        public static final int y747=0x7f0506ba;
+        public static final int y748=0x7f0506bb;
+        public static final int y749=0x7f0506bc;
+        public static final int y75=0x7f0506bd;
+        public static final int y750=0x7f0506be;
+        public static final int y751=0x7f0506bf;
+        public static final int y752=0x7f0506c0;
+        public static final int y753=0x7f0506c1;
+        public static final int y754=0x7f0506c2;
+        public static final int y755=0x7f0506c3;
+        public static final int y756=0x7f0506c4;
+        public static final int y757=0x7f0506c5;
+        public static final int y758=0x7f0506c6;
+        public static final int y759=0x7f0506c7;
+        public static final int y76=0x7f0506c8;
+        public static final int y760=0x7f0506c9;
+        public static final int y761=0x7f0506ca;
+        public static final int y762=0x7f0506cb;
+        public static final int y763=0x7f0506cc;
+        public static final int y764=0x7f0506cd;
+        public static final int y765=0x7f0506ce;
+        public static final int y766=0x7f0506cf;
+        public static final int y767=0x7f0506d0;
+        public static final int y768=0x7f0506d1;
+        public static final int y769=0x7f0506d2;
+        public static final int y77=0x7f0506d3;
+        public static final int y770=0x7f0506d4;
+        public static final int y771=0x7f0506d5;
+        public static final int y772=0x7f0506d6;
+        public static final int y773=0x7f0506d7;
+        public static final int y774=0x7f0506d8;
+        public static final int y775=0x7f0506d9;
+        public static final int y776=0x7f0506da;
+        public static final int y777=0x7f0506db;
+        public static final int y778=0x7f0506dc;
+        public static final int y779=0x7f0506dd;
+        public static final int y78=0x7f0506de;
+        public static final int y780=0x7f0506df;
+        public static final int y781=0x7f0506e0;
+        public static final int y782=0x7f0506e1;
+        public static final int y783=0x7f0506e2;
+        public static final int y784=0x7f0506e3;
+        public static final int y785=0x7f0506e4;
+        public static final int y786=0x7f0506e5;
+        public static final int y787=0x7f0506e6;
+        public static final int y788=0x7f0506e7;
+        public static final int y789=0x7f0506e8;
+        public static final int y79=0x7f0506e9;
+        public static final int y790=0x7f0506ea;
+        public static final int y791=0x7f0506eb;
+        public static final int y792=0x7f0506ec;
+        public static final int y793=0x7f0506ed;
+        public static final int y794=0x7f0506ee;
+        public static final int y795=0x7f0506ef;
+        public static final int y796=0x7f0506f0;
+        public static final int y797=0x7f0506f1;
+        public static final int y798=0x7f0506f2;
+        public static final int y799=0x7f0506f3;
+        public static final int y8=0x7f0506f4;
+        public static final int y80=0x7f0506f5;
+        public static final int y800=0x7f0506f6;
+        public static final int y801=0x7f0506f7;
+        public static final int y802=0x7f0506f8;
+        public static final int y803=0x7f0506f9;
+        public static final int y804=0x7f0506fa;
+        public static final int y805=0x7f0506fb;
+        public static final int y806=0x7f0506fc;
+        public static final int y807=0x7f0506fd;
+        public static final int y808=0x7f0506fe;
+        public static final int y809=0x7f0506ff;
+        public static final int y81=0x7f050700;
+        public static final int y810=0x7f050701;
+        public static final int y811=0x7f050702;
+        public static final int y812=0x7f050703;
+        public static final int y813=0x7f050704;
+        public static final int y814=0x7f050705;
+        public static final int y815=0x7f050706;
+        public static final int y816=0x7f050707;
+        public static final int y817=0x7f050708;
+        public static final int y818=0x7f050709;
+        public static final int y819=0x7f05070a;
+        public static final int y82=0x7f05070b;
+        public static final int y820=0x7f05070c;
+        public static final int y821=0x7f05070d;
+        public static final int y822=0x7f05070e;
+        public static final int y823=0x7f05070f;
+        public static final int y824=0x7f050710;
+        public static final int y825=0x7f050711;
+        public static final int y826=0x7f050712;
+        public static final int y827=0x7f050713;
+        public static final int y828=0x7f050714;
+        public static final int y829=0x7f050715;
+        public static final int y83=0x7f050716;
+        public static final int y830=0x7f050717;
+        public static final int y831=0x7f050718;
+        public static final int y832=0x7f050719;
+        public static final int y833=0x7f05071a;
+        public static final int y834=0x7f05071b;
+        public static final int y835=0x7f05071c;
+        public static final int y836=0x7f05071d;
+        public static final int y837=0x7f05071e;
+        public static final int y838=0x7f05071f;
+        public static final int y839=0x7f050720;
+        public static final int y84=0x7f050721;
+        public static final int y840=0x7f050722;
+        public static final int y841=0x7f050723;
+        public static final int y842=0x7f050724;
+        public static final int y843=0x7f050725;
+        public static final int y844=0x7f050726;
+        public static final int y845=0x7f050727;
+        public static final int y846=0x7f050728;
+        public static final int y847=0x7f050729;
+        public static final int y848=0x7f05072a;
+        public static final int y849=0x7f05072b;
+        public static final int y85=0x7f05072c;
+        public static final int y850=0x7f05072d;
+        public static final int y851=0x7f05072e;
+        public static final int y852=0x7f05072f;
+        public static final int y853=0x7f050730;
+        public static final int y854=0x7f050731;
+        public static final int y855=0x7f050732;
+        public static final int y856=0x7f050733;
+        public static final int y857=0x7f050734;
+        public static final int y858=0x7f050735;
+        public static final int y859=0x7f050736;
+        public static final int y86=0x7f050737;
+        public static final int y860=0x7f050738;
+        public static final int y861=0x7f050739;
+        public static final int y862=0x7f05073a;
+        public static final int y863=0x7f05073b;
+        public static final int y864=0x7f05073c;
+        public static final int y865=0x7f05073d;
+        public static final int y866=0x7f05073e;
+        public static final int y867=0x7f05073f;
+        public static final int y868=0x7f050740;
+        public static final int y869=0x7f050741;
+        public static final int y87=0x7f050742;
+        public static final int y870=0x7f050743;
+        public static final int y871=0x7f050744;
+        public static final int y872=0x7f050745;
+        public static final int y873=0x7f050746;
+        public static final int y874=0x7f050747;
+        public static final int y875=0x7f050748;
+        public static final int y876=0x7f050749;
+        public static final int y877=0x7f05074a;
+        public static final int y878=0x7f05074b;
+        public static final int y879=0x7f05074c;
+        public static final int y88=0x7f05074d;
+        public static final int y880=0x7f05074e;
+        public static final int y881=0x7f05074f;
+        public static final int y882=0x7f050750;
+        public static final int y883=0x7f050751;
+        public static final int y884=0x7f050752;
+        public static final int y885=0x7f050753;
+        public static final int y886=0x7f050754;
+        public static final int y887=0x7f050755;
+        public static final int y888=0x7f050756;
+        public static final int y889=0x7f050757;
+        public static final int y89=0x7f050758;
+        public static final int y890=0x7f050759;
+        public static final int y891=0x7f05075a;
+        public static final int y892=0x7f05075b;
+        public static final int y893=0x7f05075c;
+        public static final int y894=0x7f05075d;
+        public static final int y895=0x7f05075e;
+        public static final int y896=0x7f05075f;
+        public static final int y897=0x7f050760;
+        public static final int y898=0x7f050761;
+        public static final int y899=0x7f050762;
+        public static final int y9=0x7f050763;
+        public static final int y90=0x7f050764;
+        public static final int y900=0x7f050765;
+        public static final int y901=0x7f050766;
+        public static final int y902=0x7f050767;
+        public static final int y903=0x7f050768;
+        public static final int y904=0x7f050769;
+        public static final int y905=0x7f05076a;
+        public static final int y906=0x7f05076b;
+        public static final int y907=0x7f05076c;
+        public static final int y908=0x7f05076d;
+        public static final int y909=0x7f05076e;
+        public static final int y91=0x7f05076f;
+        public static final int y910=0x7f050770;
+        public static final int y911=0x7f050771;
+        public static final int y912=0x7f050772;
+        public static final int y913=0x7f050773;
+        public static final int y914=0x7f050774;
+        public static final int y915=0x7f050775;
+        public static final int y916=0x7f050776;
+        public static final int y917=0x7f050777;
+        public static final int y918=0x7f050778;
+        public static final int y919=0x7f050779;
+        public static final int y92=0x7f05077a;
+        public static final int y920=0x7f05077b;
+        public static final int y921=0x7f05077c;
+        public static final int y922=0x7f05077d;
+        public static final int y923=0x7f05077e;
+        public static final int y924=0x7f05077f;
+        public static final int y925=0x7f050780;
+        public static final int y926=0x7f050781;
+        public static final int y927=0x7f050782;
+        public static final int y928=0x7f050783;
+        public static final int y929=0x7f050784;
+        public static final int y93=0x7f050785;
+        public static final int y930=0x7f050786;
+        public static final int y931=0x7f050787;
+        public static final int y932=0x7f050788;
+        public static final int y933=0x7f050789;
+        public static final int y934=0x7f05078a;
+        public static final int y935=0x7f05078b;
+        public static final int y936=0x7f05078c;
+        public static final int y937=0x7f05078d;
+        public static final int y938=0x7f05078e;
+        public static final int y939=0x7f05078f;
+        public static final int y94=0x7f050790;
+        public static final int y940=0x7f050791;
+        public static final int y941=0x7f050792;
+        public static final int y942=0x7f050793;
+        public static final int y943=0x7f050794;
+        public static final int y944=0x7f050795;
+        public static final int y945=0x7f050796;
+        public static final int y946=0x7f050797;
+        public static final int y947=0x7f050798;
+        public static final int y948=0x7f050799;
+        public static final int y949=0x7f05079a;
+        public static final int y95=0x7f05079b;
+        public static final int y950=0x7f05079c;
+        public static final int y951=0x7f05079d;
+        public static final int y952=0x7f05079e;
+        public static final int y953=0x7f05079f;
+        public static final int y954=0x7f0507a0;
+        public static final int y955=0x7f0507a1;
+        public static final int y956=0x7f0507a2;
+        public static final int y957=0x7f0507a3;
+        public static final int y958=0x7f0507a4;
+        public static final int y959=0x7f0507a5;
+        public static final int y96=0x7f0507a6;
+        public static final int y960=0x7f0507a7;
+        public static final int y961=0x7f0507a8;
+        public static final int y962=0x7f0507a9;
+        public static final int y963=0x7f0507aa;
+        public static final int y964=0x7f0507ab;
+        public static final int y965=0x7f0507ac;
+        public static final int y966=0x7f0507ad;
+        public static final int y967=0x7f0507ae;
+        public static final int y968=0x7f0507af;
+        public static final int y969=0x7f0507b0;
+        public static final int y97=0x7f0507b1;
+        public static final int y970=0x7f0507b2;
+        public static final int y971=0x7f0507b3;
+        public static final int y972=0x7f0507b4;
+        public static final int y973=0x7f0507b5;
+        public static final int y974=0x7f0507b6;
+        public static final int y975=0x7f0507b7;
+        public static final int y976=0x7f0507b8;
+        public static final int y977=0x7f0507b9;
+        public static final int y978=0x7f0507ba;
+        public static final int y979=0x7f0507bb;
+        public static final int y98=0x7f0507bc;
+        public static final int y980=0x7f0507bd;
+        public static final int y981=0x7f0507be;
+        public static final int y982=0x7f0507bf;
+        public static final int y983=0x7f0507c0;
+        public static final int y984=0x7f0507c1;
+        public static final int y985=0x7f0507c2;
+        public static final int y986=0x7f0507c3;
+        public static final int y987=0x7f0507c4;
+        public static final int y988=0x7f0507c5;
+        public static final int y989=0x7f0507c6;
+        public static final int y99=0x7f0507c7;
+        public static final int y990=0x7f0507c8;
+        public static final int y991=0x7f0507c9;
+        public static final int y992=0x7f0507ca;
+        public static final int y993=0x7f0507cb;
+        public static final int y994=0x7f0507cc;
+        public static final int y995=0x7f0507cd;
+        public static final int y996=0x7f0507ce;
+        public static final int y997=0x7f0507cf;
+        public static final int y998=0x7f0507d0;
+        public static final int y999=0x7f0507d1;
     }
     public static final class drawable {
         public static final int arrow=0x7f020000;
         public static final int arrows=0x7f020001;
         public static final int back=0x7f020002;
-        public static final int bin=0x7f020003;
-        public static final int book=0x7f020004;
-        public static final int bottom1=0x7f020005;
-        public static final int bottom2=0x7f020006;
-        public static final int bottom3=0x7f020007;
-        public static final int bottom_tab_bg=0x7f020008;
-        public static final int btn_voice=0x7f020009;
-        public static final int btn_xinliqa_nor=0x7f02000a;
-        public static final int button_red_normal=0x7f02000b;
-        public static final int button_red_pressed=0x7f02000c;
-        public static final int change_imagebutton=0x7f02000d;
-        public static final int circle_red=0x7f02000e;
-        public static final int circle_white=0x7f02000f;
-        public static final int clothes=0x7f020010;
-        public static final int common_listview_headview_red_arrow=0x7f020011;
-        public static final int customize=0x7f020012;
-        public static final int default_ptr_flip=0x7f020013;
-        public static final int default_ptr_rotate=0x7f020014;
-        public static final int earth=0x7f020015;
-        public static final int face=0x7f020016;
-        public static final int five_star=0x7f020017;
-        public static final int four1=0x7f020018;
-        public static final int four2=0x7f020019;
-        public static final int four3=0x7f02001a;
-        public static final int four4=0x7f02001b;
-        public static final int good=0x7f02001c;
-        public static final int govaffairs=0x7f02001d;
-        public static final int govaffairs_press=0x7f02001e;
-        public static final int guide_1=0x7f02001f;
-        public static final int guide_2=0x7f020020;
-        public static final int guide_3=0x7f020021;
-        public static final int heart=0x7f020022;
-        public static final int home=0x7f020023;
-        public static final int home_press=0x7f020024;
-        public static final int ic_launcher=0x7f020025;
-        public static final int icon=0x7f020026;
-        public static final int icon_150=0x7f020027;
-        public static final int icon_pic_grid_type=0x7f020028;
-        public static final int icon_pic_list_type=0x7f020029;
-        public static final int icon_qq_small=0x7f02002a;
-        public static final int icon_share=0x7f02002b;
-        public static final int icon_textsize=0x7f02002c;
-        public static final int image2=0x7f02002d;
-        public static final int image3=0x7f02002e;
-        public static final int image4=0x7f02002f;
-        public static final int image5=0x7f020030;
-        public static final int image_demo=0x7f020031;
-        public static final int img_menu=0x7f020032;
-        public static final int indicator_arrow=0x7f020033;
-        public static final int indicator_bg_bottom=0x7f020034;
-        public static final int indicator_bg_top=0x7f020035;
-        public static final int juhua=0x7f020036;
-        public static final int machine=0x7f020037;
-        public static final int menu_arr_normal=0x7f020038;
-        public static final int menu_arr_select=0x7f020039;
-        public static final int my_oval=0x7f02003a;
-        public static final int my_refresh=0x7f02003b;
-        public static final int news_cate_arr=0x7f02003c;
-        public static final int news_pic_default=0x7f02003d;
-        public static final int news_tab_item_bg_select=0x7f02003e;
-        public static final int newscenter=0x7f02003f;
-        public static final int newscenter_press=0x7f020040;
-        public static final int one_image=0x7f020041;
-        public static final int page1=0x7f020042;
-        public static final int page2=0x7f020043;
-        public static final int page3=0x7f020044;
-        public static final int page4=0x7f020045;
-        public static final int page5=0x7f020046;
-        public static final int pic_item_list_default=0x7f020047;
-        public static final int progressbar_circle_1=0x7f020048;
-        public static final int progressbar_mum_1=0x7f020049;
-        public static final int red_arrow=0x7f02004a;
-        public static final int row=0x7f02004b;
-        public static final int school=0x7f02004c;
-        public static final int select_government=0x7f02004d;
-        public static final int select_home=0x7f02004e;
-        public static final int select_new=0x7f02004f;
-        public static final int select_samrt=0x7f020050;
-        public static final int select_set=0x7f020051;
-        public static final int select_text=0x7f020052;
-        public static final int setting=0x7f020053;
-        public static final int setting_press=0x7f020054;
-        public static final int share_weixin=0x7f020055;
-        public static final int sister=0x7f020056;
-        public static final int smartservice=0x7f020057;
-        public static final int smartservice_press=0x7f020058;
-        public static final int splash_bg_newyear=0x7f020059;
-        public static final int splash_horse_newyear=0x7f02005a;
-        public static final int ssdk_oks_ptr_ptr=0x7f02005b;
-        public static final int three_image=0x7f02005c;
-        public static final int tilte2=0x7f02005d;
-        public static final int titile1=0x7f02005e;
-        public static final int title3=0x7f02005f;
-        public static final int title_red_bg=0x7f020060;
-        public static final int top=0x7f020061;
-        public static final int topnews_item_default=0x7f020062;
-        public static final int two1=0x7f020063;
-        public static final int two2=0x7f020064;
-        public static final int two_image=0x7f020065;
-        public static final int vpi__tab_indicator=0x7f020066;
-        public static final int vpi__tab_selected_focused_holo=0x7f020067;
-        public static final int vpi__tab_selected_holo=0x7f020068;
-        public static final int vpi__tab_selected_pressed_holo=0x7f020069;
-        public static final int vpi__tab_unselected_focused_holo=0x7f02006a;
-        public static final int vpi__tab_unselected_holo=0x7f02006b;
-        public static final int vpi__tab_unselected_pressed_holo=0x7f02006c;
+        public static final int baoman=0x7f020003;
+        public static final int bin=0x7f020004;
+        public static final int book=0x7f020005;
+        public static final int bottom1=0x7f020006;
+        public static final int bottom2=0x7f020007;
+        public static final int bottom3=0x7f020008;
+        public static final int bottom_tab_bg=0x7f020009;
+        public static final int btn_voice=0x7f02000a;
+        public static final int btn_xinliqa_nor=0x7f02000b;
+        public static final int button_red_normal=0x7f02000c;
+        public static final int button_red_pressed=0x7f02000d;
+        public static final int change_imagebutton=0x7f02000e;
+        public static final int circle_red=0x7f02000f;
+        public static final int circle_white=0x7f020010;
+        public static final int clothes=0x7f020011;
+        public static final int collection=0x7f020012;
+        public static final int common_listview_headview_red_arrow=0x7f020013;
+        public static final int customize=0x7f020014;
+        public static final int default_ptr_flip=0x7f020015;
+        public static final int default_ptr_rotate=0x7f020016;
+        public static final int earth=0x7f020017;
+        public static final int face=0x7f020018;
+        public static final int feel=0x7f020019;
+        public static final int five_star=0x7f02001a;
+        public static final int four1=0x7f02001b;
+        public static final int four2=0x7f02001c;
+        public static final int four3=0x7f02001d;
+        public static final int four4=0x7f02001e;
+        public static final int good=0x7f02001f;
+        public static final int govaffairs=0x7f020020;
+        public static final int govaffairs_press=0x7f020021;
+        public static final int grid1=0x7f020022;
+        public static final int grid10=0x7f020023;
+        public static final int grid11=0x7f020024;
+        public static final int grid12=0x7f020025;
+        public static final int grid2=0x7f020026;
+        public static final int grid3=0x7f020027;
+        public static final int grid4=0x7f020028;
+        public static final int grid5=0x7f020029;
+        public static final int grid6=0x7f02002a;
+        public static final int grid7=0x7f02002b;
+        public static final int grid8=0x7f02002c;
+        public static final int grid9=0x7f02002d;
+        public static final int guide_1=0x7f02002e;
+        public static final int guide_2=0x7f02002f;
+        public static final int guide_3=0x7f020030;
+        public static final int heart=0x7f020031;
+        public static final int help=0x7f020032;
+        public static final int home=0x7f020033;
+        public static final int home_press=0x7f020034;
+        public static final int ic_launcher=0x7f020035;
+        public static final int icon=0x7f020036;
+        public static final int icon_150=0x7f020037;
+        public static final int icon_pic_grid_type=0x7f020038;
+        public static final int icon_pic_list_type=0x7f020039;
+        public static final int icon_qq_small=0x7f02003a;
+        public static final int icon_share=0x7f02003b;
+        public static final int icon_textsize=0x7f02003c;
+        public static final int image2=0x7f02003d;
+        public static final int image3=0x7f02003e;
+        public static final int image4=0x7f02003f;
+        public static final int image5=0x7f020040;
+        public static final int image_demo=0x7f020041;
+        public static final int img_menu=0x7f020042;
+        public static final int indicator_arrow=0x7f020043;
+        public static final int indicator_bg_bottom=0x7f020044;
+        public static final int indicator_bg_top=0x7f020045;
+        public static final int invite=0x7f020046;
+        public static final int juhua=0x7f020047;
+        public static final int line=0x7f020048;
+        public static final int machine=0x7f020049;
+        public static final int menu_arr_normal=0x7f02004a;
+        public static final int menu_arr_select=0x7f02004b;
+        public static final int my_oval=0x7f02004c;
+        public static final int my_refresh=0x7f02004d;
+        public static final int news_cate_arr=0x7f02004e;
+        public static final int news_pic_default=0x7f02004f;
+        public static final int news_tab_item_bg_select=0x7f020050;
+        public static final int newscenter=0x7f020051;
+        public static final int newscenter_press=0x7f020052;
+        public static final int one_image=0x7f020053;
+        public static final int page1=0x7f020054;
+        public static final int page2=0x7f020055;
+        public static final int page3=0x7f020056;
+        public static final int page4=0x7f020057;
+        public static final int page5=0x7f020058;
+        public static final int pic_item_list_default=0x7f020059;
+        public static final int progressbar_circle_1=0x7f02005a;
+        public static final int progressbar_mum_1=0x7f02005b;
+        public static final int red_arrow=0x7f02005c;
+        public static final int redbag=0x7f02005d;
+        public static final int row=0x7f02005e;
+        public static final int school=0x7f02005f;
+        public static final int select_government=0x7f020060;
+        public static final int select_home=0x7f020061;
+        public static final int select_new=0x7f020062;
+        public static final int select_samrt=0x7f020063;
+        public static final int select_set=0x7f020064;
+        public static final int select_text=0x7f020065;
+        public static final int set=0x7f020066;
+        public static final int setting=0x7f020067;
+        public static final int setting_press=0x7f020068;
+        public static final int share_weixin=0x7f020069;
+        public static final int singleuser=0x7f02006a;
+        public static final int sister=0x7f02006b;
+        public static final int smartservice=0x7f02006c;
+        public static final int smartservice_press=0x7f02006d;
+        public static final int splash_bg_newyear=0x7f02006e;
+        public static final int splash_horse_newyear=0x7f02006f;
+        public static final int ssdk_oks_ptr_ptr=0x7f020070;
+        public static final int three_image=0x7f020071;
+        public static final int tilte2=0x7f020072;
+        public static final int titile1=0x7f020073;
+        public static final int title3=0x7f020074;
+        public static final int title_red_bg=0x7f020075;
+        public static final int top=0x7f020076;
+        public static final int topnews_item_default=0x7f020077;
+        public static final int turn_right=0x7f020078;
+        public static final int two1=0x7f020079;
+        public static final int two2=0x7f02007a;
+        public static final int two_image=0x7f02007b;
+        public static final int vpi__tab_indicator=0x7f02007c;
+        public static final int vpi__tab_selected_focused_holo=0x7f02007d;
+        public static final int vpi__tab_selected_holo=0x7f02007e;
+        public static final int vpi__tab_selected_pressed_holo=0x7f02007f;
+        public static final int vpi__tab_unselected_focused_holo=0x7f020080;
+        public static final int vpi__tab_unselected_holo=0x7f020081;
+        public static final int vpi__tab_unselected_pressed_holo=0x7f020082;
+        public static final int weal=0x7f020083;
     }
     public static final class id {
         public static final int BasePagerImageButton=0x7f09001f;
@@ -794,6 +2855,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int PhotosMenuPagerItemImageView=0x7f090039;
         public static final int PhotosMenuPagerItemTextView=0x7f09003a;
         public static final int STROKE=0x7f09000f;
+        public static final int TwoTop=0x7f09004a;
         public static final int basepager_progressBar=0x7f090021;
         public static final int both=0x7f090005;
         public static final int bottom=0x7f090017;
@@ -842,31 +2904,39 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int read_item_summary=0x7f090049;
         public static final int read_item_titile=0x7f090042;
         public static final int red_circle=0x7f090026;
-        public static final int relative=0x7f090053;
+        public static final int relative=0x7f09005c;
         public static final int right=0x7f090011;
         public static final int rotate=0x7f09000d;
         public static final int scrollview=0x7f090001;
         public static final int selected_view=0x7f090002;
-        public static final int slidingmenumain=0x7f09004a;
-        public static final int smart_layout_PullListView=0x7f09004b;
-        public static final int smart_layout_viewpager=0x7f09004c;
+        public static final int slidingmenumain=0x7f09004b;
+        public static final int smart_layout_PullListView=0x7f09004c;
+        public static final int smart_layout_book=0x7f090054;
+        public static final int smart_layout_clothes=0x7f090050;
+        public static final int smart_layout_earth=0x7f090052;
+        public static final int smart_layout_face=0x7f09004f;
+        public static final int smart_layout_good=0x7f090053;
+        public static final int smart_layout_heart=0x7f090055;
+        public static final int smart_layout_machine=0x7f090051;
+        public static final int smart_layout_school=0x7f09004e;
+        public static final int smart_layout_viewpager=0x7f09004d;
         public static final int start_Animation=0x7f090019;
         public static final int tab_bottom=0x7f090023;
-        public static final int tab_button1=0x7f09004e;
-        public static final int tab_button2=0x7f09004f;
-        public static final int tab_button3=0x7f090050;
-        public static final int tab_button4=0x7f090051;
-        public static final int tab_button5=0x7f090052;
-        public static final int tab_group=0x7f09004d;
+        public static final int tab_button1=0x7f090057;
+        public static final int tab_button2=0x7f090058;
+        public static final int tab_button3=0x7f090059;
+        public static final int tab_button4=0x7f09005a;
+        public static final int tab_button5=0x7f09005b;
+        public static final int tab_group=0x7f090056;
         public static final int top=0x7f090018;
         public static final int triangle=0x7f090015;
         public static final int underline=0x7f090016;
         public static final int updated_at=0x7f09002f;
         public static final int viewpager=0x7f090003;
-        public static final int web_activity_back=0x7f090054;
-        public static final int web_activity_share=0x7f090055;
-        public static final int web_activity_textsize=0x7f090056;
-        public static final int web_activity_webView=0x7f090057;
+        public static final int web_activity_back=0x7f09005d;
+        public static final int web_activity_share=0x7f09005e;
+        public static final int web_activity_textsize=0x7f09005f;
+        public static final int web_activity_webView=0x7f090060;
         public static final int webview=0x7f090004;
     }
     public static final class integer {
@@ -902,29 +2972,31 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int pull_to_refresh_header_horizontal=0x7f030016;
         public static final int pull_to_refresh_header_vertical=0x7f030017;
         public static final int read_item=0x7f030018;
-        public static final int slidingmenumain=0x7f030019;
-        public static final int smart_layout_conent=0x7f03001a;
-        public static final int smart_layout_title=0x7f03001b;
-        public static final int smart_server=0x7f03001c;
-        public static final int tab_fragment=0x7f03001d;
-        public static final int web_activity=0x7f03001e;
+        public static final int set_layout=0x7f030019;
+        public static final int slidingmenumain=0x7f03001a;
+        public static final int smart_layout_conent=0x7f03001b;
+        public static final int smart_layout_tial=0x7f03001c;
+        public static final int smart_layout_title=0x7f03001d;
+        public static final int smart_server=0x7f03001e;
+        public static final int tab_fragment=0x7f03001f;
+        public static final int web_activity=0x7f030020;
     }
     public static final class string {
-        public static final int app_name=0x7f050006;
-        public static final int hello_world=0x7f050007;
-        public static final int not_updated_yet=0x7f050008;
-        public static final int pull_to_refresh=0x7f050009;
-        public static final int pull_to_refresh_from_bottom_pull_label=0x7f050003;
-        public static final int pull_to_refresh_from_bottom_refreshing_label=0x7f050004;
-        public static final int pull_to_refresh_from_bottom_release_label=0x7f050005;
-        public static final int pull_to_refresh_pull_label=0x7f050000;
-        public static final int pull_to_refresh_refreshing_label=0x7f050001;
-        public static final int pull_to_refresh_release_label=0x7f050002;
-        public static final int refreshing=0x7f05000a;
-        public static final int release_to_refresh=0x7f05000b;
-        public static final int time_error=0x7f05000c;
-        public static final int updated_at=0x7f05000d;
-        public static final int updated_just_now=0x7f05000e;
+        public static final int app_name=0x7f060006;
+        public static final int hello_world=0x7f060007;
+        public static final int not_updated_yet=0x7f060008;
+        public static final int pull_to_refresh=0x7f060009;
+        public static final int pull_to_refresh_from_bottom_pull_label=0x7f060003;
+        public static final int pull_to_refresh_from_bottom_refreshing_label=0x7f060004;
+        public static final int pull_to_refresh_from_bottom_release_label=0x7f060005;
+        public static final int pull_to_refresh_pull_label=0x7f060000;
+        public static final int pull_to_refresh_refreshing_label=0x7f060001;
+        public static final int pull_to_refresh_release_label=0x7f060002;
+        public static final int refreshing=0x7f06000a;
+        public static final int release_to_refresh=0x7f06000b;
+        public static final int time_error=0x7f06000c;
+        public static final int updated_at=0x7f06000d;
+        public static final int updated_just_now=0x7f06000e;
     }
     public static final class style {
         public static final int AppTheme=0x7f0b0000;
@@ -938,6 +3010,85 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int mProgress_circle=0x7f0b0008;
     }
     public static final class styleable {
+        /** Attributes that can be used with a CircleImageView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CircleImageView_civ_border_color com.example.beijing:civ_border_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleImageView_civ_border_overlay com.example.beijing:civ_border_overlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleImageView_civ_border_width com.example.beijing:civ_border_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleImageView_civ_fill_color com.example.beijing:civ_fill_color}</code></td><td></td></tr>
+           </table>
+           @see #CircleImageView_civ_border_color
+           @see #CircleImageView_civ_border_overlay
+           @see #CircleImageView_civ_border_width
+           @see #CircleImageView_civ_fill_color
+         */
+        public static final int[] CircleImageView = {
+            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#civ_border_color}
+          attribute's value can be found in the {@link #CircleImageView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.beijing:civ_border_color
+        */
+        public static final int CircleImageView_civ_border_color = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#civ_border_overlay}
+          attribute's value can be found in the {@link #CircleImageView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.beijing:civ_border_overlay
+        */
+        public static final int CircleImageView_civ_border_overlay = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#civ_border_width}
+          attribute's value can be found in the {@link #CircleImageView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.beijing:civ_border_width
+        */
+        public static final int CircleImageView_civ_border_width = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#civ_fill_color}
+          attribute's value can be found in the {@link #CircleImageView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.beijing:civ_fill_color
+        */
+        public static final int CircleImageView_civ_fill_color = 3;
         /** Attributes that can be used with a CirclePageIndicator.
            <p>Includes the following attributes:</p>
            <table>
@@ -966,8 +3117,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          */
         public static final int[] CirclePageIndicator = {
             0x010100c4, 0x010100d4, 0x7f010000, 0x7f010002,
-            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
-            0x7f010008
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b,
+            0x7f01000c
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -1107,8 +3258,8 @@ containing a value of this type.
            @see #CustomVolumControlBar_splitSize
          */
         public static final int[] CustomVolumControlBar = {
-            0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c,
-            0x7f01000d, 0x7f01000e
+            0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010,
+            0x7f010011, 0x7f010012
         };
         /**
           <p>This symbol is the offset where the {@link com.example.beijing.R.attr#bg}
@@ -1218,7 +3369,7 @@ containing a value of this type.
          */
         public static final int[] LinePageIndicator = {
             0x010100d4, 0x7f010000, 0x7f010001, 0x7f010002,
-            0x7f010003, 0x7f01000f, 0x7f010010
+            0x7f010003, 0x7f010013, 0x7f010014
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -1365,11 +3516,11 @@ containing a value of this type.
            @see #PullToRefresh_ptrSubHeaderTextAppearance
          */
         public static final int[] PullToRefresh = {
-            0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014,
             0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018,
             0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c,
             0x7f01001d, 0x7f01001e, 0x7f01001f, 0x7f010020,
-            0x7f010021, 0x7f010022, 0x7f010023
+            0x7f010021, 0x7f010022, 0x7f010023, 0x7f010024,
+            0x7f010025, 0x7f010026, 0x7f010027
         };
         /**
           <p>This symbol is the offset where the {@link com.example.beijing.R.attr#ptrAdapterViewBackground}
@@ -1620,8 +3771,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #RoundProgressBar_textSize
          */
         public static final int[] RoundProgressBar = {
-            0x7f010024, 0x7f010025, 0x7f010026, 0x7f010027,
-            0x7f010028, 0x7f010029, 0x7f01002a, 0x7f01002b
+            0x7f010028, 0x7f010029, 0x7f01002a, 0x7f01002b,
+            0x7f01002c, 0x7f01002d, 0x7f01002e, 0x7f01002f
         };
         /**
           <p>This symbol is the offset where the {@link com.example.beijing.R.attr#max}
@@ -1782,10 +3933,10 @@ containing a value of this type.
            @see #SlidingMenu_viewBehind
          */
         public static final int[] SlidingMenu = {
-            0x7f01002c, 0x7f01002d, 0x7f01002e, 0x7f01002f,
             0x7f010030, 0x7f010031, 0x7f010032, 0x7f010033,
             0x7f010034, 0x7f010035, 0x7f010036, 0x7f010037,
-            0x7f010038, 0x7f010039
+            0x7f010038, 0x7f010039, 0x7f01003a, 0x7f01003b,
+            0x7f01003c, 0x7f01003d
         };
         /**
           <p>This symbol is the offset where the {@link com.example.beijing.R.attr#behindOffset}
@@ -2024,9 +4175,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
          */
         public static final int[] TitlePageIndicator = {
             0x01010095, 0x01010098, 0x010100d4, 0x7f010001,
-            0x7f01003a, 0x7f01003b, 0x7f01003c, 0x7f01003d,
             0x7f01003e, 0x7f01003f, 0x7f010040, 0x7f010041,
-            0x7f010042, 0x7f010043, 0x7f010044
+            0x7f010042, 0x7f010043, 0x7f010044, 0x7f010045,
+            0x7f010046, 0x7f010047, 0x7f010048
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -2256,8 +4407,8 @@ containing a value of this type.
            @see #UnderlinePageIndicator_selectedColor
          */
         public static final int[] UnderlinePageIndicator = {
-            0x010100d4, 0x7f010001, 0x7f010045, 0x7f010046,
-            0x7f010047
+            0x010100d4, 0x7f010001, 0x7f010049, 0x7f01004a,
+            0x7f01004b
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -2343,8 +4494,8 @@ containing a value of this type.
            @see #ViewPagerIndicator_vpiUnderlinePageIndicatorStyle
          */
         public static final int[] ViewPagerIndicator = {
-            0x7f010048, 0x7f010049, 0x7f01004a, 0x7f01004b,
-            0x7f01004c, 0x7f01004d
+            0x7f01004c, 0x7f01004d, 0x7f01004e, 0x7f01004f,
+            0x7f010050, 0x7f010051
         };
         /**
           <p>This symbol is the offset where the {@link com.example.beijing.R.attr#vpiCirclePageIndicatorStyle}

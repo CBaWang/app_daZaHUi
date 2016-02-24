@@ -8,10 +8,16 @@
         android:id="@+id/smart_layout_PullListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true"
         ptr:ptrDrawable="@drawable/arrows"
         ptr:ptrAnimationStyle="flip"
         ptr:ptrHeaderBackground="#383838"
-        ptr:ptrHeaderTextColor="#b7b3b3">
+        ptr:ptrHeaderTextColor="#b7b3b3"
+        ptr:ptrListViewExtrasEnabled="true">
 
     </com.handmark.pulltorefresh.library.PullToRefreshListView>
 

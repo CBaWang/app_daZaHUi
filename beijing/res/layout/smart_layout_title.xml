@@ -1,79 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="510dp"
     android:orientation="vertical">
 
-    <ViewPager
+    <com.example.custom.DisallowStopListenerLastViewpager
         android:id="@+id/smart_layout_viewpager"
         android:layout_width="match_parent"
-        android:layout_height="100dp">
+        android:layout_height="180dp">
 
-    </ViewPager>
+    </com.example.custom.DisallowStopListenerLastViewpager>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
 
-        <ImageView
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/school" />
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/smart_layout_school"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/school" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开学季"
+                android:textSize="11sp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
 
-        <ImageView
+
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/face" />
-
-        <ImageView
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/smart_layout_face"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/face" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="童书"
+                android:textSize="11sp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/clothes" />
-
-        <ImageView
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/smart_layout_clothes"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/clothes" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="领券"
+                android:textSize="11sp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/machine" />
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/smart_layout_machine"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/machine" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="家电"
+                android:textSize="11sp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
     </LinearLayout>
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="0.8dp" />
+        android:layout_height="0.8dp"
+        android:background="#efe8e8"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
+        android:layout_marginTop="8dp"
         android:orientation="horizontal">
 
-        <ImageView
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/earth" />
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/smart_layout_earth"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/earth" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="海外购"
+                android:textSize="11sp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/smart_layout_good"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/good" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="当当优品"
+                android:textSize="11sp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
 
-        <ImageView
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/good" />
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/smart_layout_book"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/book" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电子书"
+                android:textSize="11sp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
 
-        <ImageView
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/book" />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@drawable/heart" />
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/smart_layout_heart"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/heart" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="尾品会"
+                android:textSize="11sp"
+                android:textColor="#000"
+                android:gravity="center"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
     </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/top"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

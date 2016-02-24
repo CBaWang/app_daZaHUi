@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             style="@style/mProgress_circle"
             android:layout_gravity="center"
-            android:visibility="visible"
+            android:visibility="gone"
             android:interpolator="@android:anim/linear_interpolator"
 
             />

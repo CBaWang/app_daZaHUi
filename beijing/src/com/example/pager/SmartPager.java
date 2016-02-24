@@ -3,18 +3,27 @@ package com.example.pager;
 import android.app.Activity;
 import android.graphics.drawable.Drawable;
 import android.os.SystemClock;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.ProgressBar;
 
 import com.example.beijing.R;
+import com.example.custom.DisallowStopListenerLastViewpager;
 import com.handmark.pulltorefresh.library.ILoadingLayout;
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class SmartPager extends BasePager {
@@ -24,6 +33,11 @@ public class SmartPager extends BasePager {
     private PullToRefreshListView pullToRefreshListView;
 
     private LayoutInflater Inflater;
+
+
+    private List<ImageView>  PagerList;
+    private View titleView;
+    private DisallowStopListenerLastViewpager pager;//titleView里面的Viewpager
 
     public SmartPager(Activity activity) {
         super(activity);
@@ -36,7 +50,12 @@ public class SmartPager extends BasePager {
     public void initView() {
         super.initView();
         Inflater = LayoutInflater.from(mactivity);
+        PagerList = new ArrayList<ImageView>();
         view = View.inflate(mactivity, R.layout.smart_layout_conent, null);
+        titleView = View.inflate(mactivity,R.layout.smart_layout_title,null);
+
+        pager = (DisallowStopListenerLastViewpager) titleView.findViewById(R.id.smart_layout_viewpager);  //titleView 里面的ViewPager
+
         pullToRefreshListView = (PullToRefreshListView) view.findViewById(R.id.smart_layout_PullListView);
 
         adapter = new SmartBaseAdapter();
@@ -64,6 +83,13 @@ public class SmartPager extends BasePager {
         proxy.setReleaseLabel("松开刷新");
         proxy.setLoadingDrawable(mactivity.getResources().getDrawable(R.drawable.juhua));
 
+        setTheViewPager(pager);  //设置我的ViewPager
+
+        ListView listview = pullToRefreshListView.getRefreshableView();
+
+        listview.addHeaderView(titleView);
+
+
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -84,6 +110,22 @@ public class SmartPager extends BasePager {
 
     }
 
+    private void setTheViewPager(ViewPager pager) {//设置我的ViewPager
+
+        int[] id = {R.drawable.page1,R.drawable.page2,R.drawable.page3,R.drawable.page4,R.drawable.page5};
+
+        for(int i=0;i<id.length;i++){
+            ImageView image = new ImageView(mactivity);
+            image.setImageResource(id[i]);
+
+            PagerList.add(image);
+        }
+
+        pager.setAdapter(new MyPagerAdapter());
+
+
+    }
+
 
     class SmartBaseAdapter extends BaseAdapter {
 
@@ -93,10 +135,12 @@ public class SmartPager extends BasePager {
 
         public static final int ITEM_THREE = 2;
 
+        public static final int ITEM_FOUR = 3;
+
 
         @Override
         public int getCount() {
-            return 8;//假设它有8个
+            return 9;//假设它有9个
         }
 
         @Override
@@ -128,6 +172,9 @@ public class SmartPager extends BasePager {
                 case 7:
                     typeReturn = ITEM_ONE;
                     break;
+                case 8:
+                    typeReturn = ITEM_FOUR;
+                    break;
 
 
             }
@@ -137,7 +184,7 @@ public class SmartPager extends BasePager {
 
         @Override
         public int getViewTypeCount() {
-            return 3;
+            return 4;
         }
 
         @Override
@@ -165,6 +212,9 @@ public class SmartPager extends BasePager {
                     case ITEM_THREE:
                         convertView = Inflater.inflate(R.layout.homepager_pull_item3, parent, false);
                         break;
+                    case ITEM_FOUR:
+                        convertView = Inflater.inflate(R.layout.smart_layout_tial,parent,false);
+                        break;
 
                 }
             }//end
@@ -174,6 +224,30 @@ public class SmartPager extends BasePager {
         }
 
 
+    }
+
+    class MyPagerAdapter extends PagerAdapter{
+
+        @Override
+        public int getCount() {
+            return PagerList.size();
+        }
+
+        @Override
+        public boolean isViewFromObject(View view, Object o) {
+            return view ==o ;
+        }
+
+        @Override
+        public Object instantiateItem(ViewGroup container, int position) {
+            container.addView(PagerList.get(position));
+            return PagerList.get(position);
+        }
+
+        @Override
+        public void destroyItem(ViewGroup container, int position, Object object) {
+           container.removeView(PagerList.get(position));
+        }
     }
 
 

@@ -8,6 +8,7 @@ dependencies {
     compile project(':XUtilslibrary')
     compile project(':PullToRefreshListFragment')
     compile project(':PullToRefreshViewPager')
+    compile 'com.android.support:support-annotations:23.1.1'
 }
 
 android {
