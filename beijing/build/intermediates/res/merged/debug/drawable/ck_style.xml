@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:drawable="@drawable/ck_style_true" android:state_selected="true"></item>
-    <item android:drawable="@drawable/ck_style_true" android:state_checked="true"></item>
-    <item android:drawable="@drawable/ck_style_false" android:state_checked="false"></item>
-    <item android:drawable="@drawable/ck_style_false" ></item>
-</selector><!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/photogalleryLibrary/src/main/res/drawable/ck_style.xml --><!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/beijing/build/intermediates/exploded-aar/Application2/photogalleryLibrary/unspecified/res/drawable/ck_style.xml -->

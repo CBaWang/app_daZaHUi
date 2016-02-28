@@ -1,7 +1,0 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" tools:context="com.wq.photo.MediaChoseActivity">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
-</menu>
-<!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/photogalleryLibrary/src/main/res/menu/menu_media_chose.xml --><!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/beijing/build/intermediates/exploded-aar/Application2/photogalleryLibrary/unspecified/res/menu/menu_media_chose.xml -->

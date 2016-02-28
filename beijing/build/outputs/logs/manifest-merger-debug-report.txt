@@ -13,7 +13,6 @@ ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\And
 		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:multidex:1.0.1] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
 MERGED from [Application2:slidingMenuLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\slidingMenuLibrary\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [Application2:PullToRefreshLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\PullToRefreshLibrary\unspecified\AndroidManifest.xml:7:5-43
 MERGED from [Application2:ViewPagerIndicaotrLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\ViewPagerIndicaotrLibrary\unspecified\AndroidManifest.xml:7:5-43
@@ -21,13 +20,6 @@ MERGED from [Application2:PullToRefreshLibrary:unspecified] E:\Users\Administrat
 MERGED from [Application2:PullToRefreshViewPager:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\PullToRefreshViewPager\unspecified\AndroidManifest.xml:7:5-43
 MERGED from [Application2:PullToRefreshLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\PullToRefreshLibrary\unspecified\AndroidManifest.xml:7:5-43
 MERGED from [Application2:XUtilslibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\XUtilslibrary\unspecified\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.0] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [Application2:photogalleryLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\photogalleryLibrary\unspecified\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.0] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.2.0] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.0] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:9:9-38
 	android:minSdkVersion
@@ -56,12 +48,6 @@ MERGED from [Application2:PullToRefreshLibrary:unspecified] E:\Users\Administrat
 MERGED from [Application2:PullToRefreshViewPager:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\PullToRefreshViewPager\unspecified\AndroidManifest.xml:9:5-20
 MERGED from [Application2:PullToRefreshLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\PullToRefreshLibrary\unspecified\AndroidManifest.xml:9:5-20
 MERGED from [Application2:XUtilslibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\XUtilslibrary\unspecified\AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.0] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [Application2:photogalleryLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\photogalleryLibrary\unspecified\AndroidManifest.xml:11:5-26:19
-MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.0] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.0] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:21:9-41
 	android:allowBackup
@@ -106,23 +92,3 @@ ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\And
 		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:36:19-65
 android:uses-permission#android.permission.READ_PHONE_STATE
 IMPLIED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:2:1-39:12 reason: com.handmark.pulltorefresh.extras.listfragment has a targetSdkVersion < 4
-activity#com.wq.photo.MediaChoseActivity
-ADDED from [Application2:photogalleryLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\photogalleryLibrary\unspecified\AndroidManifest.xml:14:9-18:20
-	android:label
-		ADDED from [Application2:photogalleryLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\photogalleryLibrary\unspecified\AndroidManifest.xml:16:13-63
-	android:theme
-		ADDED from [Application2:photogalleryLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\photogalleryLibrary\unspecified\AndroidManifest.xml:17:13-44
-	android:name
-		ADDED from [Application2:photogalleryLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\photogalleryLibrary\unspecified\AndroidManifest.xml:15:13-59
-activity#com.wq.photo.CropImageActivity
-ADDED from [Application2:photogalleryLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\photogalleryLibrary\unspecified\AndroidManifest.xml:19:9-22:20
-	android:label
-		ADDED from [Application2:photogalleryLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\photogalleryLibrary\unspecified\AndroidManifest.xml:21:13-62
-	android:name
-		ADDED from [Application2:photogalleryLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\photogalleryLibrary\unspecified\AndroidManifest.xml:20:13-58
-activity#com.yalantis.ucrop.UCropActivity
-ADDED from [Application2:photogalleryLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\photogalleryLibrary\unspecified\AndroidManifest.xml:23:9-25:47
-	android:theme
-		ADDED from [Application2:photogalleryLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\photogalleryLibrary\unspecified\AndroidManifest.xml:25:13-44
-	android:name
-		ADDED from [Application2:photogalleryLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\photogalleryLibrary\unspecified\AndroidManifest.xml:24:13-60

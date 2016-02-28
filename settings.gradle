@@ -1,2 +1,2 @@
-include ':beijing', ':slidingMenuLibrary', ':ViewPagerIndicaotrLibrary', ':PullToRefreshListFragment', ':PullToRefreshViewPager', ':XUtilslibrary', ':photogalleryLibrary'
+include ':beijing', ':slidingMenuLibrary', ':ViewPagerIndicaotrLibrary', ':PullToRefreshListFragment', ':XUtilslibrary', ':PullToRefreshViewPager'
 include ':PullToRefreshLibrary'

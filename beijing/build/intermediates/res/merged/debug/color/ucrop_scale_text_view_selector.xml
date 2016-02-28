@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:color="@color/ucrop_color_widget_active" android:state_selected="true"/>
-    <item android:color="@color/ucrop_color_widget"/>
-</selector>
-<!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/photogalleryLibrary/src/main/res/color/ucrop_scale_text_view_selector.xml --><!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/beijing/build/intermediates/exploded-aar/Application2/photogalleryLibrary/unspecified/res/color/ucrop_scale_text_view_selector.xml -->
