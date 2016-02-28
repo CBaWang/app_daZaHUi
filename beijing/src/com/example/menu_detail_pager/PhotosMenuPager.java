@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -20,14 +21,17 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.bean.PhotosMenuPagerItem;
 import com.example.beijing.R;
 import com.example.pager.BasePager;
 import com.example.pager.NewsPager;
+import com.example.utils.DataFormatUtils;
 import com.lidroid.xutils.BitmapUtils;
 import com.lidroid.xutils.HttpUtils;
 import com.lidroid.xutils.exception.HttpException;
+import com.lidroid.xutils.http.RequestParams;
 import com.lidroid.xutils.http.ResponseInfo;
 import com.lidroid.xutils.http.callback.RequestCallBack;
 import com.lidroid.xutils.http.client.HttpRequest.HttpMethod;
@@ -42,7 +46,7 @@ public class PhotosMenuPager extends BaseMenuDetailPager {
 
 	private String NowTime;
 
-	private String Url;
+	private final static String Url = "http://route.showapi.com/197-1";
 
 	private LayoutInflater inflater;
 
@@ -50,10 +54,10 @@ public class PhotosMenuPager extends BaseMenuDetailPager {
 
 	private BasePager basepager;
 
-	public PhotosMenuPager(Activity activity,BasePager basepager) {
+	public PhotosMenuPager(Activity activity,BasePager basePager) {
 		super(activity);
-		this.basepager = basepager;
-
+		this.basepager = basePager;
+		basepager.imagebutton.setVisibility(View.VISIBLE);
 
 	}
 
@@ -66,8 +70,12 @@ public class PhotosMenuPager extends BaseMenuDetailPager {
 
 		gridview = (GridView) view.findViewById(R.id.photosMenuPagerGridView);
 
+		list = new ArrayList<PhotosMenuPagerItem>();
+
 		inflater = LayoutInflater.from(Mactivity);
 
+
+		initData();
 
 
 		return view;
@@ -76,29 +84,31 @@ public class PhotosMenuPager extends BaseMenuDetailPager {
 	@Override
 	public void initData() {
 
-		basepager.Text.setText("组图");
-
-		getNowTime();// 得到当前时间方法
-		Url = "http://route.showapi.com/197-1?showapi_appid=10562&showapi_timestamp="
-				+ NowTime
-				+ "&num=10&page=3&showapi_sign=ca3cc8fb1be046709e15a0400f407283";
-
-		getDataFromserver();// 从服务器得到数据
+		getDataFromserver();//联网拿数据
 
 	}
 
-	private void getDataFromserver() {
-		// TODO Auto-generated method stub
-		list = new ArrayList<PhotosMenuPagerItem>();
+	private void getDataFromserver() {//联网拿数据
+
+		RequestParams params = new RequestParams();
+		params.addBodyParameter("showapi_appid","15648");
+		params.addBodyParameter("showapi_timestamp", DataFormatUtils.getNowTime());
+		params.addBodyParameter("num","10");
+		params.addBodyParameter("page","1");
+		params.addBodyParameter("showapi_sign","11e4ac9b4826422d981b9b8c960e7829");
+
+
+
 		HttpUtils utils = new HttpUtils();
 
-		utils.send(HttpMethod.GET, Url, new RequestCallBack<String>() {
+		utils.send(HttpMethod.POST, Url,params, new RequestCallBack<String>() {
 
 			@Override
 			public void onSuccess(ResponseInfo<String> responseInfo) {
 				// TODO Auto-generated method stub
 
 				String result = responseInfo.result;
+
 				parseTheJson(result);// 解析Json数据
 
 				listview.setAdapter(new MyBaseAdapter());
@@ -106,6 +116,9 @@ public class PhotosMenuPager extends BaseMenuDetailPager {
 				changeView(); // 切换的界面的按钮
 
 			}
+
+
+
 
 			private void changeView() {
 
@@ -135,7 +148,7 @@ public class PhotosMenuPager extends BaseMenuDetailPager {
 
 			@Override
 			public void onFailure(HttpException error, String msg) {
-				// TODO Auto-generated method stub
+				Toast.makeText(Mactivity, "请检查网络或者手机时间是否为当前时间", Toast.LENGTH_LONG).show();
 				error.printStackTrace();
 			}
 		});
@@ -146,17 +159,15 @@ public class PhotosMenuPager extends BaseMenuDetailPager {
 		try {
 			JSONObject json = new JSONObject(result);
 			JSONObject showapi = json.getJSONObject("showapi_res_body");
-			Log.d("娃娃哇哇我爱我啊", "======" + showapi);
-			for (int i = 0; i < 10; i++) {
-				JSONObject NumberData = showapi
-						.getJSONObject(String.valueOf(i));
-				String title = NumberData.getString("title");
-				String picUrl = NumberData.getString("picUrl");
-				list.add(new PhotosMenuPagerItem(title, picUrl));
 
-				Log.d("啦啦啦啦啦啦啦啦", title + picUrl);// 我拿到 的集合
+			JSONArray newList = showapi.getJSONArray("newslist");
+
+			for(int i=0;i<newList.length();i++){
+				JSONObject object = newList.getJSONObject(i);
+				String title = object.getString("title");
+				String image = object.getString("picUrl");
+				list.add(new PhotosMenuPagerItem(title,image));
 			}
-
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -220,16 +231,8 @@ public class PhotosMenuPager extends BaseMenuDetailPager {
 
 	}
 
-	private void getNowTime() { // 获得一个我想要的当前时间的格式
 
-		SimpleDateFormat myFormat = new SimpleDateFormat("yyyyMMddHHmmss");
-
-		Date now = new Date();
-		NowTime = myFormat.format(now);
-
-	}
-
-	class ViewHolder {
+	static class  ViewHolder {
 		ImageView image;
 
 		TextView text;

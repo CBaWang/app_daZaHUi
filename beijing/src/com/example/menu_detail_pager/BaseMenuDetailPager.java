@@ -12,6 +12,7 @@ public abstract class BaseMenuDetailPager {
 	public BaseMenuDetailPager(Activity activity){
 		this.Mactivity = activity;
 		this.mRootView = initView();
+
 	}
 	
 	public abstract View initView(); 

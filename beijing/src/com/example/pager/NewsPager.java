@@ -10,7 +10,7 @@ public class NewsPager extends BasePager {
 
 	public NewsPager(Activity activity) {
 		super(activity);
-		// TODO Auto-generated constructor stub
+
 	}
 
 	@Override

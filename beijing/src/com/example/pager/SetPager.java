@@ -19,8 +19,6 @@ public class SetPager extends BasePager {
 		super.initView();
 		view = View.inflate(mactivity, R.layout.set_layout,null);
 
-
-
 		Frame.addView(view);
 
 	}
@@ -31,7 +29,6 @@ public class SetPager extends BasePager {
 		super.initData();
 
 		Text.setText("App大杂烩");
-		image.setVisibility(View.GONE);
 		setSlidingMenuEnable(false);
 	}
 

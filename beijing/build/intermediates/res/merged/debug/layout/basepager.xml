@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="@dimen/x14"
             android:background="@drawable/img_menu" />
 
         <TextView
@@ -34,7 +34,7 @@
             android:visibility="gone"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="8dp"/>
+            android:layout_marginRight="@dimen/x15"/>
     </RelativeLayout>
 
     <FrameLayout

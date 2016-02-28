@@ -1,17 +1,21 @@
 package com.example.pager;
 
 import android.app.Activity;
-import android.graphics.drawable.Drawable;
+
+import android.os.Handler;
+import android.os.Message;
 import android.os.SystemClock;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
+
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
-import android.view.View.OnClickListener;
+
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Button;
+
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
@@ -34,7 +38,7 @@ public class SmartPager extends BasePager {
 
     private LayoutInflater Inflater;
 
-
+    private Handler handler;
     private List<ImageView>  PagerList;
     private View titleView;
     private DisallowStopListenerLastViewpager pager;//titleView里面的Viewpager
@@ -110,18 +114,94 @@ public class SmartPager extends BasePager {
 
     }
 
-    private void setTheViewPager(ViewPager pager) {//设置我的ViewPager
 
-        int[] id = {R.drawable.page1,R.drawable.page2,R.drawable.page3,R.drawable.page4,R.drawable.page5};
+
+    private void setTheViewPager(final ViewPager pager) {//设置我的ViewPager
+
+        final int[] id = {R.drawable.page1,R.drawable.page2,R.drawable.page3,R.drawable.page4,R.drawable.page5};
 
         for(int i=0;i<id.length;i++){
             ImageView image = new ImageView(mactivity);
             image.setImageResource(id[i]);
 
+            image.setOnTouchListener(new View.OnTouchListener() {
+                @Override
+                public boolean onTouch(View v, MotionEvent event) {
+
+                    switch(event.getAction()){
+                        case MotionEvent.ACTION_DOWN:
+                            handler.removeCallbacksAndMessages(null);
+                        break;
+                        case MotionEvent.ACTION_CANCEL:
+                            handler.sendEmptyMessageDelayed(0,3000);
+                            break;
+                        case MotionEvent.ACTION_UP:
+                            handler.sendEmptyMessageDelayed(0,3000);
+                            break;
+                    }
+                    return true;
+                }
+            });
+
+
             PagerList.add(image);
         }
 
+        /****
+         *  image.setOnTouchListener(new OnTouchListener() {
+
+        @Override
+        public boolean onTouch(View v, MotionEvent event) {
+        // TODO Auto-generated method stub
+
+        switch (event.getAction()) {
+        case MotionEvent.ACTION_DOWN:
+        Log.d("被按下了", "+=============");
+        handler.removeCallbacksAndMessages(null);
+
+        break;
+        case MotionEvent.ACTION_CANCEL:
+        Log.d("拖动了", "+=============");
+        handler.sendEmptyMessageDelayed(0, 3000);
+        break;
+        case MotionEvent.ACTION_UP:
+        Log.d("没按了", "+=============");
+        handler.sendEmptyMessageDelayed(0, 3000);
+        break;
+
+        }
+        return true;
+        }
+        });
+         *
+         *
+         *
+         */
+
         pager.setAdapter(new MyPagerAdapter());
+
+
+
+        handler = new Handler(){
+
+            int viewpagerPosition = pager.getCurrentItem();
+            @Override
+            public void handleMessage(Message msg) {
+                super.handleMessage(msg);
+
+                if(viewpagerPosition< id.length){
+
+                    pager.setCurrentItem(viewpagerPosition);
+                    viewpagerPosition++;
+                    handler.sendEmptyMessageDelayed(0,3000);
+                }else{
+                    viewpagerPosition=0;
+                    handler.sendEmptyMessageDelayed(0,3000);
+                }
+
+            }
+        };
+        handler.sendEmptyMessageDelayed(0,3000);
 
 
     }

@@ -1,8 +1,6 @@
 package com.example.menu_detail_pager;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import android.app.Activity;
@@ -25,6 +23,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ImageView.ScaleType;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -35,6 +34,7 @@ import com.example.beijing.ContentActivity;
 import com.example.beijing.R;
 import com.example.beijing.WebActivity;
 import com.example.custom.DisallowStopListenerLastViewpager;
+import com.example.utils.DataFormatUtils;
 import com.google.gson.Gson;
 import com.handmark.pulltorefresh.library.ILoadingLayout;
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
@@ -44,26 +44,24 @@ import com.handmark.pulltorefresh.library.PullToRefreshListView;
 import com.lidroid.xutils.BitmapUtils;
 import com.lidroid.xutils.HttpUtils;
 import com.lidroid.xutils.exception.HttpException;
+import com.lidroid.xutils.http.RequestParams;
 import com.lidroid.xutils.http.ResponseInfo;
 import com.lidroid.xutils.http.callback.RequestCallBack;
 import com.lidroid.xutils.http.client.HttpRequest.HttpMethod;
-import com.lidroid.xutils.util.LogUtils;
 import com.viewpagerindicator.CirclePageIndicator;
 
-public class NewsMenupagerItem extends BaseMenuDetailPager {
+public class NewsMenupagerItem {
 
     private DisallowStopListenerLastViewpager viewpager;
 
     private PullToRefreshListView refreshlistview;
-
-    private String Time;
 
     private final static int[] Photos = {R.drawable.image2, R.drawable.image3,
             R.drawable.image4, R.drawable.image5};
 
     private List<ImageView> list;
 
-    private String Url;
+    private final static String Url = "http://route.showapi.com/341-2";
 
     private List<Contentlist> conList;
 
@@ -81,18 +79,21 @@ public class NewsMenupagerItem extends BaseMenuDetailPager {
 
     private ContentActivity activity;
 
+    private BitmapUtils bitmapU;
+
+
+
     public NewsMenupagerItem(Activity activity) {
-        super(activity);
-      this.activity = (ContentActivity) activity;
+        this.activity = (ContentActivity) activity;
+
     }
 
-    @Override
     public View initView() {
 
         View view = View
-                .inflate(Mactivity, R.layout.news_menu_pager_item, null);
+                .inflate(activity, R.layout.news_menu_pager_item, null);
 
-        viewTitle = View.inflate(Mactivity, R.layout.news_menu_pager_title,
+        viewTitle = View.inflate(activity, R.layout.news_menu_pager_title,
                 null);
 
         viewpager = (DisallowStopListenerLastViewpager) viewTitle
@@ -102,21 +103,22 @@ public class NewsMenupagerItem extends BaseMenuDetailPager {
 
         circle = (CirclePageIndicator) viewTitle
                 .findViewById(R.id.NewsMenupagerCirclePageIndicator);
+
+        conList = new ArrayList<Contentlist>();
+
         MyAdapter = new MyBaseAdapter();
 
+        inflater = LayoutInflater.from(activity);
+
+        bitmapU = new BitmapUtils(activity);
+
         initData();
+
         return view;
     }
 
-    @Override
     public void initData() {
-        // TODO Auto-generated method stub
-        super.initData();
-        getNowTime();
-        Url = "http://route.showapi.com/341-2?name=1&age=2&showapi_timestamp="
-                + Time
-                + "&showapi_sign=ab14c09cc8e7473bb1743fab04708142&showapi_appid=8550";
-        inflater = LayoutInflater.from(Mactivity);
+
         initPhotosData();
 
         viewpager.setAdapter(new MyPagerAdapter());
@@ -175,35 +177,44 @@ public class NewsMenupagerItem extends BaseMenuDetailPager {
     }
 
     private void getTheServiceData() { // 用httpUtils读取Url上的流
-        // TODO Auto-generated method stub
+
+        RequestParams params = new RequestParams();
+        params.addBodyParameter("showapi_appid","15648");
+        params.addBodyParameter("showapi_timestamp", DataFormatUtils.getNowTime());
+        params.addBodyParameter("maxResult","15");
+        params.addBodyParameter("page","1");
+        params.addBodyParameter("showapi_sign","11e4ac9b4826422d981b9b8c960e7829");
+
         HttpUtils http = new HttpUtils();
 
-        http.send(HttpMethod.GET, Url, new RequestCallBack<String>() {
+
+        http.send(HttpMethod.POST,Url,params, new RequestCallBack<String>() {
 
 
             @Override
             public void onSuccess(ResponseInfo<String> responseInfo) {
 
+                String result = responseInfo.result;
 
-                String result = (String) responseInfo.result;
-
-                if (!TextUtils.isEmpty(result)) {
+                Log.d("+++++++++++++++",result);
+//                if (!TextUtils.isEmpty(result)) {
 
                     ParseJsonData(result);
 
                     refreshlistview.setAdapter(MyAdapter);
-                }
+
+//                }
 
             }
 
             @Override
             public void onFailure(HttpException error, String msg) {
                 // TODO Auto-generated method stub
-                Toast.makeText(Mactivity, msg, Toast.LENGTH_SHORT).show();
+                Toast.makeText(activity,"请检查网络或者手机时间是否为当前时间", Toast.LENGTH_LONG).show();
                 error.printStackTrace();
 
             }
-        });
+        }).setExpiry(1000);
     }
 
     private void listviewListener() {
@@ -217,8 +228,8 @@ public class NewsMenupagerItem extends BaseMenuDetailPager {
                 if (position > 1) {
 
                     Intent intent = new Intent();
-                    intent.setClass(Mactivity, WebActivity.class);
-                    Mactivity.startActivity(intent);
+                    intent.setClass(activity, WebActivity.class);
+                    activity.startActivity(intent);
                 }
             }
         });
@@ -252,11 +263,8 @@ public class NewsMenupagerItem extends BaseMenuDetailPager {
         Gson gson = new Gson();
         JsonBean bean = gson.fromJson(result, JsonBean.class);
         Showapi_res_body showapi = bean.getShowapi_res_body();
+        conList.addAll(showapi.getContentlist());
 
-        if (showapi != null) {
-            conList = showapi.getContentlist();
-
-        }
 
 
     }
@@ -265,7 +273,7 @@ public class NewsMenupagerItem extends BaseMenuDetailPager {
         // TODO Auto-generated method stub
         list = new ArrayList<ImageView>();
         for (int i = 0; i < Photos.length; i++) {
-            ImageView image = new ImageView(Mactivity);
+            ImageView image = new ImageView(activity);
             image.setScaleType(ScaleType.CENTER_CROP);
             image.setBackgroundResource(Photos[i]);
             image.setOnTouchListener(new OnTouchListener() {
@@ -329,14 +337,8 @@ public class NewsMenupagerItem extends BaseMenuDetailPager {
 
     class MyBaseAdapter extends BaseAdapter { // listView的适配器
 
-        BitmapUtils bitmapU;
+
         ViewHolder holder;
-
-        public MyBaseAdapter() {
-            bitmapU = new BitmapUtils(Mactivity);
-        }
-
-        ;
 
 
         @Override
@@ -381,6 +383,7 @@ public class NewsMenupagerItem extends BaseMenuDetailPager {
             holder.text2.setText(conList.get(position).getCt());
 
             bitmapU.display(holder.image, conList.get(position).getImg());
+            Log.d("++++++++++++",conList.get(position).toString());
             return convertView;
         }
 
@@ -394,14 +397,6 @@ public class NewsMenupagerItem extends BaseMenuDetailPager {
         TextView text2;
     }
 
-    private void getNowTime() { // 获得一个我想要的当前时间的格式
-
-        SimpleDateFormat myFormat = new SimpleDateFormat("yyyyMMddHHmmss");
-
-        Date now = new Date();
-        Time = myFormat.format(now);
-        Log.d("当前时间", Time);
-    }
 
     class MyAsyncTask extends AsyncTask<Void, Void, Void> {
 
@@ -414,7 +409,7 @@ public class NewsMenupagerItem extends BaseMenuDetailPager {
         @Override
         protected Void doInBackground(Void... params) {
             // TODO Auto-generated method stub
-			SystemClock.sleep(1000);
+            SystemClock.sleep(1000);
             return null;
         }
 

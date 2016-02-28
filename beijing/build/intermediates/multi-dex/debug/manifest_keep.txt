@@ -1,0 +1,17 @@
+-keep class com.example.utils.MyContext {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.example.beijing.MainActivity { <init>(); }
+-keep class com.example.beijing.LeaderActivity { <init>(); }
+-keep class com.example.beijing.ContentActivity { <init>(); }
+-keep class com.example.beijing.WebActivity { <init>(); }
+-keep class com.wq.photo.MediaChoseActivity { <init>(); }
+-keep class com.wq.photo.CropImageActivity { <init>(); }
+-keep class com.yalantis.ucrop.UCropActivity { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

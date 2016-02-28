@@ -9,2534 +9,2621 @@ package com.example.beijing;
 
 public final class R {
     public static final class anim {
-        public static final int slide_in_from_bottom=0x7f040000;
-        public static final int slide_in_from_top=0x7f040001;
-        public static final int slide_out_to_bottom=0x7f040002;
-        public static final int slide_out_to_top=0x7f040003;
+        public static final int slide_in_from_bottom = 0x7f040000;
+        public static final int slide_in_from_top = 0x7f040001;
+        public static final int slide_out_to_bottom = 0x7f040002;
+        public static final int slide_out_to_top = 0x7f040003;
     }
+
     public static final class attr {
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int behindOffset=0x7f010035;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int behindScrollScale=0x7f010037;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int behindWidth=0x7f010036;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int bg=0x7f01004d;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int centered=0x7f010006;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int circleWidth=0x7f01004a;
-        /**  Screen edge padding. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int clipPadding=0x7f010011;
-        /** <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int dotCount=0x7f01004b;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int fadeDegree=0x7f01003d;
-        /**  Length of the delay to fade the indicator. 
-         <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int fadeDelay=0x7f01001d;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int fadeEnabled=0x7f01003c;
-        /**  Length of the indicator fade to transparent. 
-         <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int fadeLength=0x7f01001e;
-        /**  Whether or not the selected indicator fades. 
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int fades=0x7f01001c;
-        /**  Color of the filled circle that represents the current page. 
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int fillColor=0x7f01000a;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int firstColor=0x7f010048;
-        /**  Color of the footer line and indicator. 
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int footerColor=0x7f010012;
-        /**  Height of the indicator above the footer line. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int footerIndicatorHeight=0x7f010015;
-        /**  Style of the indicator. Default is triangle. 
-         <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0</td><td></td></tr>
-<tr><td><code>triangle</code></td><td>1</td><td></td></tr>
-<tr><td><code>underline</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static final int footerIndicatorStyle=0x7f010014;
-        /**  Left and right padding of the underline indicator. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int footerIndicatorUnderlinePadding=0x7f010016;
-        /**  Height of the footer line. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int footerLineHeight=0x7f010013;
-        /**  Padding between the bottom of the title and the footer. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int footerPadding=0x7f010017;
-        /**  Width of the gap between each indicator line. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int gapWidth=0x7f010010;
-        /**  Position of the line. 
-         <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>bottom</code></td><td>0</td><td></td></tr>
-<tr><td><code>top</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static final int linePosition=0x7f010018;
-        /**  Width of each indicator line. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int lineWidth=0x7f01000f;
-        /** <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int max=0x7f010045;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>left</code></td><td>0</td><td></td></tr>
-<tr><td><code>right</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static final int mode=0x7f010032;
-        /**  Color of the filled circles that represents pages. 
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int pageColor=0x7f01000b;
-        /**  BELOW HERE ARE DEPRECEATED. DO NOT USE. 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int ptrAdapterViewBackground=0x7f01002f;
-        /**  Style of Animation should be used displayed when pulling. 
-         <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>rotate</code></td><td>0x0</td><td></td></tr>
-<tr><td><code>flip</code></td><td>0x1</td><td></td></tr>
-</table>
-         */
-        public static final int ptrAnimationStyle=0x7f01002b;
-        /**  Drawable to use as Loading Indicator. Changes both Header and Footer. 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrDrawable=0x7f010025;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrDrawableBottom=0x7f010031;
-        /**  Drawable to use as Loading Indicator in the Footer View. Overrides value set in ptrDrawable. 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrDrawableEnd=0x7f010027;
-        /**  Drawable to use as Loading Indicator in the Header View. Overrides value set in ptrDrawable. 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrDrawableStart=0x7f010026;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrDrawableTop=0x7f010030;
-        /**  A drawable to use as the background of the Header and Footer Loading Views 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int ptrHeaderBackground=0x7f010020;
-        /**  Text Color of the Header and Footer Loading Views Sub Header 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int ptrHeaderSubTextColor=0x7f010022;
-        /**  Base text color, typeface, size, and style for Header and Footer Loading Views 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrHeaderTextAppearance=0x7f010029;
-        /**  Text Color of the Header and Footer Loading Views 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int ptrHeaderTextColor=0x7f010021;
-        /** 
-        	Whether PullToRefreshListView has it's extras enabled. This allows the user to be 
-        	able to scroll while refreshing, and behaves better. It acheives this by adding
-        	Header and/or Footer Views to the ListView.
-        
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-         */
-        public static final int ptrListViewExtrasEnabled=0x7f01002d;
-        /**  Mode of Pull-to-Refresh that should be used 
-         <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>disabled</code></td><td>0x0</td><td></td></tr>
-<tr><td><code>pullFromStart</code></td><td>0x1</td><td></td></tr>
-<tr><td><code>pullFromEnd</code></td><td>0x2</td><td></td></tr>
-<tr><td><code>both</code></td><td>0x3</td><td></td></tr>
-<tr><td><code>manualOnly</code></td><td>0x4</td><td></td></tr>
-<tr><td><code>pullDownFromTop</code></td><td>0x1</td><td> These last two are depreacted </td></tr>
-<tr><td><code>pullUpFromBottom</code></td><td>0x2</td><td></td></tr>
-</table>
-         */
-        public static final int ptrMode=0x7f010023;
-        /**  Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh. 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-         */
-        public static final int ptrOverScroll=0x7f010028;
-        /**  A drawable to use as the background of the Refreshable View 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-         */
-        public static final int ptrRefreshableViewBackground=0x7f01001f;
-        /** 
-        	Whether the Drawable should be continually rotated as you pull. This only
-        	takes effect when using the 'Rotate' Animation Style.
-        
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-         */
-        public static final int ptrRotateDrawableWhilePulling=0x7f01002e;
-        /**  Whether the user can scroll while the View is Refreshing 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-         */
-        public static final int ptrScrollingWhileRefreshingEnabled=0x7f01002c;
-        /**  Whether the Indicator overlay(s) should be used 
-         <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-         */
-        public static final int ptrShowIndicator=0x7f010024;
-        /**  Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int ptrSubHeaderTextAppearance=0x7f01002a;
-        /**  Radius of the circles. This is also the spacing between circles. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int radius=0x7f01000c;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int roundColor=0x7f010040;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int roundProgressColor=0x7f010041;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int roundWidth=0x7f010042;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int secondColor=0x7f010049;
-        /**  Whether or not the selected item is displayed as bold. 
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int selectedBold=0x7f010019;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int selectedColor=0x7f010007;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int selectorDrawable=0x7f01003f;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int selectorEnabled=0x7f01003e;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int shadowDrawable=0x7f01003a;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int shadowWidth=0x7f01003b;
-        /**  Whether or not the selected indicator snaps to the circles. 
-         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int snap=0x7f01000d;
-        /** <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int splitSize=0x7f01004c;
-        /**  Color of the open circles. 
-         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int strokeColor=0x7f01000e;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int strokeWidth=0x7f010008;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>STROKE</code></td><td>0</td><td></td></tr>
-<tr><td><code>FILL</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static final int style=0x7f010047;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int textColor=0x7f010043;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int textIsDisplayable=0x7f010046;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int textSize=0x7f010044;
-        /**  Padding between titles when bumping into each other. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int titlePadding=0x7f01001a;
-        /**  Padding between titles and the top of the View. 
-         <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int topPadding=0x7f01001b;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>margin</code></td><td>0</td><td></td></tr>
-<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
-<tr><td><code>none</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static final int touchModeAbove=0x7f010038;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>margin</code></td><td>0</td><td></td></tr>
-<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
-<tr><td><code>none</code></td><td>2</td><td></td></tr>
-</table>
-         */
-        public static final int touchModeBehind=0x7f010039;
-        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int unselectedColor=0x7f010009;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int viewAbove=0x7f010033;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int viewBehind=0x7f010034;
-        /**  Style of the circle indicator. 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int vpiCirclePageIndicatorStyle=0x7f010000;
-        /**  Style of the icon indicator's views. 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int vpiIconPageIndicatorStyle=0x7f010001;
-        /**  Style of the line indicator. 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int vpiLinePageIndicatorStyle=0x7f010002;
-        /**  Style of the tab indicator's tabs. 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int vpiTabPageIndicatorStyle=0x7f010004;
-        /**  Style of the title indicator. 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int vpiTitlePageIndicatorStyle=0x7f010003;
-        /**  Style of the underline indicator. 
-         <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int vpiUnderlinePageIndicatorStyle=0x7f010005;
+        /**
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int behindOffset = 0x7f010035;
+        /**
+         * <p>Must be a floating point value, such as "<code>1.2</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int behindScrollScale = 0x7f010037;
+        /**
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int behindWidth = 0x7f010036;
+        /**
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int bg = 0x7f01004d;
+        /**
+         * <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int centered = 0x7f010006;
+        /**
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int circleWidth = 0x7f01004a;
+        /**
+         * Screen edge padding.
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int clipPadding = 0x7f010011;
+        /**
+         * <p>Must be an integer value, such as "<code>100</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int dotCount = 0x7f01004b;
+        /**
+         * <p>Must be a floating point value, such as "<code>1.2</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int fadeDegree = 0x7f01003d;
+        /**
+         * Length of the delay to fade the indicator.
+         * <p>Must be an integer value, such as "<code>100</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int fadeDelay = 0x7f01001d;
+        /**
+         * <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int fadeEnabled = 0x7f01003c;
+        /**
+         * Length of the indicator fade to transparent.
+         * <p>Must be an integer value, such as "<code>100</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int fadeLength = 0x7f01001e;
+        /**
+         * Whether or not the selected indicator fades.
+         * <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int fades = 0x7f01001c;
+        /**
+         * Color of the filled circle that represents the current page.
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int fillColor = 0x7f01000a;
+        /**
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int firstColor = 0x7f010048;
+        /**
+         * Color of the footer line and indicator.
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int footerColor = 0x7f010012;
+        /**
+         * Height of the indicator above the footer line.
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int footerIndicatorHeight = 0x7f010015;
+        /**
+         * Style of the indicator. Default is triangle.
+         * <p>Must be one of the following constant values.</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         * <tr><td><code>none</code></td><td>0</td><td></td></tr>
+         * <tr><td><code>triangle</code></td><td>1</td><td></td></tr>
+         * <tr><td><code>underline</code></td><td>2</td><td></td></tr>
+         * </table>
+         */
+        public static final int footerIndicatorStyle = 0x7f010014;
+        /**
+         * Left and right padding of the underline indicator.
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int footerIndicatorUnderlinePadding = 0x7f010016;
+        /**
+         * Height of the footer line.
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int footerLineHeight = 0x7f010013;
+        /**
+         * Padding between the bottom of the title and the footer.
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int footerPadding = 0x7f010017;
+        /**
+         * Width of the gap between each indicator line.
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int gapWidth = 0x7f010010;
+        /**
+         * Position of the line.
+         * <p>Must be one of the following constant values.</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         * <tr><td><code>bottom</code></td><td>0</td><td></td></tr>
+         * <tr><td><code>top</code></td><td>1</td><td></td></tr>
+         * </table>
+         */
+        public static final int linePosition = 0x7f010018;
+        /**
+         * Width of each indicator line.
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int lineWidth = 0x7f01000f;
+        /**
+         * <p>Must be an integer value, such as "<code>100</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int max = 0x7f010045;
+        /**
+         * <p>Must be one of the following constant values.</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         * <tr><td><code>left</code></td><td>0</td><td></td></tr>
+         * <tr><td><code>right</code></td><td>1</td><td></td></tr>
+         * </table>
+         */
+        public static final int mode = 0x7f010032;
+        /**
+         * Color of the filled circles that represents pages.
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int pageColor = 0x7f01000b;
+        /**
+         * BELOW HERE ARE DEPRECEATED. DO NOT USE.
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int ptrAdapterViewBackground = 0x7f01002f;
+        /**
+         * Style of Animation should be used displayed when pulling.
+         * <p>Must be one or more (separated by '|') of the following constant values.</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         * <tr><td><code>rotate</code></td><td>0x0</td><td></td></tr>
+         * <tr><td><code>flip</code></td><td>0x1</td><td></td></tr>
+         * </table>
+         */
+        public static final int ptrAnimationStyle = 0x7f01002b;
+        /**
+         * Drawable to use as Loading Indicator. Changes both Header and Footer.
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ptrDrawable = 0x7f010025;
+        /**
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ptrDrawableBottom = 0x7f010031;
+        /**
+         * Drawable to use as Loading Indicator in the Footer View. Overrides value set in ptrDrawable.
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ptrDrawableEnd = 0x7f010027;
+        /**
+         * Drawable to use as Loading Indicator in the Header View. Overrides value set in ptrDrawable.
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ptrDrawableStart = 0x7f010026;
+        /**
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ptrDrawableTop = 0x7f010030;
+        /**
+         * A drawable to use as the background of the Header and Footer Loading Views
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int ptrHeaderBackground = 0x7f010020;
+        /**
+         * Text Color of the Header and Footer Loading Views Sub Header
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int ptrHeaderSubTextColor = 0x7f010022;
+        /**
+         * Base text color, typeface, size, and style for Header and Footer Loading Views
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ptrHeaderTextAppearance = 0x7f010029;
+        /**
+         * Text Color of the Header and Footer Loading Views
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int ptrHeaderTextColor = 0x7f010021;
+        /**
+         * Whether PullToRefreshListView has it's extras enabled. This allows the user to be
+         * able to scroll while refreshing, and behaves better. It acheives this by adding
+         * Header and/or Footer Views to the ListView.
+         * <p>
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         */
+        public static final int ptrListViewExtrasEnabled = 0x7f01002d;
+        /**
+         * Mode of Pull-to-Refresh that should be used
+         * <p>Must be one or more (separated by '|') of the following constant values.</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         * <tr><td><code>disabled</code></td><td>0x0</td><td></td></tr>
+         * <tr><td><code>pullFromStart</code></td><td>0x1</td><td></td></tr>
+         * <tr><td><code>pullFromEnd</code></td><td>0x2</td><td></td></tr>
+         * <tr><td><code>both</code></td><td>0x3</td><td></td></tr>
+         * <tr><td><code>manualOnly</code></td><td>0x4</td><td></td></tr>
+         * <tr><td><code>pullDownFromTop</code></td><td>0x1</td><td> These last two are depreacted </td></tr>
+         * <tr><td><code>pullUpFromBottom</code></td><td>0x2</td><td></td></tr>
+         * </table>
+         */
+        public static final int ptrMode = 0x7f010023;
+        /**
+         * Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh.
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         */
+        public static final int ptrOverScroll = 0x7f010028;
+        /**
+         * A drawable to use as the background of the Refreshable View
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         */
+        public static final int ptrRefreshableViewBackground = 0x7f01001f;
+        /**
+         * Whether the Drawable should be continually rotated as you pull. This only
+         * takes effect when using the 'Rotate' Animation Style.
+         * <p>
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         */
+        public static final int ptrRotateDrawableWhilePulling = 0x7f01002e;
+        /**
+         * Whether the user can scroll while the View is Refreshing
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         */
+        public static final int ptrScrollingWhileRefreshingEnabled = 0x7f01002c;
+        /**
+         * Whether the Indicator overlay(s) should be used
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         */
+        public static final int ptrShowIndicator = 0x7f010024;
+        /**
+         * Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int ptrSubHeaderTextAppearance = 0x7f01002a;
+        /**
+         * Radius of the circles. This is also the spacing between circles.
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int radius = 0x7f01000c;
+        /**
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int roundColor = 0x7f010040;
+        /**
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int roundProgressColor = 0x7f010041;
+        /**
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int roundWidth = 0x7f010042;
+        /**
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int secondColor = 0x7f010049;
+        /**
+         * Whether or not the selected item is displayed as bold.
+         * <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int selectedBold = 0x7f010019;
+        /**
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int selectedColor = 0x7f010007;
+        /**
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int selectorDrawable = 0x7f01003f;
+        /**
+         * <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int selectorEnabled = 0x7f01003e;
+        /**
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int shadowDrawable = 0x7f01003a;
+        /**
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int shadowWidth = 0x7f01003b;
+        /**
+         * Whether or not the selected indicator snaps to the circles.
+         * <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int snap = 0x7f01000d;
+        /**
+         * <p>Must be an integer value, such as "<code>100</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int splitSize = 0x7f01004c;
+        /**
+         * Color of the open circles.
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int strokeColor = 0x7f01000e;
+        /**
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int strokeWidth = 0x7f010008;
+        /**
+         * <p>Must be one of the following constant values.</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         * <tr><td><code>STROKE</code></td><td>0</td><td></td></tr>
+         * <tr><td><code>FILL</code></td><td>1</td><td></td></tr>
+         * </table>
+         */
+        public static final int style = 0x7f010047;
+        /**
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int textColor = 0x7f010043;
+        /**
+         * <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int textIsDisplayable = 0x7f010046;
+        /**
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int textSize = 0x7f010044;
+        /**
+         * Padding between titles when bumping into each other.
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int titlePadding = 0x7f01001a;
+        /**
+         * Padding between titles and the top of the View.
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int topPadding = 0x7f01001b;
+        /**
+         * <p>Must be one of the following constant values.</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         * <tr><td><code>margin</code></td><td>0</td><td></td></tr>
+         * <tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+         * <tr><td><code>none</code></td><td>2</td><td></td></tr>
+         * </table>
+         */
+        public static final int touchModeAbove = 0x7f010038;
+        /**
+         * <p>Must be one of the following constant values.</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         * <tr><td><code>margin</code></td><td>0</td><td></td></tr>
+         * <tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+         * <tr><td><code>none</code></td><td>2</td><td></td></tr>
+         * </table>
+         */
+        public static final int touchModeBehind = 0x7f010039;
+        /**
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         */
+        public static final int unselectedColor = 0x7f010009;
+        /**
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int viewAbove = 0x7f010033;
+        /**
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int viewBehind = 0x7f010034;
+        /**
+         * Style of the circle indicator.
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int vpiCirclePageIndicatorStyle = 0x7f010000;
+        /**
+         * Style of the icon indicator's views.
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int vpiIconPageIndicatorStyle = 0x7f010001;
+        /**
+         * Style of the line indicator.
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int vpiLinePageIndicatorStyle = 0x7f010002;
+        /**
+         * Style of the tab indicator's tabs.
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int vpiTabPageIndicatorStyle = 0x7f010004;
+        /**
+         * Style of the title indicator.
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int vpiTitlePageIndicatorStyle = 0x7f010003;
+        /**
+         * Style of the underline indicator.
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int vpiUnderlinePageIndicatorStyle = 0x7f010005;
     }
+
     public static final class bool {
-        public static final int default_circle_indicator_centered=0x7f060000;
-        public static final int default_circle_indicator_snap=0x7f060001;
-        public static final int default_line_indicator_centered=0x7f060002;
-        public static final int default_title_indicator_selected_bold=0x7f060003;
-        public static final int default_underline_indicator_fades=0x7f060004;
+        public static final int default_circle_indicator_centered = 0x7f060000;
+        public static final int default_circle_indicator_snap = 0x7f060001;
+        public static final int default_line_indicator_centered = 0x7f060002;
+        public static final int default_title_indicator_selected_bold = 0x7f060003;
+        public static final int default_underline_indicator_fades = 0x7f060004;
     }
+
     public static final class color {
-        public static final int default_circle_indicator_fill_color=0x7f050008;
-        public static final int default_circle_indicator_page_color=0x7f050009;
-        public static final int default_circle_indicator_stroke_color=0x7f05000a;
-        public static final int default_line_indicator_selected_color=0x7f05000b;
-        public static final int default_line_indicator_unselected_color=0x7f05000c;
-        public static final int default_title_indicator_footer_color=0x7f05000d;
-        public static final int default_title_indicator_selected_color=0x7f05000e;
-        public static final int default_title_indicator_text_color=0x7f05000f;
-        public static final int default_underline_indicator_selected_color=0x7f050010;
-        public static final int vpi__background_holo_dark=0x7f050000;
-        public static final int vpi__background_holo_light=0x7f050001;
-        public static final int vpi__bright_foreground_disabled_holo_dark=0x7f050004;
-        public static final int vpi__bright_foreground_disabled_holo_light=0x7f050005;
-        public static final int vpi__bright_foreground_holo_dark=0x7f050002;
-        public static final int vpi__bright_foreground_holo_light=0x7f050003;
-        public static final int vpi__bright_foreground_inverse_holo_dark=0x7f050006;
-        public static final int vpi__bright_foreground_inverse_holo_light=0x7f050007;
-        public static final int vpi__dark_theme=0x7f050011;
-        public static final int vpi__light_theme=0x7f050012;
+        public static final int default_circle_indicator_fill_color = 0x7f050008;
+        public static final int default_circle_indicator_page_color = 0x7f050009;
+        public static final int default_circle_indicator_stroke_color = 0x7f05000a;
+        public static final int default_line_indicator_selected_color = 0x7f05000b;
+        public static final int default_line_indicator_unselected_color = 0x7f05000c;
+        public static final int default_title_indicator_footer_color = 0x7f05000d;
+        public static final int default_title_indicator_selected_color = 0x7f05000e;
+        public static final int default_title_indicator_text_color = 0x7f05000f;
+        public static final int default_underline_indicator_selected_color = 0x7f050010;
+        public static final int vpi__background_holo_dark = 0x7f050000;
+        public static final int vpi__background_holo_light = 0x7f050001;
+        public static final int vpi__bright_foreground_disabled_holo_dark = 0x7f050004;
+        public static final int vpi__bright_foreground_disabled_holo_light = 0x7f050005;
+        public static final int vpi__bright_foreground_holo_dark = 0x7f050002;
+        public static final int vpi__bright_foreground_holo_light = 0x7f050003;
+        public static final int vpi__bright_foreground_inverse_holo_dark = 0x7f050006;
+        public static final int vpi__bright_foreground_inverse_holo_light = 0x7f050007;
+        public static final int vpi__dark_theme = 0x7f050011;
+        public static final int vpi__light_theme = 0x7f050012;
     }
+
     public static final class dimen {
-        public static final int default_circle_indicator_radius=0x7f080000;
-        public static final int default_circle_indicator_stroke_width=0x7f080001;
-        public static final int default_line_indicator_gap_width=0x7f080003;
-        public static final int default_line_indicator_line_width=0x7f080002;
-        public static final int default_line_indicator_stroke_width=0x7f080004;
-        public static final int default_title_indicator_clip_padding=0x7f080005;
-        public static final int default_title_indicator_footer_indicator_height=0x7f080007;
-        public static final int default_title_indicator_footer_indicator_underline_padding=0x7f080008;
-        public static final int default_title_indicator_footer_line_height=0x7f080006;
-        public static final int default_title_indicator_footer_padding=0x7f080009;
-        public static final int default_title_indicator_text_size=0x7f08000a;
-        public static final int default_title_indicator_title_padding=0x7f08000b;
-        public static final int default_title_indicator_top_padding=0x7f08000c;
-        public static final int header_footer_left_right_padding=0x7f080010;
-        public static final int header_footer_top_bottom_padding=0x7f080011;
-        public static final int indicator_corner_radius=0x7f08000e;
-        public static final int indicator_internal_padding=0x7f08000f;
-        public static final int indicator_right_padding=0x7f08000d;
+        public static final int default_circle_indicator_radius = 0x7f080000;
+        public static final int default_circle_indicator_stroke_width = 0x7f080001;
+        public static final int default_line_indicator_gap_width = 0x7f080003;
+        public static final int default_line_indicator_line_width = 0x7f080002;
+        public static final int default_line_indicator_stroke_width = 0x7f080004;
+        public static final int default_title_indicator_clip_padding = 0x7f080005;
+        public static final int default_title_indicator_footer_indicator_height = 0x7f080007;
+        public static final int default_title_indicator_footer_indicator_underline_padding = 0x7f080008;
+        public static final int default_title_indicator_footer_line_height = 0x7f080006;
+        public static final int default_title_indicator_footer_padding = 0x7f080009;
+        public static final int default_title_indicator_text_size = 0x7f08000a;
+        public static final int default_title_indicator_title_padding = 0x7f08000b;
+        public static final int default_title_indicator_top_padding = 0x7f08000c;
+        public static final int header_footer_left_right_padding = 0x7f080010;
+        public static final int header_footer_top_bottom_padding = 0x7f080011;
+        public static final int indicator_corner_radius = 0x7f08000e;
+        public static final int indicator_internal_padding = 0x7f08000f;
+        public static final int indicator_right_padding = 0x7f08000d;
     }
+
     public static final class drawable {
-        public static final int arrow=0x7f020000;
-        public static final int back=0x7f020001;
-        public static final int bin=0x7f020002;
-        public static final int bottom_tab_bg=0x7f020003;
-        public static final int btn_voice=0x7f020004;
-        public static final int btn_xinliqa_nor=0x7f020005;
-        public static final int button_red_normal=0x7f020006;
-        public static final int button_red_pressed=0x7f020007;
-        public static final int change_imagebutton=0x7f020008;
-        public static final int circle_red=0x7f020009;
-        public static final int circle_white=0x7f02000a;
-        public static final int common_listview_headview_red_arrow=0x7f02000b;
-        public static final int customize=0x7f02000c;
-        public static final int default_ptr_flip=0x7f02000d;
-        public static final int default_ptr_rotate=0x7f02000e;
-        public static final int govaffairs=0x7f02000f;
-        public static final int govaffairs_press=0x7f020010;
-        public static final int guide_1=0x7f020011;
-        public static final int guide_2=0x7f020012;
-        public static final int guide_3=0x7f020013;
-        public static final int home=0x7f020014;
-        public static final int home_press=0x7f020015;
-        public static final int ic_launcher=0x7f020016;
-        public static final int icon=0x7f020017;
-        public static final int icon_150=0x7f020018;
-        public static final int icon_pic_grid_type=0x7f020019;
-        public static final int icon_pic_list_type=0x7f02001a;
-        public static final int icon_qq_small=0x7f02001b;
-        public static final int icon_share=0x7f02001c;
-        public static final int icon_textsize=0x7f02001d;
-        public static final int image2=0x7f02001e;
-        public static final int image3=0x7f02001f;
-        public static final int image4=0x7f020020;
-        public static final int image5=0x7f020021;
-        public static final int image_demo=0x7f020022;
-        public static final int img_menu=0x7f020023;
-        public static final int indicator_arrow=0x7f020024;
-        public static final int indicator_bg_bottom=0x7f020025;
-        public static final int indicator_bg_top=0x7f020026;
-        public static final int menu_arr_normal=0x7f020027;
-        public static final int menu_arr_select=0x7f020028;
-        public static final int news_cate_arr=0x7f020029;
-        public static final int news_pic_default=0x7f02002a;
-        public static final int news_tab_item_bg_select=0x7f02002b;
-        public static final int newscenter=0x7f02002c;
-        public static final int newscenter_press=0x7f02002d;
-        public static final int pic_item_list_default=0x7f02002e;
-        public static final int pic_list_item_bg=0x7f02002f;
-        public static final int select_government=0x7f020030;
-        public static final int select_home=0x7f020031;
-        public static final int select_new=0x7f020032;
-        public static final int select_samrt=0x7f020033;
-        public static final int select_set=0x7f020034;
-        public static final int select_text=0x7f020035;
-        public static final int setting=0x7f020036;
-        public static final int setting_press=0x7f020037;
-        public static final int share_weixin=0x7f020038;
-        public static final int sister=0x7f020039;
-        public static final int smartservice=0x7f02003a;
-        public static final int smartservice_press=0x7f02003b;
-        public static final int splash_bg_newyear=0x7f02003c;
-        public static final int splash_horse_newyear=0x7f02003d;
-        public static final int ssdk_oks_ptr_ptr=0x7f02003e;
-        public static final int title_red_bg=0x7f02003f;
-        public static final int topnews_item_default=0x7f020040;
-        public static final int vpi__tab_indicator=0x7f020041;
-        public static final int vpi__tab_selected_focused_holo=0x7f020042;
-        public static final int vpi__tab_selected_holo=0x7f020043;
-        public static final int vpi__tab_selected_pressed_holo=0x7f020044;
-        public static final int vpi__tab_unselected_focused_holo=0x7f020045;
-        public static final int vpi__tab_unselected_holo=0x7f020046;
-        public static final int vpi__tab_unselected_pressed_holo=0x7f020047;
+        public static final int arrow = 0x7f020000;
+        public static final int back = 0x7f020001;
+        public static final int bin = 0x7f020002;
+        public static final int bottom_tab_bg = 0x7f020003;
+        public static final int btn_voice = 0x7f020004;
+        public static final int btn_xinliqa_nor = 0x7f020005;
+        public static final int button_red_normal = 0x7f020006;
+        public static final int button_red_pressed = 0x7f020007;
+        public static final int change_imagebutton = 0x7f020008;
+        public static final int circle_red = 0x7f020009;
+        public static final int circle_white = 0x7f02000a;
+        public static final int common_listview_headview_red_arrow = 0x7f02000b;
+        public static final int customize = 0x7f02000c;
+        public static final int default_ptr_flip = 0x7f02000d;
+        public static final int default_ptr_rotate = 0x7f02000e;
+        public static final int govaffairs = 0x7f02000f;
+        public static final int govaffairs_press = 0x7f020010;
+        public static final int guide_1 = 0x7f020011;
+        public static final int guide_2 = 0x7f020012;
+        public static final int guide_3 = 0x7f020013;
+        public static final int home = 0x7f020014;
+        public static final int home_press = 0x7f020015;
+        public static final int ic_launcher = 0x7f020016;
+        public static final int icon = 0x7f020017;
+        public static final int icon_150 = 0x7f020018;
+        public static final int icon_pic_grid_type = 0x7f020019;
+        public static final int icon_pic_list_type = 0x7f02001a;
+        public static final int icon_qq_small = 0x7f02001b;
+        public static final int icon_share = 0x7f02001c;
+        public static final int icon_textsize = 0x7f02001d;
+        public static final int image2 = 0x7f02001e;
+        public static final int image3 = 0x7f02001f;
+        public static final int image4 = 0x7f020020;
+        public static final int image5 = 0x7f020021;
+        public static final int image_demo = 0x7f020022;
+        public static final int img_menu = 0x7f020023;
+        public static final int indicator_arrow = 0x7f020024;
+        public static final int indicator_bg_bottom = 0x7f020025;
+        public static final int indicator_bg_top = 0x7f020026;
+        public static final int menu_arr_normal = 0x7f020027;
+        public static final int menu_arr_select = 0x7f020028;
+        public static final int news_cate_arr = 0x7f020029;
+        public static final int news_pic_default = 0x7f02002a;
+        public static final int news_tab_item_bg_select = 0x7f02002b;
+        public static final int newscenter = 0x7f02002c;
+        public static final int newscenter_press = 0x7f02002d;
+        public static final int pic_item_list_default = 0x7f02002e;
+        public static final int pic_list_item_bg = 0x7f02002f;
+        public static final int select_government = 0x7f020030;
+        public static final int select_home = 0x7f020031;
+        public static final int select_new = 0x7f020032;
+        public static final int select_samrt = 0x7f020033;
+        public static final int select_set = 0x7f020034;
+        public static final int select_text = 0x7f020035;
+        public static final int setting = 0x7f020036;
+        public static final int setting_press = 0x7f020037;
+        public static final int share_weixin = 0x7f020038;
+        public static final int sister = 0x7f020039;
+        public static final int smartservice = 0x7f02003a;
+        public static final int smartservice_press = 0x7f02003b;
+        public static final int splash_bg_newyear = 0x7f02003c;
+        public static final int splash_horse_newyear = 0x7f02003d;
+        public static final int ssdk_oks_ptr_ptr = 0x7f02003e;
+        public static final int title_red_bg = 0x7f02003f;
+        public static final int topnews_item_default = 0x7f020040;
+        public static final int vpi__tab_indicator = 0x7f020041;
+        public static final int vpi__tab_selected_focused_holo = 0x7f020042;
+        public static final int vpi__tab_selected_holo = 0x7f020043;
+        public static final int vpi__tab_selected_pressed_holo = 0x7f020044;
+        public static final int vpi__tab_unselected_focused_holo = 0x7f020045;
+        public static final int vpi__tab_unselected_holo = 0x7f020046;
+        public static final int vpi__tab_unselected_pressed_holo = 0x7f020047;
     }
+
     public static final class id {
-        public static final int BasePagerImageButton=0x7f0a001e;
-        public static final int BasePagerRelativelayout=0x7f0a001b;
-        public static final int FILL=0x7f0a0016;
-        public static final int Left_menu_Listview=0x7f0a0027;
-        public static final int NewsMenuListViewItem_TextView1=0x7f0a002f;
-        public static final int NewsMenuListViewItem_TextView2=0x7f0a0030;
-        public static final int NewsMenuListViewItem_imageView=0x7f0a002e;
-        public static final int NewsMenupagerCirclePageIndicator=0x7f0a0034;
-        public static final int NewsMenupagerItemListView=0x7f0a0031;
-        public static final int NewsMenupagerItemViewPager=0x7f0a0033;
-        public static final int NewsMenupagerRelativelayout=0x7f0a0032;
-        public static final int PhotosMenuPagerItemImageView=0x7f0a0037;
-        public static final int PhotosMenuPagerItemTextView=0x7f0a0038;
-        public static final int STROKE=0x7f0a0017;
-        public static final int both=0x7f0a0009;
-        public static final int bottom=0x7f0a0007;
-        public static final int content_viewpager=0x7f0a0020;
-        public static final int description=0x7f0a002c;
-        public static final int disabled=0x7f0a000a;
-        public static final int fl_inner=0x7f0a0039;
-        public static final int flip=0x7f0a0010;
-        public static final int fullscreen=0x7f0a0014;
-        public static final int gridview=0x7f0a0000;
-        public static final int group_circle=0x7f0a0023;
-        public static final int leader_button=0x7f0a0025;
-        public static final int left=0x7f0a0012;
-        public static final int left_menu_item_text=0x7f0a0028;
-        public static final int leftmenu=0x7f0a0026;
-        public static final int manualOnly=0x7f0a000b;
-        public static final int margin=0x7f0a0015;
-        public static final int my_pull_arrow=0x7f0a002a;
-        public static final int my_pull_head=0x7f0a0029;
-        public static final int newMenuPagerIndicator=0x7f0a001a;
-        public static final int newMenuPagerViewpager=0x7f0a0019;
-        public static final int none=0x7f0a0004;
-        public static final int pager_frame=0x7f0a001f;
-        public static final int pager_image=0x7f0a001c;
-        public static final int pager_text=0x7f0a001d;
-        public static final int photosMenuPagerGridView=0x7f0a0036;
-        public static final int photosMenuPagerLisview=0x7f0a0035;
-        public static final int progress_bar=0x7f0a002b;
-        public static final int pullDownFromTop=0x7f0a000c;
-        public static final int pullFromEnd=0x7f0a000d;
-        public static final int pullFromStart=0x7f0a000e;
-        public static final int pullUpFromBottom=0x7f0a000f;
-        public static final int pull_to_refresh_image=0x7f0a003a;
-        public static final int pull_to_refresh_progress=0x7f0a003b;
-        public static final int pull_to_refresh_sub_text=0x7f0a003d;
-        public static final int pull_to_refresh_text=0x7f0a003c;
-        public static final int red_circle=0x7f0a0024;
-        public static final int relative=0x7f0a0049;
-        public static final int right=0x7f0a0013;
-        public static final int rotate=0x7f0a0011;
-        public static final int scrollview=0x7f0a0002;
-        public static final int selected_view=0x7f0a0003;
-        public static final int slidingmenumain=0x7f0a003e;
-        public static final int smart_server_button=0x7f0a0042;
-        public static final int smart_server_one=0x7f0a003f;
-        public static final int smart_server_three=0x7f0a0041;
-        public static final int smart_server_two=0x7f0a0040;
-        public static final int start_Animation=0x7f0a0018;
-        public static final int tab_bottom=0x7f0a0021;
-        public static final int tab_button1=0x7f0a0044;
-        public static final int tab_button2=0x7f0a0045;
-        public static final int tab_button3=0x7f0a0046;
-        public static final int tab_button4=0x7f0a0047;
-        public static final int tab_button5=0x7f0a0048;
-        public static final int tab_group=0x7f0a0043;
-        public static final int top=0x7f0a0008;
-        public static final int triangle=0x7f0a0005;
-        public static final int underline=0x7f0a0006;
-        public static final int updated_at=0x7f0a002d;
-        public static final int viewpager=0x7f0a0022;
-        public static final int web_activity_back=0x7f0a004a;
-        public static final int web_activity_share=0x7f0a004b;
-        public static final int web_activity_textsize=0x7f0a004c;
-        public static final int web_activity_webView=0x7f0a004d;
-        public static final int webview=0x7f0a0001;
+        public static final int BasePagerImageButton = 0x7f0a001e;
+        public static final int BasePagerRelativelayout = 0x7f0a001b;
+        public static final int FILL = 0x7f0a0016;
+        public static final int Left_menu_Listview = 0x7f0a0027;
+        public static final int NewsMenuListViewItem_TextView1 = 0x7f0a002f;
+        public static final int NewsMenuListViewItem_TextView2 = 0x7f0a0030;
+        public static final int NewsMenuListViewItem_imageView = 0x7f0a002e;
+        public static final int NewsMenupagerCirclePageIndicator = 0x7f0a0034;
+        public static final int NewsMenupagerItemListView = 0x7f0a0031;
+        public static final int NewsMenupagerItemViewPager = 0x7f0a0033;
+        public static final int NewsMenupagerRelativelayout = 0x7f0a0032;
+        public static final int PhotosMenuPagerItemImageView = 0x7f0a0037;
+        public static final int PhotosMenuPagerItemTextView = 0x7f0a0038;
+        public static final int STROKE = 0x7f0a0017;
+        public static final int both = 0x7f0a0009;
+        public static final int bottom = 0x7f0a0007;
+        public static final int content_viewpager = 0x7f0a0020;
+        public static final int description = 0x7f0a002c;
+        public static final int disabled = 0x7f0a000a;
+        public static final int fl_inner = 0x7f0a0039;
+        public static final int flip = 0x7f0a0010;
+        public static final int fullscreen = 0x7f0a0014;
+        public static final int gridview = 0x7f0a0000;
+        public static final int group_circle = 0x7f0a0023;
+        public static final int leader_button = 0x7f0a0025;
+        public static final int left = 0x7f0a0012;
+        public static final int left_menu_item_text = 0x7f0a0028;
+        public static final int leftmenu = 0x7f0a0026;
+        public static final int manualOnly = 0x7f0a000b;
+        public static final int margin = 0x7f0a0015;
+        public static final int my_pull_arrow = 0x7f0a002a;
+        public static final int my_pull_head = 0x7f0a0029;
+        public static final int newMenuPagerIndicator = 0x7f0a001a;
+        public static final int newMenuPagerViewpager = 0x7f0a0019;
+        public static final int none = 0x7f0a0004;
+        public static final int pager_frame = 0x7f0a001f;
+        public static final int pager_image = 0x7f0a001c;
+        public static final int pager_text = 0x7f0a001d;
+        public static final int photosMenuPagerGridView = 0x7f0a0036;
+        public static final int photosMenuPagerLisview = 0x7f0a0035;
+        public static final int progress_bar = 0x7f0a002b;
+        public static final int pullDownFromTop = 0x7f0a000c;
+        public static final int pullFromEnd = 0x7f0a000d;
+        public static final int pullFromStart = 0x7f0a000e;
+        public static final int pullUpFromBottom = 0x7f0a000f;
+        public static final int pull_to_refresh_image = 0x7f0a003a;
+        public static final int pull_to_refresh_progress = 0x7f0a003b;
+        public static final int pull_to_refresh_sub_text = 0x7f0a003d;
+        public static final int pull_to_refresh_text = 0x7f0a003c;
+        public static final int red_circle = 0x7f0a0024;
+        public static final int relative = 0x7f0a0049;
+        public static final int right = 0x7f0a0013;
+        public static final int rotate = 0x7f0a0011;
+        public static final int scrollview = 0x7f0a0002;
+        public static final int selected_view = 0x7f0a0003;
+        public static final int slidingmenumain = 0x7f0a003e;
+        public static final int smart_server_button = 0x7f0a0042;
+        public static final int smart_server_one = 0x7f0a003f;
+        public static final int smart_server_three = 0x7f0a0041;
+        public static final int smart_server_two = 0x7f0a0040;
+        public static final int start_Animation = 0x7f0a0018;
+        public static final int tab_bottom = 0x7f0a0021;
+        public static final int tab_button1 = 0x7f0a0044;
+        public static final int tab_button2 = 0x7f0a0045;
+        public static final int tab_button3 = 0x7f0a0046;
+        public static final int tab_button4 = 0x7f0a0047;
+        public static final int tab_button5 = 0x7f0a0048;
+        public static final int tab_group = 0x7f0a0043;
+        public static final int top = 0x7f0a0008;
+        public static final int triangle = 0x7f0a0005;
+        public static final int underline = 0x7f0a0006;
+        public static final int updated_at = 0x7f0a002d;
+        public static final int viewpager = 0x7f0a0022;
+        public static final int web_activity_back = 0x7f0a004a;
+        public static final int web_activity_share = 0x7f0a004b;
+        public static final int web_activity_textsize = 0x7f0a004c;
+        public static final int web_activity_webView = 0x7f0a004d;
+        public static final int webview = 0x7f0a0001;
     }
+
     public static final class integer {
-        public static final int default_circle_indicator_orientation=0x7f070000;
-        public static final int default_title_indicator_footer_indicator_style=0x7f070001;
-        public static final int default_title_indicator_line_position=0x7f070002;
-        public static final int default_underline_indicator_fade_delay=0x7f070003;
-        public static final int default_underline_indicator_fade_length=0x7f070004;
+        public static final int default_circle_indicator_orientation = 0x7f070000;
+        public static final int default_title_indicator_footer_indicator_style = 0x7f070001;
+        public static final int default_title_indicator_line_position = 0x7f070002;
+        public static final int default_underline_indicator_fade_delay = 0x7f070003;
+        public static final int default_underline_indicator_fade_length = 0x7f070004;
     }
+
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int basemenudetailpager=0x7f030001;
-        public static final int basepager=0x7f030002;
-        public static final int content_activity=0x7f030003;
-        public static final int homepager_item=0x7f030004;
-        public static final int leaderactivity=0x7f030005;
-        public static final int leaderimage1=0x7f030006;
-        public static final int leaderimage2=0x7f030007;
-        public static final int leaderimage3=0x7f030008;
-        public static final int left_menu=0x7f030009;
-        public static final int left_menu_fragmnet=0x7f03000a;
-        public static final int left_menu_item=0x7f03000b;
-        public static final int my_pull_to_refresh=0x7f03000c;
-        public static final int news_menu_listview_item=0x7f03000d;
-        public static final int news_menu_pager_item=0x7f03000e;
-        public static final int news_menu_pager_title=0x7f03000f;
-        public static final int photos_menu_pager=0x7f030010;
-        public static final int photos_menu_pager_item=0x7f030011;
-        public static final int pull_to_refresh_header_horizontal=0x7f030012;
-        public static final int pull_to_refresh_header_vertical=0x7f030013;
-        public static final int slidingmenumain=0x7f030014;
-        public static final int smart_server=0x7f030015;
-        public static final int tab_fragment=0x7f030016;
-        public static final int web_activity=0x7f030017;
+        public static final int activity_main = 0x7f030000;
+        public static final int basemenudetailpager = 0x7f030001;
+        public static final int basepager = 0x7f030002;
+        public static final int content_activity = 0x7f030003;
+        public static final int homepager_item = 0x7f030004;
+        public static final int leaderactivity = 0x7f030005;
+        public static final int leaderimage1 = 0x7f030006;
+        public static final int leaderimage2 = 0x7f030007;
+        public static final int leaderimage3 = 0x7f030008;
+        public static final int left_menu = 0x7f030009;
+        public static final int left_menu_fragmnet = 0x7f03000a;
+        public static final int left_menu_item = 0x7f03000b;
+        public static final int my_pull_to_refresh = 0x7f03000c;
+        public static final int news_menu_listview_item = 0x7f03000d;
+        public static final int news_menu_pager_item = 0x7f03000e;
+        public static final int news_menu_pager_title = 0x7f03000f;
+        public static final int photos_menu_pager = 0x7f030010;
+        public static final int photos_menu_pager_item = 0x7f030011;
+        public static final int pull_to_refresh_header_horizontal = 0x7f030012;
+        public static final int pull_to_refresh_header_vertical = 0x7f030013;
+        public static final int slidingmenumain = 0x7f030014;
+        public static final int smart_server = 0x7f030015;
+        public static final int tab_fragment = 0x7f030016;
+        public static final int web_activity = 0x7f030017;
     }
+
     public static final class string {
-        public static final int app_name=0x7f0b0006;
-        public static final int hello_world=0x7f0b0007;
-        public static final int not_updated_yet=0x7f0b000b;
-        public static final int pull_to_refresh=0x7f0b0008;
-        /**  Just use standard Pull Down String when pulling up. These can be set for languages which require it 
- Just use standard Pull Down String when pulling up. These can be set for languages which require it 
+        public static final int app_name = 0x7f0b0006;
+        public static final int hello_world = 0x7f0b0007;
+        public static final int not_updated_yet = 0x7f0b000b;
+        public static final int pull_to_refresh = 0x7f0b0008;
+        /**
+         * Just use standard Pull Down String when pulling up. These can be set for languages which require it
+         * Just use standard Pull Down String when pulling up. These can be set for languages which require it
          */
-        public static final int pull_to_refresh_from_bottom_pull_label=0x7f0b0003;
-        public static final int pull_to_refresh_from_bottom_refreshing_label=0x7f0b0005;
-        public static final int pull_to_refresh_from_bottom_release_label=0x7f0b0004;
-        public static final int pull_to_refresh_pull_label=0x7f0b0000;
-        public static final int pull_to_refresh_refreshing_label=0x7f0b0002;
-        public static final int pull_to_refresh_release_label=0x7f0b0001;
-        public static final int refreshing=0x7f0b000a;
-        public static final int release_to_refresh=0x7f0b0009;
-        public static final int time_error=0x7f0b000e;
-        public static final int updated_at=0x7f0b000c;
-        public static final int updated_just_now=0x7f0b000d;
+        public static final int pull_to_refresh_from_bottom_pull_label = 0x7f0b0003;
+        public static final int pull_to_refresh_from_bottom_refreshing_label = 0x7f0b0005;
+        public static final int pull_to_refresh_from_bottom_release_label = 0x7f0b0004;
+        public static final int pull_to_refresh_pull_label = 0x7f0b0000;
+        public static final int pull_to_refresh_refreshing_label = 0x7f0b0002;
+        public static final int pull_to_refresh_release_label = 0x7f0b0001;
+        public static final int refreshing = 0x7f0b000a;
+        public static final int release_to_refresh = 0x7f0b0009;
+        public static final int time_error = 0x7f0b000e;
+        public static final int updated_at = 0x7f0b000c;
+        public static final int updated_just_now = 0x7f0b000d;
     }
+
     public static final class style {
-        public static final int AppTheme=0x7f090005;
-        public static final int BottomTabStyle=0x7f090006;
-        public static final int TextAppearance_TabPageIndicator=0x7f090003;
-        public static final int Theme_PageIndicatorDefaults=0x7f090000;
-        public static final int Widget=0x7f090001;
-        public static final int Widget_IconPageIndicator=0x7f090004;
-        public static final int Widget_TabPageIndicator=0x7f090002;
+        public static final int AppTheme = 0x7f090005;
+        public static final int BottomTabStyle = 0x7f090006;
+        public static final int TextAppearance_TabPageIndicator = 0x7f090003;
+        public static final int Theme_PageIndicatorDefaults = 0x7f090000;
+        public static final int Widget = 0x7f090001;
+        public static final int Widget_IconPageIndicator = 0x7f090004;
+        public static final int Widget_TabPageIndicator = 0x7f090002;
     }
+
     public static final class styleable {
-        /** Attributes that can be used with a CirclePageIndicator.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CirclePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_android_orientation android:orientation}</code></td><td> Orientation of the indicator.</td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_centered com.example.beijing:centered}</code></td><td> Whether or not the indicators should be centered.</td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_fillColor com.example.beijing:fillColor}</code></td><td> Color of the filled circle that represents the current page.</td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_pageColor com.example.beijing:pageColor}</code></td><td> Color of the filled circles that represents pages.</td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_radius com.example.beijing:radius}</code></td><td> Radius of the circles.</td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_snap com.example.beijing:snap}</code></td><td> Whether or not the selected indicator snaps to the circles.</td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_strokeColor com.example.beijing:strokeColor}</code></td><td> Color of the open circles.</td></tr>
-           <tr><td><code>{@link #CirclePageIndicator_strokeWidth com.example.beijing:strokeWidth}</code></td><td> Width of the stroke used to draw the circles.</td></tr>
-           </table>
-           @see #CirclePageIndicator_android_background
-           @see #CirclePageIndicator_android_orientation
-           @see #CirclePageIndicator_centered
-           @see #CirclePageIndicator_fillColor
-           @see #CirclePageIndicator_pageColor
-           @see #CirclePageIndicator_radius
-           @see #CirclePageIndicator_snap
-           @see #CirclePageIndicator_strokeColor
-           @see #CirclePageIndicator_strokeWidth
+        /**
+         * Attributes that can be used with a CirclePageIndicator.
+         * <p>Includes the following attributes:</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Attribute</th><th>Description</th></tr>
+         * <tr><td><code>{@link #CirclePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
+         * <tr><td><code>{@link #CirclePageIndicator_android_orientation android:orientation}</code></td><td> Orientation of the indicator.</td></tr>
+         * <tr><td><code>{@link #CirclePageIndicator_centered com.example.beijing:centered}</code></td><td> Whether or not the indicators should be centered.</td></tr>
+         * <tr><td><code>{@link #CirclePageIndicator_fillColor com.example.beijing:fillColor}</code></td><td> Color of the filled circle that represents the current page.</td></tr>
+         * <tr><td><code>{@link #CirclePageIndicator_pageColor com.example.beijing:pageColor}</code></td><td> Color of the filled circles that represents pages.</td></tr>
+         * <tr><td><code>{@link #CirclePageIndicator_radius com.example.beijing:radius}</code></td><td> Radius of the circles.</td></tr>
+         * <tr><td><code>{@link #CirclePageIndicator_snap com.example.beijing:snap}</code></td><td> Whether or not the selected indicator snaps to the circles.</td></tr>
+         * <tr><td><code>{@link #CirclePageIndicator_strokeColor com.example.beijing:strokeColor}</code></td><td> Color of the open circles.</td></tr>
+         * <tr><td><code>{@link #CirclePageIndicator_strokeWidth com.example.beijing:strokeWidth}</code></td><td> Width of the stroke used to draw the circles.</td></tr>
+         * </table>
+         *
+         * @see #CirclePageIndicator_android_background
+         * @see #CirclePageIndicator_android_orientation
+         * @see #CirclePageIndicator_centered
+         * @see #CirclePageIndicator_fillColor
+         * @see #CirclePageIndicator_pageColor
+         * @see #CirclePageIndicator_radius
+         * @see #CirclePageIndicator_snap
+         * @see #CirclePageIndicator_strokeColor
+         * @see #CirclePageIndicator_strokeWidth
          */
         public static final int[] CirclePageIndicator = {
-            0x010100c4, 0x010100d4, 0x7f010006, 0x7f010008,
-            0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d,
-            0x7f01000e
+                0x010100c4, 0x010100d4, 0x7f010006, 0x7f010008,
+                0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d,
+                0x7f01000e
         };
         /**
-          <p>
-          @attr description
-           View background 
-          <p>This corresponds to the global attribute
-          resource symbol {@link android.R.attr#background}.
-          @attr name android:background
-        */
+         * @attr description
+         * View background
+         * <p>This corresponds to the global attribute
+         * resource symbol {@link android.R.attr#background}.
+         * @attr name android:background
+         */
         public static final int CirclePageIndicator_android_background = 1;
         /**
-          <p>
-          @attr description
-           Orientation of the indicator. 
-          <p>This corresponds to the global attribute
-          resource symbol {@link android.R.attr#orientation}.
-          @attr name android:orientation
-        */
+         * @attr description
+         * Orientation of the indicator.
+         * <p>This corresponds to the global attribute
+         * resource symbol {@link android.R.attr#orientation}.
+         * @attr name android:orientation
+         */
         public static final int CirclePageIndicator_android_orientation = 0;
         /**
-          <p>
-          @attr description
-           Whether or not the indicators should be centered. 
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:centered
-        */
+         * @attr description
+         * Whether or not the indicators should be centered.
+         * <p>
+         * <p>
+         * <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:centered
+         */
         public static final int CirclePageIndicator_centered = 2;
         /**
-          <p>
-          @attr description
-           Color of the filled circle that represents the current page. 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:fillColor
-        */
+         * @attr description
+         * Color of the filled circle that represents the current page.
+         * <p>
+         * <p>
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:fillColor
+         */
         public static final int CirclePageIndicator_fillColor = 4;
         /**
-          <p>
-          @attr description
-           Color of the filled circles that represents pages. 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:pageColor
-        */
+         * @attr description
+         * Color of the filled circles that represents pages.
+         * <p>
+         * <p>
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:pageColor
+         */
         public static final int CirclePageIndicator_pageColor = 5;
         /**
-          <p>
-          @attr description
-           Radius of the circles. This is also the spacing between circles. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:radius
-        */
+         * @attr description
+         * Radius of the circles. This is also the spacing between circles.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:radius
+         */
         public static final int CirclePageIndicator_radius = 6;
         /**
-          <p>
-          @attr description
-           Whether or not the selected indicator snaps to the circles. 
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:snap
-        */
+         * @attr description
+         * Whether or not the selected indicator snaps to the circles.
+         * <p>
+         * <p>
+         * <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:snap
+         */
         public static final int CirclePageIndicator_snap = 7;
         /**
-          <p>
-          @attr description
-           Color of the open circles. 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:strokeColor
-        */
+         * @attr description
+         * Color of the open circles.
+         * <p>
+         * <p>
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:strokeColor
+         */
         public static final int CirclePageIndicator_strokeColor = 8;
         /**
-          <p>
-          @attr description
-           Width of the stroke used to draw the circles. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:strokeWidth
-        */
+         * @attr description
+         * Width of the stroke used to draw the circles.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:strokeWidth
+         */
         public static final int CirclePageIndicator_strokeWidth = 3;
-        /** Attributes that can be used with a CustomVolumControlBar.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CustomVolumControlBar_bg com.example.beijing:bg}</code></td><td></td></tr>
-           <tr><td><code>{@link #CustomVolumControlBar_circleWidth com.example.beijing:circleWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #CustomVolumControlBar_dotCount com.example.beijing:dotCount}</code></td><td></td></tr>
-           <tr><td><code>{@link #CustomVolumControlBar_firstColor com.example.beijing:firstColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CustomVolumControlBar_secondColor com.example.beijing:secondColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #CustomVolumControlBar_splitSize com.example.beijing:splitSize}</code></td><td></td></tr>
-           </table>
-           @see #CustomVolumControlBar_bg
-           @see #CustomVolumControlBar_circleWidth
-           @see #CustomVolumControlBar_dotCount
-           @see #CustomVolumControlBar_firstColor
-           @see #CustomVolumControlBar_secondColor
-           @see #CustomVolumControlBar_splitSize
+        /**
+         * Attributes that can be used with a CustomVolumControlBar.
+         * <p>Includes the following attributes:</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Attribute</th><th>Description</th></tr>
+         * <tr><td><code>{@link #CustomVolumControlBar_bg com.example.beijing:bg}</code></td><td></td></tr>
+         * <tr><td><code>{@link #CustomVolumControlBar_circleWidth com.example.beijing:circleWidth}</code></td><td></td></tr>
+         * <tr><td><code>{@link #CustomVolumControlBar_dotCount com.example.beijing:dotCount}</code></td><td></td></tr>
+         * <tr><td><code>{@link #CustomVolumControlBar_firstColor com.example.beijing:firstColor}</code></td><td></td></tr>
+         * <tr><td><code>{@link #CustomVolumControlBar_secondColor com.example.beijing:secondColor}</code></td><td></td></tr>
+         * <tr><td><code>{@link #CustomVolumControlBar_splitSize com.example.beijing:splitSize}</code></td><td></td></tr>
+         * </table>
+         *
+         * @see #CustomVolumControlBar_bg
+         * @see #CustomVolumControlBar_circleWidth
+         * @see #CustomVolumControlBar_dotCount
+         * @see #CustomVolumControlBar_firstColor
+         * @see #CustomVolumControlBar_secondColor
+         * @see #CustomVolumControlBar_splitSize
          */
         public static final int[] CustomVolumControlBar = {
-            0x7f010048, 0x7f010049, 0x7f01004a, 0x7f01004b,
-            0x7f01004c, 0x7f01004d
+                0x7f010048, 0x7f010049, 0x7f01004a, 0x7f01004b,
+                0x7f01004c, 0x7f01004d
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#bg}
-          attribute's value can be found in the {@link #CustomVolumControlBar} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.beijing:bg
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#bg}
+         * attribute's value can be found in the {@link #CustomVolumControlBar} array.
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         *
+         * @attr name com.example.beijing:bg
+         */
         public static final int CustomVolumControlBar_bg = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#circleWidth}
-          attribute's value can be found in the {@link #CustomVolumControlBar} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:circleWidth
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#circleWidth}
+         * attribute's value can be found in the {@link #CustomVolumControlBar} array.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:circleWidth
+         */
         public static final int CustomVolumControlBar_circleWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#dotCount}
-          attribute's value can be found in the {@link #CustomVolumControlBar} array.
-
-
-          <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:dotCount
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#dotCount}
+         * attribute's value can be found in the {@link #CustomVolumControlBar} array.
+         * <p>
+         * <p>
+         * <p>Must be an integer value, such as "<code>100</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:dotCount
+         */
         public static final int CustomVolumControlBar_dotCount = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#firstColor}
-          attribute's value can be found in the {@link #CustomVolumControlBar} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:firstColor
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#firstColor}
+         * attribute's value can be found in the {@link #CustomVolumControlBar} array.
+         * <p>
+         * <p>
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:firstColor
+         */
         public static final int CustomVolumControlBar_firstColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#secondColor}
-          attribute's value can be found in the {@link #CustomVolumControlBar} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:secondColor
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#secondColor}
+         * attribute's value can be found in the {@link #CustomVolumControlBar} array.
+         * <p>
+         * <p>
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:secondColor
+         */
         public static final int CustomVolumControlBar_secondColor = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#splitSize}
-          attribute's value can be found in the {@link #CustomVolumControlBar} array.
-
-
-          <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:splitSize
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#splitSize}
+         * attribute's value can be found in the {@link #CustomVolumControlBar} array.
+         * <p>
+         * <p>
+         * <p>Must be an integer value, such as "<code>100</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:splitSize
+         */
         public static final int CustomVolumControlBar_splitSize = 4;
-        /** Attributes that can be used with a LinePageIndicator.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #LinePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
-           <tr><td><code>{@link #LinePageIndicator_centered com.example.beijing:centered}</code></td><td> Whether or not the indicators should be centered.</td></tr>
-           <tr><td><code>{@link #LinePageIndicator_gapWidth com.example.beijing:gapWidth}</code></td><td> Width of the gap between each indicator line.</td></tr>
-           <tr><td><code>{@link #LinePageIndicator_lineWidth com.example.beijing:lineWidth}</code></td><td> Width of each indicator line.</td></tr>
-           <tr><td><code>{@link #LinePageIndicator_selectedColor com.example.beijing:selectedColor}</code></td><td> Color of the selected line that represents the current page.</td></tr>
-           <tr><td><code>{@link #LinePageIndicator_strokeWidth com.example.beijing:strokeWidth}</code></td><td> Width of each indicator line's stroke.</td></tr>
-           <tr><td><code>{@link #LinePageIndicator_unselectedColor com.example.beijing:unselectedColor}</code></td><td> Color of the unselected lines that represent the pages.</td></tr>
-           </table>
-           @see #LinePageIndicator_android_background
-           @see #LinePageIndicator_centered
-           @see #LinePageIndicator_gapWidth
-           @see #LinePageIndicator_lineWidth
-           @see #LinePageIndicator_selectedColor
-           @see #LinePageIndicator_strokeWidth
-           @see #LinePageIndicator_unselectedColor
+        /**
+         * Attributes that can be used with a LinePageIndicator.
+         * <p>Includes the following attributes:</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Attribute</th><th>Description</th></tr>
+         * <tr><td><code>{@link #LinePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
+         * <tr><td><code>{@link #LinePageIndicator_centered com.example.beijing:centered}</code></td><td> Whether or not the indicators should be centered.</td></tr>
+         * <tr><td><code>{@link #LinePageIndicator_gapWidth com.example.beijing:gapWidth}</code></td><td> Width of the gap between each indicator line.</td></tr>
+         * <tr><td><code>{@link #LinePageIndicator_lineWidth com.example.beijing:lineWidth}</code></td><td> Width of each indicator line.</td></tr>
+         * <tr><td><code>{@link #LinePageIndicator_selectedColor com.example.beijing:selectedColor}</code></td><td> Color of the selected line that represents the current page.</td></tr>
+         * <tr><td><code>{@link #LinePageIndicator_strokeWidth com.example.beijing:strokeWidth}</code></td><td> Width of each indicator line's stroke.</td></tr>
+         * <tr><td><code>{@link #LinePageIndicator_unselectedColor com.example.beijing:unselectedColor}</code></td><td> Color of the unselected lines that represent the pages.</td></tr>
+         * </table>
+         *
+         * @see #LinePageIndicator_android_background
+         * @see #LinePageIndicator_centered
+         * @see #LinePageIndicator_gapWidth
+         * @see #LinePageIndicator_lineWidth
+         * @see #LinePageIndicator_selectedColor
+         * @see #LinePageIndicator_strokeWidth
+         * @see #LinePageIndicator_unselectedColor
          */
         public static final int[] LinePageIndicator = {
-            0x010100d4, 0x7f010006, 0x7f010007, 0x7f010008,
-            0x7f010009, 0x7f01000f, 0x7f010010
+                0x010100d4, 0x7f010006, 0x7f010007, 0x7f010008,
+                0x7f010009, 0x7f01000f, 0x7f010010
         };
         /**
-          <p>
-          @attr description
-           View background 
-          <p>This corresponds to the global attribute
-          resource symbol {@link android.R.attr#background}.
-          @attr name android:background
-        */
+         * @attr description
+         * View background
+         * <p>This corresponds to the global attribute
+         * resource symbol {@link android.R.attr#background}.
+         * @attr name android:background
+         */
         public static final int LinePageIndicator_android_background = 0;
         /**
-          <p>
-          @attr description
-           Whether or not the indicators should be centered. 
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:centered
-        */
+         * @attr description
+         * Whether or not the indicators should be centered.
+         * <p>
+         * <p>
+         * <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:centered
+         */
         public static final int LinePageIndicator_centered = 1;
         /**
-          <p>
-          @attr description
-           Width of the gap between each indicator line. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:gapWidth
-        */
+         * @attr description
+         * Width of the gap between each indicator line.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:gapWidth
+         */
         public static final int LinePageIndicator_gapWidth = 6;
         /**
-          <p>
-          @attr description
-           Width of each indicator line. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:lineWidth
-        */
+         * @attr description
+         * Width of each indicator line.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:lineWidth
+         */
         public static final int LinePageIndicator_lineWidth = 5;
         /**
-          <p>
-          @attr description
-           Color of the selected line that represents the current page. 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:selectedColor
-        */
+         * @attr description
+         * Color of the selected line that represents the current page.
+         * <p>
+         * <p>
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:selectedColor
+         */
         public static final int LinePageIndicator_selectedColor = 2;
         /**
-          <p>
-          @attr description
-           Width of each indicator line's stroke. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:strokeWidth
-        */
+         * @attr description
+         * Width of each indicator line's stroke.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:strokeWidth
+         */
         public static final int LinePageIndicator_strokeWidth = 3;
         /**
-          <p>
-          @attr description
-           Color of the unselected lines that represent the pages. 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:unselectedColor
-        */
+         * @attr description
+         * Color of the unselected lines that represent the pages.
+         * <p>
+         * <p>
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:unselectedColor
+         */
         public static final int LinePageIndicator_unselectedColor = 4;
-        /** Attributes that can be used with a PullToRefresh.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrAdapterViewBackground com.example.beijing:ptrAdapterViewBackground}</code></td><td> BELOW HERE ARE DEPRECEATED.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrAnimationStyle com.example.beijing:ptrAnimationStyle}</code></td><td> Style of Animation should be used displayed when pulling.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawable com.example.beijing:ptrDrawable}</code></td><td> Drawable to use as Loading Indicator.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawableBottom com.example.beijing:ptrDrawableBottom}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawableEnd com.example.beijing:ptrDrawableEnd}</code></td><td> Drawable to use as Loading Indicator in the Footer View.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawableStart com.example.beijing:ptrDrawableStart}</code></td><td> Drawable to use as Loading Indicator in the Header View.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrDrawableTop com.example.beijing:ptrDrawableTop}</code></td><td></td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderBackground com.example.beijing:ptrHeaderBackground}</code></td><td> A drawable to use as the background of the Header and Footer Loading Views </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderSubTextColor com.example.beijing:ptrHeaderSubTextColor}</code></td><td> Text Color of the Header and Footer Loading Views Sub Header </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderTextAppearance com.example.beijing:ptrHeaderTextAppearance}</code></td><td> Base text color, typeface, size, and style for Header and Footer Loading Views </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrHeaderTextColor com.example.beijing:ptrHeaderTextColor}</code></td><td> Text Color of the Header and Footer Loading Views </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrListViewExtrasEnabled com.example.beijing:ptrListViewExtrasEnabled}</code></td><td>
-        	Whether PullToRefreshListView has it's extras enabled.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrMode com.example.beijing:ptrMode}</code></td><td> Mode of Pull-to-Refresh that should be used </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrOverScroll com.example.beijing:ptrOverScroll}</code></td><td> Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrRefreshableViewBackground com.example.beijing:ptrRefreshableViewBackground}</code></td><td> A drawable to use as the background of the Refreshable View </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrRotateDrawableWhilePulling com.example.beijing:ptrRotateDrawableWhilePulling}</code></td><td>
-        	Whether the Drawable should be continually rotated as you pull.</td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrScrollingWhileRefreshingEnabled com.example.beijing:ptrScrollingWhileRefreshingEnabled}</code></td><td> Whether the user can scroll while the View is Refreshing </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrShowIndicator com.example.beijing:ptrShowIndicator}</code></td><td> Whether the Indicator overlay(s) should be used </td></tr>
-           <tr><td><code>{@link #PullToRefresh_ptrSubHeaderTextAppearance com.example.beijing:ptrSubHeaderTextAppearance}</code></td><td> Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header </td></tr>
-           </table>
-           @see #PullToRefresh_ptrAdapterViewBackground
-           @see #PullToRefresh_ptrAnimationStyle
-           @see #PullToRefresh_ptrDrawable
-           @see #PullToRefresh_ptrDrawableBottom
-           @see #PullToRefresh_ptrDrawableEnd
-           @see #PullToRefresh_ptrDrawableStart
-           @see #PullToRefresh_ptrDrawableTop
-           @see #PullToRefresh_ptrHeaderBackground
-           @see #PullToRefresh_ptrHeaderSubTextColor
-           @see #PullToRefresh_ptrHeaderTextAppearance
-           @see #PullToRefresh_ptrHeaderTextColor
-           @see #PullToRefresh_ptrListViewExtrasEnabled
-           @see #PullToRefresh_ptrMode
-           @see #PullToRefresh_ptrOverScroll
-           @see #PullToRefresh_ptrRefreshableViewBackground
-           @see #PullToRefresh_ptrRotateDrawableWhilePulling
-           @see #PullToRefresh_ptrScrollingWhileRefreshingEnabled
-           @see #PullToRefresh_ptrShowIndicator
-           @see #PullToRefresh_ptrSubHeaderTextAppearance
+        /**
+         * Attributes that can be used with a PullToRefresh.
+         * <p>Includes the following attributes:</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Attribute</th><th>Description</th></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrAdapterViewBackground com.example.beijing:ptrAdapterViewBackground}</code></td><td> BELOW HERE ARE DEPRECEATED.</td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrAnimationStyle com.example.beijing:ptrAnimationStyle}</code></td><td> Style of Animation should be used displayed when pulling.</td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrDrawable com.example.beijing:ptrDrawable}</code></td><td> Drawable to use as Loading Indicator.</td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrDrawableBottom com.example.beijing:ptrDrawableBottom}</code></td><td></td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrDrawableEnd com.example.beijing:ptrDrawableEnd}</code></td><td> Drawable to use as Loading Indicator in the Footer View.</td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrDrawableStart com.example.beijing:ptrDrawableStart}</code></td><td> Drawable to use as Loading Indicator in the Header View.</td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrDrawableTop com.example.beijing:ptrDrawableTop}</code></td><td></td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrHeaderBackground com.example.beijing:ptrHeaderBackground}</code></td><td> A drawable to use as the background of the Header and Footer Loading Views </td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrHeaderSubTextColor com.example.beijing:ptrHeaderSubTextColor}</code></td><td> Text Color of the Header and Footer Loading Views Sub Header </td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrHeaderTextAppearance com.example.beijing:ptrHeaderTextAppearance}</code></td><td> Base text color, typeface, size, and style for Header and Footer Loading Views </td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrHeaderTextColor com.example.beijing:ptrHeaderTextColor}</code></td><td> Text Color of the Header and Footer Loading Views </td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrListViewExtrasEnabled com.example.beijing:ptrListViewExtrasEnabled}</code></td><td>
+         * Whether PullToRefreshListView has it's extras enabled.</td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrMode com.example.beijing:ptrMode}</code></td><td> Mode of Pull-to-Refresh that should be used </td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrOverScroll com.example.beijing:ptrOverScroll}</code></td><td> Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh.</td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrRefreshableViewBackground com.example.beijing:ptrRefreshableViewBackground}</code></td><td> A drawable to use as the background of the Refreshable View </td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrRotateDrawableWhilePulling com.example.beijing:ptrRotateDrawableWhilePulling}</code></td><td>
+         * Whether the Drawable should be continually rotated as you pull.</td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrScrollingWhileRefreshingEnabled com.example.beijing:ptrScrollingWhileRefreshingEnabled}</code></td><td> Whether the user can scroll while the View is Refreshing </td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrShowIndicator com.example.beijing:ptrShowIndicator}</code></td><td> Whether the Indicator overlay(s) should be used </td></tr>
+         * <tr><td><code>{@link #PullToRefresh_ptrSubHeaderTextAppearance com.example.beijing:ptrSubHeaderTextAppearance}</code></td><td> Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header </td></tr>
+         * </table>
+         *
+         * @see #PullToRefresh_ptrAdapterViewBackground
+         * @see #PullToRefresh_ptrAnimationStyle
+         * @see #PullToRefresh_ptrDrawable
+         * @see #PullToRefresh_ptrDrawableBottom
+         * @see #PullToRefresh_ptrDrawableEnd
+         * @see #PullToRefresh_ptrDrawableStart
+         * @see #PullToRefresh_ptrDrawableTop
+         * @see #PullToRefresh_ptrHeaderBackground
+         * @see #PullToRefresh_ptrHeaderSubTextColor
+         * @see #PullToRefresh_ptrHeaderTextAppearance
+         * @see #PullToRefresh_ptrHeaderTextColor
+         * @see #PullToRefresh_ptrListViewExtrasEnabled
+         * @see #PullToRefresh_ptrMode
+         * @see #PullToRefresh_ptrOverScroll
+         * @see #PullToRefresh_ptrRefreshableViewBackground
+         * @see #PullToRefresh_ptrRotateDrawableWhilePulling
+         * @see #PullToRefresh_ptrScrollingWhileRefreshingEnabled
+         * @see #PullToRefresh_ptrShowIndicator
+         * @see #PullToRefresh_ptrSubHeaderTextAppearance
          */
         public static final int[] PullToRefresh = {
-            0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022,
-            0x7f010023, 0x7f010024, 0x7f010025, 0x7f010026,
-            0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a,
-            0x7f01002b, 0x7f01002c, 0x7f01002d, 0x7f01002e,
-            0x7f01002f, 0x7f010030, 0x7f010031
+                0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022,
+                0x7f010023, 0x7f010024, 0x7f010025, 0x7f010026,
+                0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a,
+                0x7f01002b, 0x7f01002c, 0x7f01002d, 0x7f01002e,
+                0x7f01002f, 0x7f010030, 0x7f010031
         };
         /**
-          <p>
-          @attr description
-           BELOW HERE ARE DEPRECEATED. DO NOT USE. 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrAdapterViewBackground
-        */
+         * @attr description
+         * BELOW HERE ARE DEPRECEATED. DO NOT USE.
+         * <p>
+         * <p>
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrAdapterViewBackground
+         */
         public static final int PullToRefresh_ptrAdapterViewBackground = 16;
         /**
-          <p>
-          @attr description
-           Style of Animation should be used displayed when pulling. 
-
-
-          <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>rotate</code></td><td>0x0</td><td></td></tr>
-<tr><td><code>flip</code></td><td>0x1</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrAnimationStyle
-        */
+         * <p>
+         *
+         * @attr description
+         * Style of Animation should be used displayed when pulling.
+         * <p>
+         * <p>
+         * <p>Must be one or more (separated by '|') of the following constant values.</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         * <tr><td><code>rotate</code></td><td>0x0</td><td></td></tr>
+         * <tr><td><code>flip</code></td><td>0x1</td><td></td></tr>
+         * </table>
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrAnimationStyle
+         */
         public static final int PullToRefresh_ptrAnimationStyle = 12;
         /**
-          <p>
-          @attr description
-           Drawable to use as Loading Indicator. Changes both Header and Footer. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrDrawable
-        */
+         * @attr description
+         * Drawable to use as Loading Indicator. Changes both Header and Footer.
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrDrawable
+         */
         public static final int PullToRefresh_ptrDrawable = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#ptrDrawableBottom}
-          attribute's value can be found in the {@link #PullToRefresh} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.beijing:ptrDrawableBottom
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#ptrDrawableBottom}
+         * attribute's value can be found in the {@link #PullToRefresh} array.
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         *
+         * @attr name com.example.beijing:ptrDrawableBottom
+         */
         public static final int PullToRefresh_ptrDrawableBottom = 18;
         /**
-          <p>
-          @attr description
-           Drawable to use as Loading Indicator in the Footer View. Overrides value set in ptrDrawable. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrDrawableEnd
-        */
+         * @attr description
+         * Drawable to use as Loading Indicator in the Footer View. Overrides value set in ptrDrawable.
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrDrawableEnd
+         */
         public static final int PullToRefresh_ptrDrawableEnd = 8;
         /**
-          <p>
-          @attr description
-           Drawable to use as Loading Indicator in the Header View. Overrides value set in ptrDrawable. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrDrawableStart
-        */
+         * @attr description
+         * Drawable to use as Loading Indicator in the Header View. Overrides value set in ptrDrawable.
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrDrawableStart
+         */
         public static final int PullToRefresh_ptrDrawableStart = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#ptrDrawableTop}
-          attribute's value can be found in the {@link #PullToRefresh} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.beijing:ptrDrawableTop
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#ptrDrawableTop}
+         * attribute's value can be found in the {@link #PullToRefresh} array.
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         *
+         * @attr name com.example.beijing:ptrDrawableTop
+         */
         public static final int PullToRefresh_ptrDrawableTop = 17;
         /**
-          <p>
-          @attr description
-           A drawable to use as the background of the Header and Footer Loading Views 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrHeaderBackground
-        */
+         * @attr description
+         * A drawable to use as the background of the Header and Footer Loading Views
+         * <p>
+         * <p>
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrHeaderBackground
+         */
         public static final int PullToRefresh_ptrHeaderBackground = 1;
         /**
-          <p>
-          @attr description
-           Text Color of the Header and Footer Loading Views Sub Header 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrHeaderSubTextColor
-        */
+         * @attr description
+         * Text Color of the Header and Footer Loading Views Sub Header
+         * <p>
+         * <p>
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrHeaderSubTextColor
+         */
         public static final int PullToRefresh_ptrHeaderSubTextColor = 3;
         /**
-          <p>
-          @attr description
-           Base text color, typeface, size, and style for Header and Footer Loading Views 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrHeaderTextAppearance
-        */
+         * @attr description
+         * Base text color, typeface, size, and style for Header and Footer Loading Views
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrHeaderTextAppearance
+         */
         public static final int PullToRefresh_ptrHeaderTextAppearance = 10;
         /**
-          <p>
-          @attr description
-           Text Color of the Header and Footer Loading Views 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrHeaderTextColor
-        */
+         * @attr description
+         * Text Color of the Header and Footer Loading Views
+         * <p>
+         * <p>
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrHeaderTextColor
+         */
         public static final int PullToRefresh_ptrHeaderTextColor = 2;
         /**
-          <p>
-          @attr description
-          
-        	Whether PullToRefreshListView has it's extras enabled. This allows the user to be 
-        	able to scroll while refreshing, and behaves better. It acheives this by adding
-        	Header and/or Footer Views to the ListView.
-        
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrListViewExtrasEnabled
-        */
+         * @attr description
+         * <p>
+         * Whether PullToRefreshListView has it's extras enabled. This allows the user to be
+         * able to scroll while refreshing, and behaves better. It acheives this by adding
+         * Header and/or Footer Views to the ListView.
+         * <p>
+         * <p>
+         * <p>
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrListViewExtrasEnabled
+         */
         public static final int PullToRefresh_ptrListViewExtrasEnabled = 14;
         /**
-          <p>
-          @attr description
-           Mode of Pull-to-Refresh that should be used 
-
-
-          <p>Must be one or more (separated by '|') of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>disabled</code></td><td>0x0</td><td></td></tr>
-<tr><td><code>pullFromStart</code></td><td>0x1</td><td></td></tr>
-<tr><td><code>pullFromEnd</code></td><td>0x2</td><td></td></tr>
-<tr><td><code>both</code></td><td>0x3</td><td></td></tr>
-<tr><td><code>manualOnly</code></td><td>0x4</td><td></td></tr>
-<tr><td><code>pullDownFromTop</code></td><td>0x1</td><td> These last two are depreacted </td></tr>
-<tr><td><code>pullUpFromBottom</code></td><td>0x2</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrMode
-        */
+         * <p>
+         *
+         * @attr description
+         * Mode of Pull-to-Refresh that should be used
+         * <p>
+         * <p>
+         * <p>Must be one or more (separated by '|') of the following constant values.</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         * <tr><td><code>disabled</code></td><td>0x0</td><td></td></tr>
+         * <tr><td><code>pullFromStart</code></td><td>0x1</td><td></td></tr>
+         * <tr><td><code>pullFromEnd</code></td><td>0x2</td><td></td></tr>
+         * <tr><td><code>both</code></td><td>0x3</td><td></td></tr>
+         * <tr><td><code>manualOnly</code></td><td>0x4</td><td></td></tr>
+         * <tr><td><code>pullDownFromTop</code></td><td>0x1</td><td> These last two are depreacted </td></tr>
+         * <tr><td><code>pullUpFromBottom</code></td><td>0x2</td><td></td></tr>
+         * </table>
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrMode
+         */
         public static final int PullToRefresh_ptrMode = 4;
         /**
-          <p>
-          @attr description
-           Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh. 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrOverScroll
-        */
+         * @attr description
+         * Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh.
+         * <p>
+         * <p>
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrOverScroll
+         */
         public static final int PullToRefresh_ptrOverScroll = 9;
         /**
-          <p>
-          @attr description
-           A drawable to use as the background of the Refreshable View 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrRefreshableViewBackground
-        */
+         * @attr description
+         * A drawable to use as the background of the Refreshable View
+         * <p>
+         * <p>
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrRefreshableViewBackground
+         */
         public static final int PullToRefresh_ptrRefreshableViewBackground = 0;
         /**
-          <p>
-          @attr description
-          
-        	Whether the Drawable should be continually rotated as you pull. This only
-        	takes effect when using the 'Rotate' Animation Style.
-        
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrRotateDrawableWhilePulling
-        */
+         * @attr description
+         * <p>
+         * Whether the Drawable should be continually rotated as you pull. This only
+         * takes effect when using the 'Rotate' Animation Style.
+         * <p>
+         * <p>
+         * <p>
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrRotateDrawableWhilePulling
+         */
         public static final int PullToRefresh_ptrRotateDrawableWhilePulling = 15;
         /**
-          <p>
-          @attr description
-           Whether the user can scroll while the View is Refreshing 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrScrollingWhileRefreshingEnabled
-        */
+         * @attr description
+         * Whether the user can scroll while the View is Refreshing
+         * <p>
+         * <p>
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrScrollingWhileRefreshingEnabled
+         */
         public static final int PullToRefresh_ptrScrollingWhileRefreshingEnabled = 13;
         /**
-          <p>
-          @attr description
-           Whether the Indicator overlay(s) should be used 
-
-
-          <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-<p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrShowIndicator
-        */
+         * @attr description
+         * Whether the Indicator overlay(s) should be used
+         * <p>
+         * <p>
+         * <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>May be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrShowIndicator
+         */
         public static final int PullToRefresh_ptrShowIndicator = 5;
         /**
-          <p>
-          @attr description
-           Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:ptrSubHeaderTextAppearance
-        */
+         * @attr description
+         * Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:ptrSubHeaderTextAppearance
+         */
         public static final int PullToRefresh_ptrSubHeaderTextAppearance = 11;
-        /** Attributes that can be used with a RoundProgressBar.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #RoundProgressBar_max com.example.beijing:max}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundProgressBar_roundColor com.example.beijing:roundColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundProgressBar_roundProgressColor com.example.beijing:roundProgressColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundProgressBar_roundWidth com.example.beijing:roundWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundProgressBar_style com.example.beijing:style}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundProgressBar_textColor com.example.beijing:textColor}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundProgressBar_textIsDisplayable com.example.beijing:textIsDisplayable}</code></td><td></td></tr>
-           <tr><td><code>{@link #RoundProgressBar_textSize com.example.beijing:textSize}</code></td><td></td></tr>
-           </table>
-           @see #RoundProgressBar_max
-           @see #RoundProgressBar_roundColor
-           @see #RoundProgressBar_roundProgressColor
-           @see #RoundProgressBar_roundWidth
-           @see #RoundProgressBar_style
-           @see #RoundProgressBar_textColor
-           @see #RoundProgressBar_textIsDisplayable
-           @see #RoundProgressBar_textSize
+        /**
+         * Attributes that can be used with a RoundProgressBar.
+         * <p>Includes the following attributes:</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Attribute</th><th>Description</th></tr>
+         * <tr><td><code>{@link #RoundProgressBar_max com.example.beijing:max}</code></td><td></td></tr>
+         * <tr><td><code>{@link #RoundProgressBar_roundColor com.example.beijing:roundColor}</code></td><td></td></tr>
+         * <tr><td><code>{@link #RoundProgressBar_roundProgressColor com.example.beijing:roundProgressColor}</code></td><td></td></tr>
+         * <tr><td><code>{@link #RoundProgressBar_roundWidth com.example.beijing:roundWidth}</code></td><td></td></tr>
+         * <tr><td><code>{@link #RoundProgressBar_style com.example.beijing:style}</code></td><td></td></tr>
+         * <tr><td><code>{@link #RoundProgressBar_textColor com.example.beijing:textColor}</code></td><td></td></tr>
+         * <tr><td><code>{@link #RoundProgressBar_textIsDisplayable com.example.beijing:textIsDisplayable}</code></td><td></td></tr>
+         * <tr><td><code>{@link #RoundProgressBar_textSize com.example.beijing:textSize}</code></td><td></td></tr>
+         * </table>
+         *
+         * @see #RoundProgressBar_max
+         * @see #RoundProgressBar_roundColor
+         * @see #RoundProgressBar_roundProgressColor
+         * @see #RoundProgressBar_roundWidth
+         * @see #RoundProgressBar_style
+         * @see #RoundProgressBar_textColor
+         * @see #RoundProgressBar_textIsDisplayable
+         * @see #RoundProgressBar_textSize
          */
         public static final int[] RoundProgressBar = {
-            0x7f010040, 0x7f010041, 0x7f010042, 0x7f010043,
-            0x7f010044, 0x7f010045, 0x7f010046, 0x7f010047
+                0x7f010040, 0x7f010041, 0x7f010042, 0x7f010043,
+                0x7f010044, 0x7f010045, 0x7f010046, 0x7f010047
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#max}
-          attribute's value can be found in the {@link #RoundProgressBar} array.
-
-
-          <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:max
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#max}
+         * attribute's value can be found in the {@link #RoundProgressBar} array.
+         * <p>
+         * <p>
+         * <p>Must be an integer value, such as "<code>100</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:max
+         */
         public static final int RoundProgressBar_max = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#roundColor}
-          attribute's value can be found in the {@link #RoundProgressBar} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:roundColor
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#roundColor}
+         * attribute's value can be found in the {@link #RoundProgressBar} array.
+         * <p>
+         * <p>
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:roundColor
+         */
         public static final int RoundProgressBar_roundColor = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#roundProgressColor}
-          attribute's value can be found in the {@link #RoundProgressBar} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:roundProgressColor
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#roundProgressColor}
+         * attribute's value can be found in the {@link #RoundProgressBar} array.
+         * <p>
+         * <p>
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:roundProgressColor
+         */
         public static final int RoundProgressBar_roundProgressColor = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#roundWidth}
-          attribute's value can be found in the {@link #RoundProgressBar} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:roundWidth
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#roundWidth}
+         * attribute's value can be found in the {@link #RoundProgressBar} array.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:roundWidth
+         */
         public static final int RoundProgressBar_roundWidth = 2;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#style}
-          attribute's value can be found in the {@link #RoundProgressBar} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>STROKE</code></td><td>0</td><td></td></tr>
-<tr><td><code>FILL</code></td><td>1</td><td></td></tr>
-</table>
-          @attr name com.example.beijing:style
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#style}
+         * attribute's value can be found in the {@link #RoundProgressBar} array.
+         * <p>
+         * <p>
+         * <p>Must be one of the following constant values.</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         * <tr><td><code>STROKE</code></td><td>0</td><td></td></tr>
+         * <tr><td><code>FILL</code></td><td>1</td><td></td></tr>
+         * </table>
+         *
+         * @attr name com.example.beijing:style
+         */
         public static final int RoundProgressBar_style = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#textColor}
-          attribute's value can be found in the {@link #RoundProgressBar} array.
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:textColor
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#textColor}
+         * attribute's value can be found in the {@link #RoundProgressBar} array.
+         * <p>
+         * <p>
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:textColor
+         */
         public static final int RoundProgressBar_textColor = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#textIsDisplayable}
-          attribute's value can be found in the {@link #RoundProgressBar} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:textIsDisplayable
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#textIsDisplayable}
+         * attribute's value can be found in the {@link #RoundProgressBar} array.
+         * <p>
+         * <p>
+         * <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:textIsDisplayable
+         */
         public static final int RoundProgressBar_textIsDisplayable = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#textSize}
-          attribute's value can be found in the {@link #RoundProgressBar} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:textSize
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#textSize}
+         * attribute's value can be found in the {@link #RoundProgressBar} array.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:textSize
+         */
         public static final int RoundProgressBar_textSize = 4;
-        /** Attributes that can be used with a SlidingMenu.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SlidingMenu_behindOffset com.example.beijing:behindOffset}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_behindScrollScale com.example.beijing:behindScrollScale}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_behindWidth com.example.beijing:behindWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_fadeDegree com.example.beijing:fadeDegree}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_fadeEnabled com.example.beijing:fadeEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_mode com.example.beijing:mode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_selectorDrawable com.example.beijing:selectorDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_selectorEnabled com.example.beijing:selectorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_shadowDrawable com.example.beijing:shadowDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_shadowWidth com.example.beijing:shadowWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_touchModeAbove com.example.beijing:touchModeAbove}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_touchModeBehind com.example.beijing:touchModeBehind}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_viewAbove com.example.beijing:viewAbove}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_viewBehind com.example.beijing:viewBehind}</code></td><td></td></tr>
-           </table>
-           @see #SlidingMenu_behindOffset
-           @see #SlidingMenu_behindScrollScale
-           @see #SlidingMenu_behindWidth
-           @see #SlidingMenu_fadeDegree
-           @see #SlidingMenu_fadeEnabled
-           @see #SlidingMenu_mode
-           @see #SlidingMenu_selectorDrawable
-           @see #SlidingMenu_selectorEnabled
-           @see #SlidingMenu_shadowDrawable
-           @see #SlidingMenu_shadowWidth
-           @see #SlidingMenu_touchModeAbove
-           @see #SlidingMenu_touchModeBehind
-           @see #SlidingMenu_viewAbove
-           @see #SlidingMenu_viewBehind
+        /**
+         * Attributes that can be used with a SlidingMenu.
+         * <p>Includes the following attributes:</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Attribute</th><th>Description</th></tr>
+         * <tr><td><code>{@link #SlidingMenu_behindOffset com.example.beijing:behindOffset}</code></td><td></td></tr>
+         * <tr><td><code>{@link #SlidingMenu_behindScrollScale com.example.beijing:behindScrollScale}</code></td><td></td></tr>
+         * <tr><td><code>{@link #SlidingMenu_behindWidth com.example.beijing:behindWidth}</code></td><td></td></tr>
+         * <tr><td><code>{@link #SlidingMenu_fadeDegree com.example.beijing:fadeDegree}</code></td><td></td></tr>
+         * <tr><td><code>{@link #SlidingMenu_fadeEnabled com.example.beijing:fadeEnabled}</code></td><td></td></tr>
+         * <tr><td><code>{@link #SlidingMenu_mode com.example.beijing:mode}</code></td><td></td></tr>
+         * <tr><td><code>{@link #SlidingMenu_selectorDrawable com.example.beijing:selectorDrawable}</code></td><td></td></tr>
+         * <tr><td><code>{@link #SlidingMenu_selectorEnabled com.example.beijing:selectorEnabled}</code></td><td></td></tr>
+         * <tr><td><code>{@link #SlidingMenu_shadowDrawable com.example.beijing:shadowDrawable}</code></td><td></td></tr>
+         * <tr><td><code>{@link #SlidingMenu_shadowWidth com.example.beijing:shadowWidth}</code></td><td></td></tr>
+         * <tr><td><code>{@link #SlidingMenu_touchModeAbove com.example.beijing:touchModeAbove}</code></td><td></td></tr>
+         * <tr><td><code>{@link #SlidingMenu_touchModeBehind com.example.beijing:touchModeBehind}</code></td><td></td></tr>
+         * <tr><td><code>{@link #SlidingMenu_viewAbove com.example.beijing:viewAbove}</code></td><td></td></tr>
+         * <tr><td><code>{@link #SlidingMenu_viewBehind com.example.beijing:viewBehind}</code></td><td></td></tr>
+         * </table>
+         *
+         * @see #SlidingMenu_behindOffset
+         * @see #SlidingMenu_behindScrollScale
+         * @see #SlidingMenu_behindWidth
+         * @see #SlidingMenu_fadeDegree
+         * @see #SlidingMenu_fadeEnabled
+         * @see #SlidingMenu_mode
+         * @see #SlidingMenu_selectorDrawable
+         * @see #SlidingMenu_selectorEnabled
+         * @see #SlidingMenu_shadowDrawable
+         * @see #SlidingMenu_shadowWidth
+         * @see #SlidingMenu_touchModeAbove
+         * @see #SlidingMenu_touchModeBehind
+         * @see #SlidingMenu_viewAbove
+         * @see #SlidingMenu_viewBehind
          */
         public static final int[] SlidingMenu = {
-            0x7f010032, 0x7f010033, 0x7f010034, 0x7f010035,
-            0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039,
-            0x7f01003a, 0x7f01003b, 0x7f01003c, 0x7f01003d,
-            0x7f01003e, 0x7f01003f
+                0x7f010032, 0x7f010033, 0x7f010034, 0x7f010035,
+                0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039,
+                0x7f01003a, 0x7f01003b, 0x7f01003c, 0x7f01003d,
+                0x7f01003e, 0x7f01003f
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#behindOffset}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:behindOffset
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#behindOffset}
+         * attribute's value can be found in the {@link #SlidingMenu} array.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:behindOffset
+         */
         public static final int SlidingMenu_behindOffset = 3;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#behindScrollScale}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:behindScrollScale
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#behindScrollScale}
+         * attribute's value can be found in the {@link #SlidingMenu} array.
+         * <p>
+         * <p>
+         * <p>Must be a floating point value, such as "<code>1.2</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:behindScrollScale
+         */
         public static final int SlidingMenu_behindScrollScale = 5;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#behindWidth}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:behindWidth
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#behindWidth}
+         * attribute's value can be found in the {@link #SlidingMenu} array.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:behindWidth
+         */
         public static final int SlidingMenu_behindWidth = 4;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#fadeDegree}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:fadeDegree
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#fadeDegree}
+         * attribute's value can be found in the {@link #SlidingMenu} array.
+         * <p>
+         * <p>
+         * <p>Must be a floating point value, such as "<code>1.2</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:fadeDegree
+         */
         public static final int SlidingMenu_fadeDegree = 11;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#fadeEnabled}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:fadeEnabled
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#fadeEnabled}
+         * attribute's value can be found in the {@link #SlidingMenu} array.
+         * <p>
+         * <p>
+         * <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:fadeEnabled
+         */
         public static final int SlidingMenu_fadeEnabled = 10;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#mode}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>left</code></td><td>0</td><td></td></tr>
-<tr><td><code>right</code></td><td>1</td><td></td></tr>
-</table>
-          @attr name com.example.beijing:mode
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#mode}
+         * attribute's value can be found in the {@link #SlidingMenu} array.
+         * <p>
+         * <p>
+         * <p>Must be one of the following constant values.</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         * <tr><td><code>left</code></td><td>0</td><td></td></tr>
+         * <tr><td><code>right</code></td><td>1</td><td></td></tr>
+         * </table>
+         *
+         * @attr name com.example.beijing:mode
+         */
         public static final int SlidingMenu_mode = 0;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#selectorDrawable}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.beijing:selectorDrawable
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#selectorDrawable}
+         * attribute's value can be found in the {@link #SlidingMenu} array.
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         *
+         * @attr name com.example.beijing:selectorDrawable
+         */
         public static final int SlidingMenu_selectorDrawable = 13;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#selectorEnabled}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:selectorEnabled
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#selectorEnabled}
+         * attribute's value can be found in the {@link #SlidingMenu} array.
+         * <p>
+         * <p>
+         * <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:selectorEnabled
+         */
         public static final int SlidingMenu_selectorEnabled = 12;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#shadowDrawable}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.beijing:shadowDrawable
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#shadowDrawable}
+         * attribute's value can be found in the {@link #SlidingMenu} array.
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         *
+         * @attr name com.example.beijing:shadowDrawable
+         */
         public static final int SlidingMenu_shadowDrawable = 8;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#shadowWidth}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.example.beijing:shadowWidth
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#shadowWidth}
+         * attribute's value can be found in the {@link #SlidingMenu} array.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         *
+         * @attr name com.example.beijing:shadowWidth
+         */
         public static final int SlidingMenu_shadowWidth = 9;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#touchModeAbove}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>margin</code></td><td>0</td><td></td></tr>
-<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
-<tr><td><code>none</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name com.example.beijing:touchModeAbove
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#touchModeAbove}
+         * attribute's value can be found in the {@link #SlidingMenu} array.
+         * <p>
+         * <p>
+         * <p>Must be one of the following constant values.</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         * <tr><td><code>margin</code></td><td>0</td><td></td></tr>
+         * <tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+         * <tr><td><code>none</code></td><td>2</td><td></td></tr>
+         * </table>
+         *
+         * @attr name com.example.beijing:touchModeAbove
+         */
         public static final int SlidingMenu_touchModeAbove = 6;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#touchModeBehind}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>margin</code></td><td>0</td><td></td></tr>
-<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
-<tr><td><code>none</code></td><td>2</td><td></td></tr>
-</table>
-          @attr name com.example.beijing:touchModeBehind
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#touchModeBehind}
+         * attribute's value can be found in the {@link #SlidingMenu} array.
+         * <p>
+         * <p>
+         * <p>Must be one of the following constant values.</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         * <tr><td><code>margin</code></td><td>0</td><td></td></tr>
+         * <tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
+         * <tr><td><code>none</code></td><td>2</td><td></td></tr>
+         * </table>
+         *
+         * @attr name com.example.beijing:touchModeBehind
+         */
         public static final int SlidingMenu_touchModeBehind = 7;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#viewAbove}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.beijing:viewAbove
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#viewAbove}
+         * attribute's value can be found in the {@link #SlidingMenu} array.
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         *
+         * @attr name com.example.beijing:viewAbove
+         */
         public static final int SlidingMenu_viewAbove = 1;
         /**
-          <p>This symbol is the offset where the {@link com.example.beijing.R.attr#viewBehind}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.example.beijing:viewBehind
-        */
+         * <p>This symbol is the offset where the {@link com.example.beijing.R.attr#viewBehind}
+         * attribute's value can be found in the {@link #SlidingMenu} array.
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         *
+         * @attr name com.example.beijing:viewBehind
+         */
         public static final int SlidingMenu_viewBehind = 2;
-        /** Attributes that can be used with a TitlePageIndicator.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #TitlePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_android_textColor android:textColor}</code></td><td> Color of regular titles.</td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_android_textSize android:textSize}</code></td><td> Size of title text.</td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_clipPadding com.example.beijing:clipPadding}</code></td><td> Screen edge padding.</td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerColor com.example.beijing:footerColor}</code></td><td> Color of the footer line and indicator.</td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorHeight com.example.beijing:footerIndicatorHeight}</code></td><td> Height of the indicator above the footer line.</td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorStyle com.example.beijing:footerIndicatorStyle}</code></td><td> Style of the indicator.</td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerIndicatorUnderlinePadding com.example.beijing:footerIndicatorUnderlinePadding}</code></td><td> Left and right padding of the underline indicator.</td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerLineHeight com.example.beijing:footerLineHeight}</code></td><td> Height of the footer line.</td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_footerPadding com.example.beijing:footerPadding}</code></td><td> Padding between the bottom of the title and the footer.</td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_linePosition com.example.beijing:linePosition}</code></td><td> Position of the line.</td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_selectedBold com.example.beijing:selectedBold}</code></td><td> Whether or not the selected item is displayed as bold.</td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_selectedColor com.example.beijing:selectedColor}</code></td><td> Color of the selected title.</td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_titlePadding com.example.beijing:titlePadding}</code></td><td> Padding between titles when bumping into each other.</td></tr>
-           <tr><td><code>{@link #TitlePageIndicator_topPadding com.example.beijing:topPadding}</code></td><td> Padding between titles and the top of the View.</td></tr>
-           </table>
-           @see #TitlePageIndicator_android_background
-           @see #TitlePageIndicator_android_textColor
-           @see #TitlePageIndicator_android_textSize
-           @see #TitlePageIndicator_clipPadding
-           @see #TitlePageIndicator_footerColor
-           @see #TitlePageIndicator_footerIndicatorHeight
-           @see #TitlePageIndicator_footerIndicatorStyle
-           @see #TitlePageIndicator_footerIndicatorUnderlinePadding
-           @see #TitlePageIndicator_footerLineHeight
-           @see #TitlePageIndicator_footerPadding
-           @see #TitlePageIndicator_linePosition
-           @see #TitlePageIndicator_selectedBold
-           @see #TitlePageIndicator_selectedColor
-           @see #TitlePageIndicator_titlePadding
-           @see #TitlePageIndicator_topPadding
+        /**
+         * Attributes that can be used with a TitlePageIndicator.
+         * <p>Includes the following attributes:</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Attribute</th><th>Description</th></tr>
+         * <tr><td><code>{@link #TitlePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
+         * <tr><td><code>{@link #TitlePageIndicator_android_textColor android:textColor}</code></td><td> Color of regular titles.</td></tr>
+         * <tr><td><code>{@link #TitlePageIndicator_android_textSize android:textSize}</code></td><td> Size of title text.</td></tr>
+         * <tr><td><code>{@link #TitlePageIndicator_clipPadding com.example.beijing:clipPadding}</code></td><td> Screen edge padding.</td></tr>
+         * <tr><td><code>{@link #TitlePageIndicator_footerColor com.example.beijing:footerColor}</code></td><td> Color of the footer line and indicator.</td></tr>
+         * <tr><td><code>{@link #TitlePageIndicator_footerIndicatorHeight com.example.beijing:footerIndicatorHeight}</code></td><td> Height of the indicator above the footer line.</td></tr>
+         * <tr><td><code>{@link #TitlePageIndicator_footerIndicatorStyle com.example.beijing:footerIndicatorStyle}</code></td><td> Style of the indicator.</td></tr>
+         * <tr><td><code>{@link #TitlePageIndicator_footerIndicatorUnderlinePadding com.example.beijing:footerIndicatorUnderlinePadding}</code></td><td> Left and right padding of the underline indicator.</td></tr>
+         * <tr><td><code>{@link #TitlePageIndicator_footerLineHeight com.example.beijing:footerLineHeight}</code></td><td> Height of the footer line.</td></tr>
+         * <tr><td><code>{@link #TitlePageIndicator_footerPadding com.example.beijing:footerPadding}</code></td><td> Padding between the bottom of the title and the footer.</td></tr>
+         * <tr><td><code>{@link #TitlePageIndicator_linePosition com.example.beijing:linePosition}</code></td><td> Position of the line.</td></tr>
+         * <tr><td><code>{@link #TitlePageIndicator_selectedBold com.example.beijing:selectedBold}</code></td><td> Whether or not the selected item is displayed as bold.</td></tr>
+         * <tr><td><code>{@link #TitlePageIndicator_selectedColor com.example.beijing:selectedColor}</code></td><td> Color of the selected title.</td></tr>
+         * <tr><td><code>{@link #TitlePageIndicator_titlePadding com.example.beijing:titlePadding}</code></td><td> Padding between titles when bumping into each other.</td></tr>
+         * <tr><td><code>{@link #TitlePageIndicator_topPadding com.example.beijing:topPadding}</code></td><td> Padding between titles and the top of the View.</td></tr>
+         * </table>
+         *
+         * @see #TitlePageIndicator_android_background
+         * @see #TitlePageIndicator_android_textColor
+         * @see #TitlePageIndicator_android_textSize
+         * @see #TitlePageIndicator_clipPadding
+         * @see #TitlePageIndicator_footerColor
+         * @see #TitlePageIndicator_footerIndicatorHeight
+         * @see #TitlePageIndicator_footerIndicatorStyle
+         * @see #TitlePageIndicator_footerIndicatorUnderlinePadding
+         * @see #TitlePageIndicator_footerLineHeight
+         * @see #TitlePageIndicator_footerPadding
+         * @see #TitlePageIndicator_linePosition
+         * @see #TitlePageIndicator_selectedBold
+         * @see #TitlePageIndicator_selectedColor
+         * @see #TitlePageIndicator_titlePadding
+         * @see #TitlePageIndicator_topPadding
          */
         public static final int[] TitlePageIndicator = {
-            0x01010095, 0x01010098, 0x010100d4, 0x7f010007,
-            0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014,
-            0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018,
-            0x7f010019, 0x7f01001a, 0x7f01001b
+                0x01010095, 0x01010098, 0x010100d4, 0x7f010007,
+                0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014,
+                0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018,
+                0x7f010019, 0x7f01001a, 0x7f01001b
         };
         /**
-          <p>
-          @attr description
-           View background 
-          <p>This corresponds to the global attribute
-          resource symbol {@link android.R.attr#background}.
-          @attr name android:background
-        */
+         * @attr description
+         * View background
+         * <p>This corresponds to the global attribute
+         * resource symbol {@link android.R.attr#background}.
+         * @attr name android:background
+         */
         public static final int TitlePageIndicator_android_background = 2;
         /**
-          <p>
-          @attr description
-           Color of regular titles. 
-          <p>This corresponds to the global attribute
-          resource symbol {@link android.R.attr#textColor}.
-          @attr name android:textColor
-        */
+         * @attr description
+         * Color of regular titles.
+         * <p>This corresponds to the global attribute
+         * resource symbol {@link android.R.attr#textColor}.
+         * @attr name android:textColor
+         */
         public static final int TitlePageIndicator_android_textColor = 1;
         /**
-          <p>
-          @attr description
-           Size of title text. 
-          <p>This corresponds to the global attribute
-          resource symbol {@link android.R.attr#textSize}.
-          @attr name android:textSize
-        */
+         * @attr description
+         * Size of title text.
+         * <p>This corresponds to the global attribute
+         * resource symbol {@link android.R.attr#textSize}.
+         * @attr name android:textSize
+         */
         public static final int TitlePageIndicator_android_textSize = 0;
         /**
-          <p>
-          @attr description
-           Screen edge padding. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:clipPadding
-        */
+         * @attr description
+         * Screen edge padding.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:clipPadding
+         */
         public static final int TitlePageIndicator_clipPadding = 4;
         /**
-          <p>
-          @attr description
-           Color of the footer line and indicator. 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:footerColor
-        */
+         * @attr description
+         * Color of the footer line and indicator.
+         * <p>
+         * <p>
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:footerColor
+         */
         public static final int TitlePageIndicator_footerColor = 5;
         /**
-          <p>
-          @attr description
-           Height of the indicator above the footer line. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:footerIndicatorHeight
-        */
+         * @attr description
+         * Height of the indicator above the footer line.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:footerIndicatorHeight
+         */
         public static final int TitlePageIndicator_footerIndicatorHeight = 8;
         /**
-          <p>
-          @attr description
-           Style of the indicator. Default is triangle. 
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0</td><td></td></tr>
-<tr><td><code>triangle</code></td><td>1</td><td></td></tr>
-<tr><td><code>underline</code></td><td>2</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name com.example.beijing:footerIndicatorStyle
-        */
+         * <p>
+         *
+         * @attr description
+         * Style of the indicator. Default is triangle.
+         * <p>
+         * <p>
+         * <p>Must be one of the following constant values.</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         * <tr><td><code>none</code></td><td>0</td><td></td></tr>
+         * <tr><td><code>triangle</code></td><td>1</td><td></td></tr>
+         * <tr><td><code>underline</code></td><td>2</td><td></td></tr>
+         * </table>
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:footerIndicatorStyle
+         */
         public static final int TitlePageIndicator_footerIndicatorStyle = 7;
         /**
-          <p>
-          @attr description
-           Left and right padding of the underline indicator. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:footerIndicatorUnderlinePadding
-        */
+         * @attr description
+         * Left and right padding of the underline indicator.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:footerIndicatorUnderlinePadding
+         */
         public static final int TitlePageIndicator_footerIndicatorUnderlinePadding = 9;
         /**
-          <p>
-          @attr description
-           Height of the footer line. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:footerLineHeight
-        */
+         * @attr description
+         * Height of the footer line.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:footerLineHeight
+         */
         public static final int TitlePageIndicator_footerLineHeight = 6;
         /**
-          <p>
-          @attr description
-           Padding between the bottom of the title and the footer. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:footerPadding
-        */
+         * @attr description
+         * Padding between the bottom of the title and the footer.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:footerPadding
+         */
         public static final int TitlePageIndicator_footerPadding = 10;
         /**
-          <p>
-          @attr description
-           Position of the line. 
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>bottom</code></td><td>0</td><td></td></tr>
-<tr><td><code>top</code></td><td>1</td><td></td></tr>
-</table>
-          <p>This is a private symbol.
-          @attr name com.example.beijing:linePosition
-        */
+         * <p>
+         *
+         * @attr description
+         * Position of the line.
+         * <p>
+         * <p>
+         * <p>Must be one of the following constant values.</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+         * <tr><td><code>bottom</code></td><td>0</td><td></td></tr>
+         * <tr><td><code>top</code></td><td>1</td><td></td></tr>
+         * </table>
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:linePosition
+         */
         public static final int TitlePageIndicator_linePosition = 11;
         /**
-          <p>
-          @attr description
-           Whether or not the selected item is displayed as bold. 
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:selectedBold
-        */
+         * @attr description
+         * Whether or not the selected item is displayed as bold.
+         * <p>
+         * <p>
+         * <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:selectedBold
+         */
         public static final int TitlePageIndicator_selectedBold = 12;
         /**
-          <p>
-          @attr description
-           Color of the selected title. 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:selectedColor
-        */
+         * @attr description
+         * Color of the selected title.
+         * <p>
+         * <p>
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:selectedColor
+         */
         public static final int TitlePageIndicator_selectedColor = 3;
         /**
-          <p>
-          @attr description
-           Padding between titles when bumping into each other. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:titlePadding
-        */
+         * @attr description
+         * Padding between titles when bumping into each other.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:titlePadding
+         */
         public static final int TitlePageIndicator_titlePadding = 13;
         /**
-          <p>
-          @attr description
-           Padding between titles and the top of the View. 
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:topPadding
-        */
+         * @attr description
+         * Padding between titles and the top of the View.
+         * <p>
+         * <p>
+         * <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+         * Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+         * in (inches), mm (millimeters).
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:topPadding
+         */
         public static final int TitlePageIndicator_topPadding = 14;
-        /** Attributes that can be used with a UnderlinePageIndicator.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #UnderlinePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
-           <tr><td><code>{@link #UnderlinePageIndicator_fadeDelay com.example.beijing:fadeDelay}</code></td><td> Length of the delay to fade the indicator.</td></tr>
-           <tr><td><code>{@link #UnderlinePageIndicator_fadeLength com.example.beijing:fadeLength}</code></td><td> Length of the indicator fade to transparent.</td></tr>
-           <tr><td><code>{@link #UnderlinePageIndicator_fades com.example.beijing:fades}</code></td><td> Whether or not the selected indicator fades.</td></tr>
-           <tr><td><code>{@link #UnderlinePageIndicator_selectedColor com.example.beijing:selectedColor}</code></td><td> Color of the selected line that represents the current page.</td></tr>
-           </table>
-           @see #UnderlinePageIndicator_android_background
-           @see #UnderlinePageIndicator_fadeDelay
-           @see #UnderlinePageIndicator_fadeLength
-           @see #UnderlinePageIndicator_fades
-           @see #UnderlinePageIndicator_selectedColor
+        /**
+         * Attributes that can be used with a UnderlinePageIndicator.
+         * <p>Includes the following attributes:</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Attribute</th><th>Description</th></tr>
+         * <tr><td><code>{@link #UnderlinePageIndicator_android_background android:background}</code></td><td> View background </td></tr>
+         * <tr><td><code>{@link #UnderlinePageIndicator_fadeDelay com.example.beijing:fadeDelay}</code></td><td> Length of the delay to fade the indicator.</td></tr>
+         * <tr><td><code>{@link #UnderlinePageIndicator_fadeLength com.example.beijing:fadeLength}</code></td><td> Length of the indicator fade to transparent.</td></tr>
+         * <tr><td><code>{@link #UnderlinePageIndicator_fades com.example.beijing:fades}</code></td><td> Whether or not the selected indicator fades.</td></tr>
+         * <tr><td><code>{@link #UnderlinePageIndicator_selectedColor com.example.beijing:selectedColor}</code></td><td> Color of the selected line that represents the current page.</td></tr>
+         * </table>
+         *
+         * @see #UnderlinePageIndicator_android_background
+         * @see #UnderlinePageIndicator_fadeDelay
+         * @see #UnderlinePageIndicator_fadeLength
+         * @see #UnderlinePageIndicator_fades
+         * @see #UnderlinePageIndicator_selectedColor
          */
         public static final int[] UnderlinePageIndicator = {
-            0x010100d4, 0x7f010007, 0x7f01001c, 0x7f01001d,
-            0x7f01001e
+                0x010100d4, 0x7f010007, 0x7f01001c, 0x7f01001d,
+                0x7f01001e
         };
         /**
-          <p>
-          @attr description
-           View background 
-          <p>This corresponds to the global attribute
-          resource symbol {@link android.R.attr#background}.
-          @attr name android:background
-        */
+         * @attr description
+         * View background
+         * <p>This corresponds to the global attribute
+         * resource symbol {@link android.R.attr#background}.
+         * @attr name android:background
+         */
         public static final int UnderlinePageIndicator_android_background = 0;
         /**
-          <p>
-          @attr description
-           Length of the delay to fade the indicator. 
-
-
-          <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:fadeDelay
-        */
+         * @attr description
+         * Length of the delay to fade the indicator.
+         * <p>
+         * <p>
+         * <p>Must be an integer value, such as "<code>100</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:fadeDelay
+         */
         public static final int UnderlinePageIndicator_fadeDelay = 3;
         /**
-          <p>
-          @attr description
-           Length of the indicator fade to transparent. 
-
-
-          <p>Must be an integer value, such as "<code>100</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:fadeLength
-        */
+         * @attr description
+         * Length of the indicator fade to transparent.
+         * <p>
+         * <p>
+         * <p>Must be an integer value, such as "<code>100</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:fadeLength
+         */
         public static final int UnderlinePageIndicator_fadeLength = 4;
         /**
-          <p>
-          @attr description
-           Whether or not the selected indicator fades. 
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:fades
-        */
+         * @attr description
+         * Whether or not the selected indicator fades.
+         * <p>
+         * <p>
+         * <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:fades
+         */
         public static final int UnderlinePageIndicator_fades = 2;
         /**
-          <p>
-          @attr description
-           Color of the selected line that represents the current page. 
-
-
-          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
-"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.example.beijing:selectedColor
-        */
+         * @attr description
+         * Color of the selected line that represents the current page.
+         * <p>
+         * <p>
+         * <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+         * "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+         * <p>This may also be a reference to a resource (in the form
+         * "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+         * theme attribute (in the form
+         * "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+         * containing a value of this type.
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:selectedColor
+         */
         public static final int UnderlinePageIndicator_selectedColor = 1;
-        /** Attributes that can be used with a ViewPagerIndicator.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiCirclePageIndicatorStyle com.example.beijing:vpiCirclePageIndicatorStyle}</code></td><td> Style of the circle indicator.</td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiIconPageIndicatorStyle com.example.beijing:vpiIconPageIndicatorStyle}</code></td><td> Style of the icon indicator's views.</td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiLinePageIndicatorStyle com.example.beijing:vpiLinePageIndicatorStyle}</code></td><td> Style of the line indicator.</td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiTabPageIndicatorStyle com.example.beijing:vpiTabPageIndicatorStyle}</code></td><td> Style of the tab indicator's tabs.</td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiTitlePageIndicatorStyle com.example.beijing:vpiTitlePageIndicatorStyle}</code></td><td> Style of the title indicator.</td></tr>
-           <tr><td><code>{@link #ViewPagerIndicator_vpiUnderlinePageIndicatorStyle com.example.beijing:vpiUnderlinePageIndicatorStyle}</code></td><td> Style of the underline indicator.</td></tr>
-           </table>
-           @see #ViewPagerIndicator_vpiCirclePageIndicatorStyle
-           @see #ViewPagerIndicator_vpiIconPageIndicatorStyle
-           @see #ViewPagerIndicator_vpiLinePageIndicatorStyle
-           @see #ViewPagerIndicator_vpiTabPageIndicatorStyle
-           @see #ViewPagerIndicator_vpiTitlePageIndicatorStyle
-           @see #ViewPagerIndicator_vpiUnderlinePageIndicatorStyle
+        /**
+         * Attributes that can be used with a ViewPagerIndicator.
+         * <p>Includes the following attributes:</p>
+         * <table>
+         * <colgroup align="left" />
+         * <colgroup align="left" />
+         * <tr><th>Attribute</th><th>Description</th></tr>
+         * <tr><td><code>{@link #ViewPagerIndicator_vpiCirclePageIndicatorStyle com.example.beijing:vpiCirclePageIndicatorStyle}</code></td><td> Style of the circle indicator.</td></tr>
+         * <tr><td><code>{@link #ViewPagerIndicator_vpiIconPageIndicatorStyle com.example.beijing:vpiIconPageIndicatorStyle}</code></td><td> Style of the icon indicator's views.</td></tr>
+         * <tr><td><code>{@link #ViewPagerIndicator_vpiLinePageIndicatorStyle com.example.beijing:vpiLinePageIndicatorStyle}</code></td><td> Style of the line indicator.</td></tr>
+         * <tr><td><code>{@link #ViewPagerIndicator_vpiTabPageIndicatorStyle com.example.beijing:vpiTabPageIndicatorStyle}</code></td><td> Style of the tab indicator's tabs.</td></tr>
+         * <tr><td><code>{@link #ViewPagerIndicator_vpiTitlePageIndicatorStyle com.example.beijing:vpiTitlePageIndicatorStyle}</code></td><td> Style of the title indicator.</td></tr>
+         * <tr><td><code>{@link #ViewPagerIndicator_vpiUnderlinePageIndicatorStyle com.example.beijing:vpiUnderlinePageIndicatorStyle}</code></td><td> Style of the underline indicator.</td></tr>
+         * </table>
+         *
+         * @see #ViewPagerIndicator_vpiCirclePageIndicatorStyle
+         * @see #ViewPagerIndicator_vpiIconPageIndicatorStyle
+         * @see #ViewPagerIndicator_vpiLinePageIndicatorStyle
+         * @see #ViewPagerIndicator_vpiTabPageIndicatorStyle
+         * @see #ViewPagerIndicator_vpiTitlePageIndicatorStyle
+         * @see #ViewPagerIndicator_vpiUnderlinePageIndicatorStyle
          */
         public static final int[] ViewPagerIndicator = {
-            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004, 0x7f010005
+                0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+                0x7f010004, 0x7f010005
         };
         /**
-          <p>
-          @attr description
-           Style of the circle indicator. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:vpiCirclePageIndicatorStyle
-        */
+         * @attr description
+         * Style of the circle indicator.
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:vpiCirclePageIndicatorStyle
+         */
         public static final int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 0;
         /**
-          <p>
-          @attr description
-           Style of the icon indicator's views. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:vpiIconPageIndicatorStyle
-        */
+         * @attr description
+         * Style of the icon indicator's views.
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:vpiIconPageIndicatorStyle
+         */
         public static final int ViewPagerIndicator_vpiIconPageIndicatorStyle = 1;
         /**
-          <p>
-          @attr description
-           Style of the line indicator. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:vpiLinePageIndicatorStyle
-        */
+         * @attr description
+         * Style of the line indicator.
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:vpiLinePageIndicatorStyle
+         */
         public static final int ViewPagerIndicator_vpiLinePageIndicatorStyle = 2;
         /**
-          <p>
-          @attr description
-           Style of the tab indicator's tabs. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:vpiTabPageIndicatorStyle
-        */
+         * @attr description
+         * Style of the tab indicator's tabs.
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:vpiTabPageIndicatorStyle
+         */
         public static final int ViewPagerIndicator_vpiTabPageIndicatorStyle = 4;
         /**
-          <p>
-          @attr description
-           Style of the title indicator. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:vpiTitlePageIndicatorStyle
-        */
+         * @attr description
+         * Style of the title indicator.
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:vpiTitlePageIndicatorStyle
+         */
         public static final int ViewPagerIndicator_vpiTitlePageIndicatorStyle = 3;
         /**
-          <p>
-          @attr description
-           Style of the underline indicator. 
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          <p>This is a private symbol.
-          @attr name com.example.beijing:vpiUnderlinePageIndicatorStyle
-        */
+         * @attr description
+         * Style of the underline indicator.
+         * <p>
+         * <p>
+         * <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+         * or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         * <p>This is a private symbol.
+         * @attr name com.example.beijing:vpiUnderlinePageIndicatorStyle
+         */
         public static final int ViewPagerIndicator_vpiUnderlinePageIndicatorStyle = 5;
-    };
+    }
+
+    ;
 }

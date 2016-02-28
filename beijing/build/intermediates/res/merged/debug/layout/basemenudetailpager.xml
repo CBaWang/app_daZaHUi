@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-     <com.example.custom.DisallowStopListenerViewpager
+    android:layout_height="match_parent">
+
+    <com.example.custom.DisallowStopListenerViewpager
         android:id="@+id/newMenuPagerViewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="45dp"
-        >
-    </com.example.custom.DisallowStopListenerViewpager>
+        android:layout_marginTop="@dimen/y120"></com.example.custom.DisallowStopListenerViewpager>
 
     <com.viewpagerindicator.TabPageIndicator
         android:id="@+id/newMenuPagerIndicator"
         android:layout_width="match_parent"
-        android:layout_height="45dp"
-       >
-    </com.viewpagerindicator.TabPageIndicator>
+        android:layout_height="@dimen/y120"></com.viewpagerindicator.TabPageIndicator>
 
-   
 
 </RelativeLayout><!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/beijing/res/layout/basemenudetailpager.xml -->

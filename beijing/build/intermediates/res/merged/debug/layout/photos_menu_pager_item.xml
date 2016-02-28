@@ -6,8 +6,8 @@
 
     <ImageView
         android:id="@+id/PhotosMenuPagerItemImageView"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
+        android:layout_width="@dimen/x600"
+        android:layout_height="@dimen/y400"
         android:layout_gravity="center"
         android:layout_margin="5dp"
         android:scaleType="centerCrop" />

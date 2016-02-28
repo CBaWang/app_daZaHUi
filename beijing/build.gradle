@@ -5,15 +5,30 @@ dependencies {
     compile project(':slidingMenuLibrary')
     compile project(':PullToRefreshLibrary')
     compile project(':ViewPagerIndicaotrLibrary')
-    compile project(':XUtilslibrary')
     compile project(':PullToRefreshListFragment')
     compile project(':PullToRefreshViewPager')
-    compile 'com.android.support:support-annotations:23.1.1'
+    compile project(':XUtilslibrary')
+    compile 'com.github.dcendents:android-maven-gradle-plugin:1.3'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile project(':photogalleryLibrary')
+    compile 'com.android.support:support-v4:23.2.0'
 }
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "23.0.2"
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+
+
+    defaultConfig {
+        // Enabling multidex support.
+        // 1. 65535 limited
+        // 2. run -- error ：Java.exe finished with non-zero exit value 2
+        multiDexEnabled true
+    }
+
+    dexOptions {
+        javaMaxHeapSize "1g"
+    }
 
     sourceSets {
         main {

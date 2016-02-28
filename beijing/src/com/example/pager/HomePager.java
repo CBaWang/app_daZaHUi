@@ -12,6 +12,7 @@ import com.example.utils.AllUrls;
 import com.example.utils.BitmapHelper;
 import com.example.utils.DataFormatUtils;
 import com.example.utils.FileUtils;
+import com.example.utils.ImageDialogUtils;
 import com.example.utils.MyContext;
 import com.handmark.pulltorefresh.library.ILoadingLayout;
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
@@ -152,22 +153,7 @@ public class HomePager extends BasePager {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                holder.image.setOnDoubleTapListener(new GestureDetector.OnDoubleTapListener() { //我的双击放大图片的监听事件
-                    @Override
-                    public boolean onSingleTapConfirmed(MotionEvent e) {
-                        return true;
-                    }
-
-                    @Override
-                    public boolean onDoubleTap(MotionEvent e) {
-                        return true;
-                    }
-
-                    @Override
-                    public boolean onDoubleTapEvent(MotionEvent e) {
-                        return false;
-                    }
-                });//end
+                ImageDialogUtils.showDiaLogImage(mactivity,list.get(position-1).getImg());
             }
         });
 
@@ -222,7 +208,7 @@ public class HomePager extends BasePager {
 
                 SystemClock.sleep(1500);
                 bar.setVisibility(ProgressBar.GONE);
-                Toast.makeText(mactivity,"请检查网络",Toast.LENGTH_SHORT).show();
+                Toast.makeText(mactivity,"请检查网络或者手机时间是否为当前时间",Toast.LENGTH_LONG).show();
 
                 RefreahlistView.onRefreshComplete();
 

@@ -25,8 +25,8 @@
 
             <TextView
                 android:id="@+id/read_item_indicator"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="@dimen/x40"
+                android:layout_height="@dimen/y40"
                 android:background="#f00"
                 android:gravity="center"
                 android:text="1"
@@ -70,28 +70,28 @@
                 android:gravity="center">
 
                 <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
+                    android:layout_width="@dimen/x48"
+                    android:layout_height="@dimen/y48"
                     android:background="@drawable/five_star" />
 
                 <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
+                    android:layout_width="@dimen/x48"
+                    android:layout_height="@dimen/y48"
                     android:background="@drawable/five_star" />
 
                 <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
+                    android:layout_width="@dimen/x48"
+                    android:layout_height="@dimen/y48"
                     android:background="@drawable/five_star" />
 
                 <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
+                    android:layout_width="@dimen/x48"
+                    android:layout_height="@dimen/y48"
                     android:background="@drawable/five_star" />
 
                 <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
+                    android:layout_width="@dimen/x48"
+                    android:layout_height="@dimen/y48"
                     android:background="@drawable/five_star" />
 
                 <TextView
@@ -129,14 +129,14 @@
 
                 <TextView
                     android:id="@+id/read_item_mobile"
-                    android:layout_width="30dp"
+                    android:layout_width="@dimen/x60"
                     android:layout_height="match_parent"
                     android:layout_weight="3"
                     android:gravity="center"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginBottom="3dp"
-                    android:layout_marginRight="15dp"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="@dimen/y6"
+                    android:layout_marginBottom="@dimen/y6"
+                    android:layout_marginRight="@dimen/x30"
+                    android:layout_marginLeft="@dimen/x20"
                     android:text="手机专享"
                     android:textSize="11sp"
                     android:background="@drawable/my_oval"/>

@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp" >
+        android:layout_marginBottom="@dimen/y30" >
 
         <LinearLayout
             android:id="@+id/group_circle"
@@ -24,18 +24,18 @@
 
         <ImageView
             android:id="@+id/red_circle"
-            android:layout_width="11dp"
-            android:layout_height="11dp"
+            android:layout_width="@dimen/x20"
+            android:layout_height="@dimen/y20"
             android:background="@drawable/circle_red" />
     </RelativeLayout>
 
     <Button
         android:id="@+id/leader_button"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
+        android:layout_height="@dimen/y80"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="55dp"
+        android:layout_marginBottom="@dimen/y100"
         android:background="#EE0000"
         android:text="开始体验"
         android:textColor="#ffffff"

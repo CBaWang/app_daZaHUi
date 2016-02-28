@@ -13,33 +13,38 @@ import android.view.ViewGroup;
 import com.example.beijing.ContentActivity;
 import com.example.beijing.R;
 import com.example.pager.BasePager;
+import com.example.pager.NewsPager;
 import com.viewpagerindicator.TabPageIndicator;
 
 public class NewsMenuPager extends BaseMenuDetailPager {
 
 	private ViewPager viewpager;
 
-	private List<NewsMenupagerItem> list;
+	private List<View> list;
 
 
 	private TabPageIndicator indicator;
 
-	private BasePager basepager;
+
+	/*
+
+
+	 */
 
 	private final static String[] TITLE = {"实事","民生","热点","社会"};//这是我准备的4个页面名字
 
-	public NewsMenuPager(Activity activity, BasePager basepager) {
+	public NewsMenuPager(Activity activity) {
 		super(activity);
-		this.basepager=basepager;
-
 	}
 
 	@Override
 	public View initView() {
-		View view = ViewPager.inflate(Mactivity, R.layout.basemenudetailpager,
+		View view = View.inflate(Mactivity, R.layout.basemenudetailpager,
 				null);
 		viewpager = (ViewPager) view.findViewById(R.id.newMenuPagerViewpager);
 		indicator = (TabPageIndicator) view.findViewById(R.id.newMenuPagerIndicator);//这是我的TabPageIndicator
+
+		initData();
 		return view;
 	}
 
@@ -48,12 +53,8 @@ public class NewsMenuPager extends BaseMenuDetailPager {
 		// TODO Auto-generated method stub
 
 		super.initData();
-		basepager.Text.setText("新闻");
-
-
 		initLsitData();
 
-//		viewpager.setOffscreenPageLimit(2);
 		viewpager.setAdapter(new MyPagerAdapter());
 		indicator.setViewPager(viewpager);
 
@@ -63,9 +64,9 @@ public class NewsMenuPager extends BaseMenuDetailPager {
 
 	private void initLsitData() {
 		// TODO Auto-generated method stub
-		list = new ArrayList<NewsMenupagerItem>();
+		list = new ArrayList<View>();
 		for (int i = 0; i < 4; i++) {
-			list.add(new NewsMenupagerItem(Mactivity));
+			list.add(new NewsMenupagerItem(Mactivity).initView());
 		}
 
 	}
@@ -93,15 +94,14 @@ public class NewsMenuPager extends BaseMenuDetailPager {
 		@Override
 		public void destroyItem(ViewGroup container, int position, Object object) {
 
-			container.removeView(list.get(position).mRootView);
+			container.removeView(list.get(position));
 		}
 
 		@Override
 		public Object instantiateItem(ViewGroup container, int position) {
 
-			Log.d("看看看啊看","++++++++++=="+position);
-			container.addView(list.get(position).mRootView);
-			return list.get(position).mRootView;
+			container.addView(list.get(position));
+			return list.get(position);
 		}
 
 	}

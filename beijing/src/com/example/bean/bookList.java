@@ -24,6 +24,8 @@ public class bookList {
         this.img = img;
         this.name = name;
         this.summary = summary;
+
+
     }
 
 
