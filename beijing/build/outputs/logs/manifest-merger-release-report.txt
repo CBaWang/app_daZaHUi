@@ -1,0 +1,94 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:3:5-34
+	android:versionName
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:4:5-28
+		INJECTED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml
+		INJECTED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:7:5-9:41
+MERGED from [Application2:slidingMenuLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\slidingMenuLibrary\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [Application2:PullToRefreshLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\PullToRefreshLibrary\unspecified\AndroidManifest.xml:7:5-43
+MERGED from [Application2:ViewPagerIndicaotrLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\ViewPagerIndicaotrLibrary\unspecified\AndroidManifest.xml:7:5-43
+MERGED from [Application2:PullToRefreshLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\PullToRefreshLibrary\unspecified\AndroidManifest.xml:7:5-43
+MERGED from [Application2:PullToRefreshViewPager:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\PullToRefreshViewPager\unspecified\AndroidManifest.xml:7:5-43
+MERGED from [Application2:PullToRefreshLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\PullToRefreshLibrary\unspecified\AndroidManifest.xml:7:5-43
+MERGED from [Application2:XUtilslibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\XUtilslibrary\unspecified\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:8:9-35
+uses-permission#android.permission.INTERNET
+ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.CAMERA
+ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:13:5-64
+	android:name
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:13:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:14:22-77
+application
+ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:17:5-37:19
+MERGED from [Application2:PullToRefreshLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\PullToRefreshLibrary\unspecified\AndroidManifest.xml:9:5-20
+MERGED from [Application2:PullToRefreshListFragment:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\PullToRefreshListFragment\unspecified\AndroidManifest.xml:7:5-20
+MERGED from [Application2:PullToRefreshLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\PullToRefreshLibrary\unspecified\AndroidManifest.xml:9:5-20
+MERGED from [Application2:PullToRefreshViewPager:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\PullToRefreshViewPager\unspecified\AndroidManifest.xml:9:5-20
+MERGED from [Application2:PullToRefreshLibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\PullToRefreshLibrary\unspecified\AndroidManifest.xml:9:5-20
+MERGED from [Application2:XUtilslibrary:unspecified] E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\build\intermediates\exploded-aar\Application2\XUtilslibrary\unspecified\AndroidManifest.xml:11:5-20
+	android:label
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:21:9-41
+	android:allowBackup
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:20:9-40
+	android:theme
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:22:9-40
+	android:name
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:19:9-51
+activity#com.example.beijing.MainActivity
+ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:23:9-32:20
+	android:label
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:25:13-45
+	android:theme
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:26:13-77
+	android:name
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:24:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:30:27-74
+activity#com.example.beijing.LeaderActivity
+ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:33:9-80
+	android:name
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:33:19-68
+activity#com.example.beijing.ContentActivity
+ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:34:9-35:75
+	android:theme
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:35:13-63
+	android:name
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:34:19-69
+activity#com.example.beijing.WebActivity
+ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:36:9-77
+	android:name
+		ADDED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:36:19-65
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from E:\Users\Administrator\AndroidStudioProjects\Application2\beijing\AndroidManifest.xml:2:1-39:12 reason: com.handmark.pulltorefresh.extras.listfragment has a targetSdkVersion < 4

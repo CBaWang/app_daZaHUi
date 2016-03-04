@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:color/holo_red_dark" android:state_pressed="false"></item>
+    <item android:drawable="@color/thin_red" android:state_pressed="true"></item>
+    <item android:drawable="@android:color/holo_red_dark"></item>
+
+</selector><!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/beijing/res/drawable-hdpi/feel_button_sec.xml -->

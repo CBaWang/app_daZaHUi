@@ -36,9 +36,11 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="@dimen/y100"
-        android:background="#EE0000"
+        android:background="@drawable/feel_button_sec"
         android:text="开始体验"
         android:textColor="#ffffff"
-        android:textSize="30sp" />
+        android:visibility="gone"
+        android:padding="8dp"
+        android:textSize="16sp" />
 
 </RelativeLayout>

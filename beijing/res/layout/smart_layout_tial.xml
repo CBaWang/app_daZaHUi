@@ -1,78 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    android:layout_width="@dimen/x720"
     android:layout_height="match_parent"
     android:columnCount="2"
     android:orientation="horizontal"
     android:rowCount="6">
 
     <ImageButton
-        android:layout_width="@dimen/x380"
+        android:layout_width="@dimen/x360"
         android:layout_height="@dimen/y150"
         android:background="@drawable/grid1" />
 
     <ImageButton
-        android:layout_width="@dimen/x380"
+        android:layout_width="@dimen/x360"
         android:layout_height="@dimen/y150"
 
         android:background="@drawable/grid2" />
 
     <ImageButton
-        android:layout_width="@dimen/x380"
+        android:layout_width="@dimen/x360"
         android:layout_height="@dimen/y150"
 
         android:background="@drawable/grid3" />
 
     <ImageButton
-        android:layout_width="@dimen/x380"
+        android:layout_width="@dimen/x360"
         android:layout_height="@dimen/y150"
         android:background="@drawable/grid4"
         />
 
     <ImageButton
-        android:layout_width="@dimen/x380"
+        android:layout_width="@dimen/x360"
         android:layout_height="@dimen/y150"
         android:background="@drawable/grid5"
         />
 
     <ImageButton
-        android:layout_width="@dimen/x380"
+        android:layout_width="@dimen/x360"
         android:layout_height="@dimen/y150"
         android:background="@drawable/grid6"
        />
 
     <ImageButton
-        android:layout_width="@dimen/x380"
+        android:layout_width="@dimen/x360"
         android:layout_height="@dimen/y150"
         android:background="@drawable/grid7"
         />
 
     <ImageButton
-        android:layout_width="@dimen/x380"
+        android:layout_width="@dimen/x360"
         android:layout_height="@dimen/y150"
         android:background="@drawable/grid8"
        />
 
     <ImageButton
-        android:layout_width="@dimen/x380"
+        android:layout_width="@dimen/x360"
         android:layout_height="@dimen/y150"
         android:background="@drawable/grid9"
         />
 
     <ImageButton
-        android:layout_width="@dimen/x380"
+        android:layout_width="@dimen/x360"
         android:layout_height="@dimen/y150"
         android:background="@drawable/grid10"
        />
 
     <ImageButton
-        android:layout_width="@dimen/x380"
+        android:layout_width="@dimen/x360"
         android:layout_height="@dimen/y150"
         android:background="@drawable/grid11"
        />
 
     <ImageButton
-        android:layout_width="@dimen/x380"
+        android:layout_width="@dimen/x360"
         android:layout_height="@dimen/y150"
         android:background="@drawable/grid12"
         />

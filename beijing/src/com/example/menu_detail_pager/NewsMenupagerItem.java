@@ -1,7 +1,9 @@
 package com.example.menu_detail_pager;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,7 +12,6 @@ import android.os.Handler;
 import android.os.Message;
 import android.os.SystemClock;
 import android.support.v4.view.PagerAdapter;
-import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -23,18 +24,23 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ImageView.ScaleType;
 import android.widget.ListView;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.bean.Contentlist;
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
 import com.example.bean.JsonBean;
 import com.example.bean.Showapi_res_body;
+import com.example.bean.newList;
 import com.example.beijing.ContentActivity;
 import com.example.beijing.R;
 import com.example.beijing.WebActivity;
 import com.example.custom.DisallowStopListenerLastViewpager;
 import com.example.utils.DataFormatUtils;
+import com.example.utils.MyContext;
 import com.google.gson.Gson;
 import com.handmark.pulltorefresh.library.ILoadingLayout;
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
@@ -42,12 +48,6 @@ import com.handmark.pulltorefresh.library.PullToRefreshBase.Mode;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.OnRefreshListener2;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
 import com.lidroid.xutils.BitmapUtils;
-import com.lidroid.xutils.HttpUtils;
-import com.lidroid.xutils.exception.HttpException;
-import com.lidroid.xutils.http.RequestParams;
-import com.lidroid.xutils.http.ResponseInfo;
-import com.lidroid.xutils.http.callback.RequestCallBack;
-import com.lidroid.xutils.http.client.HttpRequest.HttpMethod;
 import com.viewpagerindicator.CirclePageIndicator;
 
 public class NewsMenupagerItem {
@@ -61,9 +61,9 @@ public class NewsMenupagerItem {
 
     private List<ImageView> list;
 
-    private final static String Url = "http://route.showapi.com/341-2";
+    private static String Url;
 
-    private List<Contentlist> conList;
+    private List<newList> conList;
 
     private LayoutInflater inflater;
 
@@ -81,10 +81,15 @@ public class NewsMenupagerItem {
 
     private BitmapUtils bitmapU;
 
+    private Map<String, String> map;
+
+    private int page = 1;//第1页的数据
 
 
-    public NewsMenupagerItem(Activity activity) {
+    public NewsMenupagerItem(Activity activity, String url) {
         this.activity = (ContentActivity) activity;
+
+        this.Url = url;
 
     }
 
@@ -104,7 +109,7 @@ public class NewsMenupagerItem {
         circle = (CirclePageIndicator) viewTitle
                 .findViewById(R.id.NewsMenupagerCirclePageIndicator);
 
-        conList = new ArrayList<Contentlist>();
+        map = new HashMap<>();
 
         MyAdapter = new MyBaseAdapter();
 
@@ -178,43 +183,36 @@ public class NewsMenupagerItem {
 
     private void getTheServiceData() { // 用httpUtils读取Url上的流
 
-        RequestParams params = new RequestParams();
-        params.addBodyParameter("showapi_appid","15648");
-        params.addBodyParameter("showapi_timestamp", DataFormatUtils.getNowTime());
-        params.addBodyParameter("maxResult","15");
-        params.addBodyParameter("page","1");
-        params.addBodyParameter("showapi_sign","11e4ac9b4826422d981b9b8c960e7829");
+        map.put("showapi_appid", "15648");
+        map.put("showapi_timestamp", DataFormatUtils.getNowTime());
+        map.put("num", "10");
+        map.put("page", String.valueOf(page));
+        map.put("showapi_sign", "11e4ac9b4826422d981b9b8c960e7829");
 
-        HttpUtils http = new HttpUtils();
-
-
-        http.send(HttpMethod.POST,Url,params, new RequestCallBack<String>() {
-
-
+        StringRequest request = new StringRequest(Request.Method.POST, Url, new Response.Listener<String>() {
             @Override
-            public void onSuccess(ResponseInfo<String> responseInfo) {
+            public void onResponse(String s) {
 
-                String result = responseInfo.result;
+                ParseJsonData(s);
 
-                Log.d("+++++++++++++++",result);
-//                if (!TextUtils.isEmpty(result)) {
-
-                    ParseJsonData(result);
-
-                    refreshlistview.setAdapter(MyAdapter);
-
-//                }
+                refreshlistview.setAdapter(MyAdapter);
 
             }
-
+        }, new Response.ErrorListener() {
             @Override
-            public void onFailure(HttpException error, String msg) {
-                // TODO Auto-generated method stub
-                Toast.makeText(activity,"请检查网络或者手机时间是否为当前时间", Toast.LENGTH_LONG).show();
-                error.printStackTrace();
+            public void onErrorResponse(VolleyError volleyError) {
 
+                Toast.makeText(activity, "请检查网络或者手机时间是否为当前时间", Toast.LENGTH_LONG).show();
             }
-        }).setExpiry(1000);
+        }) {
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                return map;
+            }
+        };
+        MyContext.mQueue.add(request);
+
+
     }
 
     private void listviewListener() {
@@ -228,7 +226,9 @@ public class NewsMenupagerItem {
                 if (position > 1) {
 
                     Intent intent = new Intent();
+                    intent.putExtra("contentUrl", conList.get(position - 2).getUrl());
                     intent.setClass(activity, WebActivity.class);
+
                     activity.startActivity(intent);
                 }
             }
@@ -259,12 +259,12 @@ public class NewsMenupagerItem {
 
 
     private void ParseJsonData(String result) { // 解析Json数据
-        // TODO Auto-generated method stub
+
+
         Gson gson = new Gson();
         JsonBean bean = gson.fromJson(result, JsonBean.class);
         Showapi_res_body showapi = bean.getShowapi_res_body();
-        conList.addAll(showapi.getContentlist());
-
+        conList = showapi.getNewLists();
 
 
     }
@@ -362,8 +362,10 @@ public class NewsMenupagerItem {
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
 
-            if (convertView == null) {
 
+            if (convertView == null) {
+                bitmapU.configDefaultLoadFailedImage(R.drawable.news_pic_default);
+                bitmapU.configDefaultLoadingImage(R.drawable.news_pic_default);
                 convertView = inflater.inflate(
                         R.layout.news_menu_listview_item, parent, false);
                 holder = new ViewHolder();
@@ -380,10 +382,10 @@ public class NewsMenupagerItem {
                 holder = (ViewHolder) convertView.getTag();
             }
             holder.text1.setText(conList.get(position).getTitle());
-            holder.text2.setText(conList.get(position).getCt());
+            holder.text2.setText(conList.get(position).getCtime());
 
-            bitmapU.display(holder.image, conList.get(position).getImg());
-            Log.d("++++++++++++",conList.get(position).toString());
+            bitmapU.display(holder.image, conList.get(position).getPicUrl());
+
             return convertView;
         }
 

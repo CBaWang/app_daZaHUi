@@ -4,8 +4,10 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.webkit.WebChromeClient;
@@ -21,7 +23,9 @@ public class WebActivity extends Activity {
 
 	private WebView webview;
 
-	private final static String url = "http://wap.lexun.com/index.php?_r=48560954&cd=0&lxt=c1222562877&_r=363660889&vs=0";
+	private Intent intent;
+
+//	 final static String url = "http://wap.lexun.com/index.php?_r=48560954&cd=0&lxt=c1222562877&_r=363660889&vs=0";
 
 	private final static String[] size = { "超大号字体", "大号字体", "正常字体", "小号字体",
 			"超小号字体" };
@@ -37,10 +41,12 @@ public class WebActivity extends Activity {
 	}
 
 	private void intiView() {
-		// TODO Auto-generated method stub
+
+		intent = getIntent();
 		back = (ImageButton) findViewById(R.id.web_activity_back);
 		share = (ImageButton) findViewById(R.id.web_activity_share);
 		textSize = (ImageButton) findViewById(R.id.web_activity_textsize);
+
 
 		webview = (WebView) findViewById(R.id.web_activity_webView);
 	}
@@ -165,7 +171,14 @@ public class WebActivity extends Activity {
 		setting.setJavaScriptEnabled(true); // 支持JavaScript
 		setting.setBuiltInZoomControls(true); // zoom是放大 缩小
 
-		webview.loadUrl(url);
+		String url = intent.getStringExtra("contentUrl");
+		if(TextUtils.isEmpty(url)){
+			url = "http://wap.lexun.com/index.php?_r=48560954&cd=0&lxt=c1222562877&_r=363660889&vs=0";
+			webview.loadUrl(url);
+		}else{
+			webview.loadUrl(url);
+		}
+
 		webview.setWebViewClient(new WebViewClient() {
 			@Override
 			public void onPageStarted(WebView view, String url, Bitmap favicon) {

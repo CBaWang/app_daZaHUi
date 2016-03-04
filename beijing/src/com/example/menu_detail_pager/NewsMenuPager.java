@@ -25,13 +25,16 @@ public class NewsMenuPager extends BaseMenuDetailPager {
 
 	private TabPageIndicator indicator;
 
+   private final static String TY = "http://route.showapi.com/196-1";
 
-	/*
+	private final static String YL= "http://route.showapi.com/198-1";
+
+	private final static String QW = "http://route.showapi.com/231-1";
+
+	private final static String MV = "http://route.showapi.com/197-1";
 
 
-	 */
-
-	private final static String[] TITLE = {"实事","民生","热点","社会"};//这是我准备的4个页面名字
+	private final static String[] TITLE = {"体育","娱乐","奇闻","美女"};//这是我准备的4个页面名字
 
 	public NewsMenuPager(Activity activity) {
 		super(activity);
@@ -65,9 +68,12 @@ public class NewsMenuPager extends BaseMenuDetailPager {
 	private void initLsitData() {
 		// TODO Auto-generated method stub
 		list = new ArrayList<View>();
-		for (int i = 0; i < 4; i++) {
-			list.add(new NewsMenupagerItem(Mactivity).initView());
-		}
+
+		list.add(new NewsMenupagerItem(Mactivity,TY).initView());
+		list.add(new NewsMenupagerItem(Mactivity,YL).initView());
+		list.add(new NewsMenupagerItem(Mactivity,QW).initView());
+		list.add(new NewsMenupagerItem(Mactivity,MV).initView());
+
 
 	}
 

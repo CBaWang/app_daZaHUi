@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y55"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="@dimen/x20"
+            android:layout_height="match_parent"
+            android:background="#4db72d"/>
+        <TextView
+            android:layout_width="@dimen/x380"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:text="最值当·抢购"/>
+        <TextView
+            android:layout_width="@dimen/x200"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:layout_gravity="right"
+            android:text="单件商品限量100件"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:textColor="#f00"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/red_arrow"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y300"
+            android:layout_weight="1"
+            android:background="@drawable/one_image"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/two_image"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/three_image"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y300"
+            android:layout_weight="1"
+            android:background="@drawable/bottom1"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y300"
+            android:layout_weight="1"
+            android:background="@drawable/bottom2"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/y300"
+            android:layout_weight="1"
+            android:background="@drawable/bottom3"/>
+
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/beijing/res/layout/homepager_pull_item1.xml -->

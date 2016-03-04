@@ -42,7 +42,7 @@
             android:layout_width="0dp"
             android:layout_height="@dimen/y300"
             android:layout_weight="1"
-            android:background="@drawable/one_image"/>
+            android:background="@drawable/b_one"/>
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -52,12 +52,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="@drawable/two_image"/>
+                android:background="@drawable/b_two"/>
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:background="@drawable/three_image"/>
+                android:background="@drawable/b_three"/>
 
         </LinearLayout>
 
@@ -70,12 +70,12 @@
             android:layout_width="0dp"
             android:layout_height="@dimen/y300"
             android:layout_weight="1"
-            android:background="@drawable/two1"/>
+            android:background="@drawable/b_four"/>
         <ImageView
             android:layout_width="0dp"
             android:layout_height="@dimen/y300"
             android:layout_weight="1"
-            android:background="@drawable/two2"/>
+            android:background="@drawable/b_five"/>
 
 
     </LinearLayout>

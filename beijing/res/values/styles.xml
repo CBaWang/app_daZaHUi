@@ -42,4 +42,21 @@
         <item name="android:layout_gravity">center</item>
     </style>
 
+
+    <!--  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp">
+
+    <ImageView
+        android:layout_width="@dimen/x300"
+        android:layout_height="@dimen/x300"
+        android:background="@drawable/qingchun"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+</RelativeLayout>-->
+
     </resources>

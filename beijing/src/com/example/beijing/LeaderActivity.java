@@ -119,7 +119,7 @@ public class LeaderActivity extends Activity {
 				// TODO Auto-generated method stub
 
 				if (position != 2) {
-					button.setVisibility(View.INVISIBLE);
+					button.setVisibility(View.GONE);
 				} else {
 					button.setVisibility(View.VISIBLE);
 					button.setOnClickListener(new OnClickListener() {

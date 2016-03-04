@@ -43,11 +43,6 @@ public class ContentActivity extends SlidingFragmentActivity {
 
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        sharedPreferences.edit().putBoolean("HomePagerSwitch", true).commit();
-    }
 
 
 

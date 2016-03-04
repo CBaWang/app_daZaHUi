@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   android:drawable="@drawable/my_refresh"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:fromDegrees="0"
+    android:toDegrees="360"
+
+   >
+
+</rotate><!-- From: file:/E:/Users/Administrator/AndroidStudioProjects/Application2/beijing/res/drawable-hdpi/progressbar_circle_1.xml -->

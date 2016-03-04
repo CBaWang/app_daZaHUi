@@ -4,21 +4,25 @@ import java.util.List;
 
 public class Showapi_res_body {
 
-	List<Contentlist> contentlist;
-	
-	
+	private List<newList> newslist;
 
-	public List<Contentlist> getContentlist() {
-		return contentlist;
+
+	public Showapi_res_body(List<newList> newLists) {
+		this.newslist = newLists;
 	}
 
-	public void setContentlist(List<Contentlist> contentlist) {
-		this.contentlist = contentlist;
+	public List<newList> getNewLists() {
+		return newslist;
+	}
+
+	public void setNewLists(List<newList> newLists) {
+		this.newslist = newLists;
 	}
 
 	@Override
 	public String toString() {
-		return "showapi_res_body [contentlist=" + contentlist + "]";
+		return "Showapi_res_body{" +
+				"newLists=" + newslist +
+				'}';
 	}
-	
 }

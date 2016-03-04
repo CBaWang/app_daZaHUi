@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/special_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/rootblock_default_bg" />
+
+    <RelativeLayout
+        android:id="@+id/special_Relative"
+        android:layout_width="@dimen/x600"
+        android:layout_height="@dimen/y200"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:layout_gravity="center">
+        <ImageView
+            android:id="@+id/special_reset"
+            android:layout_width="@dimen/x80"
+            android:layout_height="@dimen/y80"
+            android:background="@drawable/shuaxin"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请大力滑动此页面，按钮可重置"
+            android:textColor="#000"
+            android:layout_below="@id/special_reset"
+            android:layout_centerHorizontal="true"
+            android:textSize="19sp"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

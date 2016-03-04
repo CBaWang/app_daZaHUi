@@ -116,17 +116,15 @@ public class HomePager extends BasePager {
         // TODO Auto-generated method stub
         super.initData();
         Text.setText("App大杂烩");
-        boolean HomePagerSwitch =  sharedPreferences.getBoolean("HomePagerSwitch", true);
         image.setVisibility(View.GONE);
 //        bar.setVisibility(ProgressBar.VISIBLE);
         setSlidingMenuEnable(false);
 
         setThePullReFreshListView();//设置我的下拉刷新控件
         initMap();//初始化我的post参数
-        if(HomePagerSwitch) {
-            initFace();//初始化我的界面
-            sharedPreferences.edit().putBoolean("HomePagerSwitch",false).commit();
-        }
+
+        initFace();//初始化我的界面
+
     }
 
 
@@ -154,6 +152,7 @@ public class HomePager extends BasePager {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 ImageDialogUtils.showDiaLogImage(mactivity,list.get(position-1).getImg());
+                Toast.makeText(mactivity,"免费接口图片太小,如果是公司另给一张大图就不会这样了",Toast.LENGTH_SHORT).show();
             }
         });
 

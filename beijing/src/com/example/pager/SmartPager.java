@@ -147,36 +147,6 @@ public class SmartPager extends BasePager {
             PagerList.add(image);
         }
 
-        /****
-         *  image.setOnTouchListener(new OnTouchListener() {
-
-        @Override
-        public boolean onTouch(View v, MotionEvent event) {
-        // TODO Auto-generated method stub
-
-        switch (event.getAction()) {
-        case MotionEvent.ACTION_DOWN:
-        Log.d("被按下了", "+=============");
-        handler.removeCallbacksAndMessages(null);
-
-        break;
-        case MotionEvent.ACTION_CANCEL:
-        Log.d("拖动了", "+=============");
-        handler.sendEmptyMessageDelayed(0, 3000);
-        break;
-        case MotionEvent.ACTION_UP:
-        Log.d("没按了", "+=============");
-        handler.sendEmptyMessageDelayed(0, 3000);
-        break;
-
-        }
-        return true;
-        }
-        });
-         *
-         *
-         *
-         */
 
         pager.setAdapter(new MyPagerAdapter());
 
